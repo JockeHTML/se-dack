@@ -1,0 +1,27 @@
+.openingHours {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.content {
+  padding: 2rem 0 0 0;
+}
+
+.content p,
+h3 {
+  margin: 0 5px;
+}
+
+.content ul {
+  padding: 0;
+}
+
+.content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

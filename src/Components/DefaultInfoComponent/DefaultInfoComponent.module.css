@@ -1,0 +1,91 @@
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.gridItem {
+  background-image: url("../../images/black.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(53, 53, 53, 0.16) 0px 1px 4px;
+  margin: 1.5rem 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.content > div {
+  width: 33%;
+  min-height: 300px;
+}
+
+.heading,
+.text {
+  background-color: rgba(26, 25, 25, 0.5);
+}
+
+.heading h2 {
+  color: var(--white);
+  padding: 0 2rem;
+}
+
+.heading span h3 {
+  padding: 5px 10px;
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+  width: 160px;
+  background-color: var(--color);
+  color: var(--white);
+}
+
+.heading p {
+  padding: 0 2rem;
+  color: var(--white);
+}
+
+.image img {
+  min-height: 300px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  margin-top: 4px;
+}
+
+.text p,
+.text h2 {
+  padding: 0 2rem;
+  color: var(--white);
+}
+
+.headingBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: var(--dark);
+  margin-top: 90px;
+}
+
+.headingBtn a {
+  padding: 1.3rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.headingBtn a:hover {
+  background-color: var(--color);
+}

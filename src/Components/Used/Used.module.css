@@ -1,0 +1,41 @@
+.topImage {
+  height: 550px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../images/tires2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.used {
+  text-align: center;
+}
+
+.used p {
+  font-size: 1.5rem;
+}
+
+.gridContainer {
+  padding: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridItem {
+  text-align: center;
+  margin: 1rem !important;
+}
+
+.gridItem img {
+  width: 450px;
+  height: 300px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.gridItem p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.1rem;
+}

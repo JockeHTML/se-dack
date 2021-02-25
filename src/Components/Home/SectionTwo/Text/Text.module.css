@@ -1,0 +1,25 @@
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text span {
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.text i {
+  color: var(--color);
+  margin-right: 1rem;
+  font-size: 1.9rem;
+  padding: 5px;
+}

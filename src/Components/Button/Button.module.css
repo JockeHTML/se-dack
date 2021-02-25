@@ -1,0 +1,29 @@
+.contactBtn span {
+  cursor: pointer;
+  margin: 2rem auto 1rem auto;
+  padding: 5px;
+  width: 200px;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactBtn a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bolder;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.contactBtn span:hover {
+  color: var(--white);
+  background-color: var(--color);
+}
+
+.contactBtn span:hover a {
+  color: var(--white);
+}

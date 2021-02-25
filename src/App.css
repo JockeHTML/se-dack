@@ -1,38 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap");
+
+:root {
+  --grey: #7f888f;
+  --lightgrey: rgb(241, 241, 241);
+  --dark: rgb(31, 31, 31);
+  --black: (#19170d);
+  --white: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --color: #c92d27;
+}
+
 .App {
-  text-align: center;
+  position: relative;
+  bottom: -22px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--white);
+  font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  bottom: -10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2.7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 1.1rem;
+  color: var(--dark);
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  color: var(--dark);
+  font-size: 1.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  color: var(--dark);
+  font-size: 1.1rem;
+}
+
+h3 {
+  color: var(--dark);
+  font-size: 1.5rem;
 }

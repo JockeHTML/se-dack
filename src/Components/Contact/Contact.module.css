@@ -1,0 +1,19 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  padding: 4rem 0;
+}
+
+.text {
+  padding: 0 2rem;
+}
+
+.text p {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,81 @@
+.box {
+  margin-left: 6rem;
+  background-color: var(--white);
+  width: 550px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxHeader {
+  display: flex;
+}
+
+.boxHeader > div {
+  height: 50px;
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: var(--dark);
+}
+
+.box2 {
+  background-color: var(--dark);
+}
+
+.box2 h3,
+.box1 h3 {
+  color: var(--white);
+}
+
+.activeBox {
+  background-color: var(--white);
+  color: var(--white);
+}
+
+.priceList {
+  padding: 2rem;
+}
+
+.box span {
+  cursor: pointer;
+  margin: 2rem auto 0 auto;
+  padding: 5px;
+  width: 75%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.box a {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: bolder;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.box i {
+  padding-left: 10px;
+  font-size: 1.7rem;
+  color: var(--dark);
+}
+
+.box span:hover {
+  color: var(--white);
+  background-color: var(--color);
+}
+
+.box span:hover a {
+  color: var(--white);
+}
+
+.box span:hover i {
+  color: var(--white);
+}

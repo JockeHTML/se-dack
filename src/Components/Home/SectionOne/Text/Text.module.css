@@ -1,0 +1,35 @@
+.text {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-right: 6rem;
+}
+
+.text a {
+  padding: 0;
+  margin: 1rem;
+}
+
+.text h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.text h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+.text span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: var(--color);
+  padding: 0;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}

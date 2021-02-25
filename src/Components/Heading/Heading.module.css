@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: -2.5rem 0 0 0;
+  justify-content: space-between;
+  border: 0 1px solid var(--lightgrey);
+}
+
+.content {
+  display: flex;
+}
+
+.header p {
+  margin: 0;
+  padding: 0;
+}
+
+.header h4 {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.logo img {
+  padding: 10px 5px 0 5px;
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logo h1 {
+  color: var(--color);
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin: 0 0 0 5px;
+}
+
+.logo span {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact,
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  border-right: 1px solid var(--lightgrey);
+  flex-direction: column;
+  display: flex;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact span h4 {
+  padding-left: 0.5rem;
+}
+
+.contact span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact i {
+  font-size: 1.7rem;
+}

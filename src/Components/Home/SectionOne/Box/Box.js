@@ -29,7 +29,7 @@ function Box({ boxClick, setBoxClick }) {
             explicabo.
           </p>
           <span>
-            <i class="fas fa-car"></i>
+            <i className="fas fa-car"></i>
             <Link onClick={() => window.scrollTo(0, 0)} to="/appointment">
               Boka
             </Link>
@@ -44,7 +44,7 @@ function Box({ boxClick, setBoxClick }) {
             explicabo.
           </p>
           <span>
-            <i class="fas fa-car"></i>
+            <i className="fas fa-car"></i>
             <Link onClick={() => window.scrollTo(0, 0)} to="priceList">
               Prislista
             </Link>

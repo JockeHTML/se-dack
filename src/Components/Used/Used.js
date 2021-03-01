@@ -23,7 +23,7 @@ function Used(props) {
         {begagnat.map((data, index) => {
           const { text, img, title } = data;
           return (
-            <Grid xl={3} item className={styles.gridItem}>
+            <Grid key={index} xl={3} item className={styles.gridItem}>
               <img src={img} alt="" />
               <h2>{title.toUpperCase()}</h2>
               <p>{text}</p>

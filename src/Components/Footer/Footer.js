@@ -15,8 +15,8 @@ function Footer(props) {
           {socialMedia.map((data, index) => {
             const { url, icon } = data;
             return (
-              <a href={url}>
-                <i class={icon}></i>{" "}
+              <a key={index} href={url}>
+                <i className={icon}></i>{" "}
               </a>
             );
           })}

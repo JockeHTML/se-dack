@@ -16,30 +16,7 @@ function Appointment(props) {
         Däckservice & Rekond
       </h2>
       {boka.map((data, index) => {
-        const {
-          title,
-          price,
-          text,
-          img,
-          extraText,
-          button,
-          route,
-          extraButton,
-          extraRoute,
-        } = data;
-        return (
-          <DefaultInfoComponent
-            button={button}
-            route={route}
-            extraButton={extraButton}
-            extraText={extraText}
-            extraRoute={extraRoute}
-            img={img}
-            title={title}
-            price={price}
-            text={text}
-          />
-        );
+        return <DefaultInfoComponent key={index} data={data} />;
       })}
     </div>
   );

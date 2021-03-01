@@ -17,7 +17,7 @@ function OpeningHours(props) {
         {öppettider.map((data, index) => {
           const { title, text } = data;
           return (
-            <ul>
+            <ul key={index}>
               <li>
                 <h3> {title} </h3>
                 <p> {text} </p>

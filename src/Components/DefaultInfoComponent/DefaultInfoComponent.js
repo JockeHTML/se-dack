@@ -1,19 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import styles from "./DefaultInfoComponent.module.css";
+import { AppContext } from "../Context/Context";
 
-function defaultInfoComponent({
-  title,
-  text,
-  img,
-  price,
-  extraText,
-  button,
-  route,
-  extraButton,
-  extraRoute,
-}) {
+function DefaultInfoComponent({ data }) {
+  const { title, price, button, img, text, route } = data;
+  const { setSaveText } = useContext(AppContext);
+
   return (
     <Grid className={styles.gridContainer} container item>
       <Grid className={styles.gridItem} item xl={8}>
@@ -31,6 +25,9 @@ function defaultInfoComponent({
               >
                 {button}
               </Link>
+              <Link to="/moreInfo" onClick={() => setSaveText(data)}>
+                Läs mer
+              </Link>
             </div>
           </div>
           <div className={styles.image}>
@@ -46,4 +43,4 @@ function defaultInfoComponent({
   );
 }
 
-export default defaultInfoComponent;
+export default DefaultInfoComponent;

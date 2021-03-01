@@ -12,7 +12,7 @@ function Content(props) {
         {sectionThree.map((data, index) => {
           const { title, text } = data;
           return (
-            <Grid xl={2} item className={styles.gridItem}>
+            <Grid key={index} xl={2} item className={styles.gridItem}>
               <img src="" alt="" />
               <h2>{title.toUpperCase()}</h2>
               <p>{text.slice(0, 100) + "..."}</p>

@@ -43,33 +43,34 @@
 }
 
 .box span {
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   margin: 2rem auto 0 auto;
   padding: 5px;
-  width: 75%;
-  background-color: var(--white);
+  width: 50%;
+  background-color: var(--color);
   display: flex;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 4px;
 }
 
 .box a {
   font-size: 1.5rem;
   padding: 1rem;
   font-weight: bolder;
-  color: var(--dark);
+  color: var(--white);
   text-decoration: none;
 }
 
 .box i {
   padding-left: 10px;
   font-size: 1.7rem;
-  color: var(--dark);
+  color: var(--white);
 }
 
 .box span:hover {
   color: var(--white);
-  background-color: var(--color);
+  background-color: var(--dark);
 }
 
 .box span:hover a {

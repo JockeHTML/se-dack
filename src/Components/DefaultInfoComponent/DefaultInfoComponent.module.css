@@ -74,18 +74,21 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: var(--dark);
-  margin-top: 90px;
+  background-color: rgba(26, 25, 25, 0.5);
+  margin-top: 91px;
 }
 
 .headingBtn a {
-  padding: 1.3rem 2rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: var(--white);
   text-decoration: none;
-  border: 1px solid var(--white);
-  color: var(--white);
+  color: var(--dark);
+  margin: 5px !important;
 }
 
 .headingBtn a:hover {
   background-color: var(--color);
+  color: var(--white);
 }

@@ -11,8 +11,8 @@ function Text(props) {
         {sectionTwo.map((data, index) => {
           const { icon, text } = data;
           return (
-            <span>
-              <i class={icon}></i> <h3>{text}</h3>
+            <span key={index}>
+              <i className={icon}></i> <h3>{text}</h3>
             </span>
           );
         })}

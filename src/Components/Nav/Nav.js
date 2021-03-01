@@ -16,7 +16,7 @@ function Nav(props) {
           {navLinks.map((link, index) => {
             const { page, url } = link;
             return (
-              <li>
+              <li key={index}>
                 <Link to={url}>{page.toUpperCase()}</Link>
               </li>
             );

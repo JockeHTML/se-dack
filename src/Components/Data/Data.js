@@ -114,6 +114,7 @@ const socialMedia = [
 
 const boka = [
   {
+    array: "boka",
     title: "Däckbyte",
     price: "295:-    ",
     button: "Boka tid",
@@ -125,6 +126,7 @@ const boka = [
       "https://static.wixstatic.com/media/3a04ff_e9dbe96093b743bb857ab51594dff83e~mv2_d_1920_1280_s_2.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3a04ff_e9dbe96093b743bb857ab51594dff83e~mv2_d_1920_1280_s_2.webp",
   },
   {
+    array: "boka",
     title: "VIP-Tvätt   ",
     price: "695:-    ",
     button: "Boka tid",
@@ -137,6 +139,7 @@ const boka = [
   },
 
   {
+    array: "boka",
     title: "Utvändig Handtvätt    ",
     price: "300:-    ",
     button: "Boka tid",
@@ -148,6 +151,7 @@ const boka = [
       "http://ranchodeloro-carwash.com/wp-content/uploads/2014/02/slide1.jpg",
   },
   {
+    array: "boka",
     title: "Balansering    ",
     price: "150:-    ",
     button: "Boka tid",
@@ -159,18 +163,22 @@ const boka = [
       "https://www.dackteam.se/wp-content/uploads/2019/04/D%C3%A4ckbalansering2.jpg",
   },
   {
+    array: "boka",
     title: "Lackförsegling ",
-    subTitle1: "Matrix Black NordicSilox 5D 9h keramiskt lackskydd",
+    text: "Matrix Black NordicSilox 5D 9h keramiskt lackskydd",
+    extraText:
+      "Mycket långvarig effekt – 8 år (eller 24000 mil), Värmebeständig (700°C) och extrem vattenavvisning (120° kontaktvinkel)",
     button: "Boka tid",
     route:
       "https://sedackservice.compilator.com/public/cms?Id=1&CompanyId=8b3db2d2-5663-437f-9099-c3d4b8ee5825&branchId=1",
     price: "3000:-    ",
-    text:
-      "Matrix Black NordicSilox 5D är ett 9h keramiskt lackskydd med en 8-års eller 24000 mils beständighet, extrem vattenavvisning med en 120° kontaktvinkel och 700°C värmebeständighet.",
+    special:
+      "MATRIX NORDICSILOX är en produktserie med keramiska lackskydd som utvecklats med hjälp av den absolut senaste teknologin. Produkterna möjliggör att hålla din bil i nyskick längre, då de förbättrar varje detalj i lacken, allt ifrån ett ökat färgdjup till en fantastisk glans och lyster. Speciellt framtagna och noggrant testade av kemister med expertkunskap, möter produkterna kraven som ställs av såväl erfarna rekonditioneringsproffs som fordonsentusiaster. MATRIX keramiska lackskydd levererar oöverträffat resultat. Med upp till 8 års beständighet är det inget annat keramiskt lackskydd som kan svara upp när det gäller prestanda.MATRIX keramiska lackskydd ger ett skydd mot väder och vind, avnötning, temperatur, kemikalier och föroreningar genom att kraftigt binda mot ytan vilket förhindrar att det smälter, krackelerar eller försvinner.",
     img:
       "https://static.wixstatic.com/media/07eda6_0ee1339cc34648e69bf263a315df7d7b~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01/07eda6_0ee1339cc34648e69bf263a315df7d7b~mv2.webp",
   },
   {
+    array: "boka",
     title: "Helrekond    ",
     price: "3900:-    ",
     button: "Boka tid",
@@ -185,6 +193,7 @@ const boka = [
 
 const däckPrisLista = [
   {
+    array: "prisLista",
     title: "Däckskifte",
     price: "295:-",
     button: "Boka tid",
@@ -196,6 +205,7 @@ const däckPrisLista = [
       "https://static.wixstatic.com/media/3a04ff_e9dbe96093b743bb857ab51594dff83e~mv2_d_1920_1280_s_2.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3a04ff_e9dbe96093b743bb857ab51594dff83e~mv2_d_1920_1280_s_2.webp",
   },
   {
+    array: "prisLista",
     title: "Däckhotell",
     price: "fr. 790:-",
     button: "Kontakta  oss",
@@ -206,6 +216,7 @@ const däckPrisLista = [
       "https://www.atteviks.se/wp-content/uploads/2019/05/da%CC%88ckhotell1.jpg",
   },
   {
+    array: "prisLista",
     title: "Balansering    ",
     price: "150:-    ",
     button: "Boka tid",
@@ -217,6 +228,7 @@ const däckPrisLista = [
       "https://www.dackteam.se/wp-content/uploads/2019/04/D%C3%A4ckbalansering2.jpg",
   },
   {
+    array: "prisLista",
     title: "Montering",
     price: "150:-",
     button: "Kontakta oss",
@@ -229,6 +241,7 @@ const däckPrisLista = [
 
 const rekondPrisLista = [
   {
+    array: "prisLista",
     title: "VIP-Tvätt   ",
     price: "695:-    ",
     button: "Boka tid",
@@ -241,6 +254,7 @@ const rekondPrisLista = [
   },
 
   {
+    array: "prisLista",
     title: "Utvändig Handtvätt    ",
     price: "300:-    ",
     button: "Boka tid",
@@ -253,6 +267,7 @@ const rekondPrisLista = [
   },
 
   {
+    array: "prisLista",
     title: "Helrekond    ",
     price: "3900:-    ",
     button: "Boka tid",
@@ -264,6 +279,7 @@ const rekondPrisLista = [
       "https://baileyscarwashanddetailing.com/wp-content/uploads/2020/03/Interior-Cleaning-Northern-Kentucky-Burlington-Union.jpg",
   },
   {
+    array: "prisLista",
     title: "Motortvätt    ",
     price: "200:-    ",
     button: "Kontakta oss",
@@ -274,6 +290,7 @@ const rekondPrisLista = [
       "https://www.mafra.com/blog/wp-content/uploads/2017/08/shutterstock_387149560.jpg",
   },
   {
+    array: "prisLista",
     title: "Invändig rekond    ",
     price: "2400:-",
     button: "Kontakta oss",
@@ -284,6 +301,7 @@ const rekondPrisLista = [
       "https://www.detailxperts.net/wp-content/uploads/2016/05/automobile-automotive-car-1104768-e1550891248114.jpg",
   },
   {
+    array: "prisLista",
     title: "Lackförsegling ",
     text: "Matrix Black NordicSilox 5D 9h keramiskt lackskydd",
     extraText:
@@ -291,8 +309,6 @@ const rekondPrisLista = [
     button: "Boka tid",
     route:
       "https://sedackservice.compilator.com/public/cms?Id=1&CompanyId=8b3db2d2-5663-437f-9099-c3d4b8ee5825&branchId=1",
-    extraButton: "Läs mer",
-    extraRoute: "/lackförsegling",
     price: "3000:-    ",
     special:
       "Matrix Black NordicSilox 5D är ett 9h keramiskt lackskydd med en 8-års eller 24000 mils beständighet, extrem vattenavvisning med en 120° kontaktvinkel och 700°C värmebeständighet. MATRIX NORDICSILOX är en produktserie med keramiska lackskydd som utvecklats med hjälp av den absolut senaste teknologin. Produkterna möjliggör att hålla din bil i nyskick längre, då de förbättrar varje detalj i lacken, allt ifrån ett ökat färgdjup till en fantastisk glans och lyster. Speciellt framtagna och noggrant testade av kemister med expertkunskap, möter produkterna kraven som ställs av såväl erfarna rekonditioneringsproffs som fordonsentusiaster. MATRIX keramiska lackskydd levererar oöverträffat resultat. Med upp till 8 års beständighet är det inget annat keramiskt lackskydd som kan svara upp när det gäller prestanda.MATRIX keramiska lackskydd ger ett skydd mot väder och vind, avnötning, temperatur, kemikalier och föroreningar genom att kraftigt binda mot ytan vilket förhindrar att det smälter, krackelerar eller försvinner.",
@@ -392,9 +408,6 @@ const däck = [
       "Från 1 december – 31 mars om det är vinterväglag. Mönsterdjupet skall vara minst 3 mm.",
     text2:
       "Dubbdäck får användas från 1 oktober – 15 april, men även under annan tid om det är eller befaras bli vinterväglag.",
-    text3:
-      "Tillåtna däckkombinationer för personbil och släp vid vinterväglag:",
-    bil: {},
   },
   {
     icon: "fas fa-ruler-combined",

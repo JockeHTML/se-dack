@@ -34,8 +34,8 @@ h1 {
 
 p {
   font-family: "Encode Sans", sans-serif;
-  font-size: 1.1rem;
-  color: var(--dark);
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 h2 {

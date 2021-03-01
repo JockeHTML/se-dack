@@ -16,9 +16,9 @@ function Heading(props) {
         {headerData.map((data, index) => {
           const { icon, title, text } = data;
           return (
-            <div className={styles.contact}>
+            <div key={index} className={styles.contact}>
               <span>
-                <i class={icon}></i>
+                <i className={icon}></i>
                 <h4>{title}</h4>
               </span>
               <p>{text}</p>

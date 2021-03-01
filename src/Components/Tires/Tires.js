@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Tires.module.css";
 import { däck } from "../Data/Data";
+import Button from "../Button/Button";
 
 function Tires(props) {
   return (
@@ -17,7 +18,7 @@ function Tires(props) {
       {däck.map((data, index) => {
         const { title, text1, text2, text3, text4, icon, subTitle } = data;
         return (
-          <div className={styles.content}>
+          <div key={index} className={styles.content}>
             <div className={styles.icon}>
               <i className={icon}></i>
             </div>
@@ -34,6 +35,7 @@ function Tires(props) {
           </div>
         );
       })}
+      <Button />
     </div>
   );
 }

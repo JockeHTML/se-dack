@@ -29,7 +29,7 @@ function Contact(props) {
         {kontakt.map((data, index) => {
           const { title2, title, address, post, phone, email } = data;
           return (
-            <div className={styles.text}>
+            <div key={index} className={styles.text}>
               <h1 style={{ marginBottom: "0", marginTop: "0" }}>{title}</h1>
               <h1 style={{ color: "var(--color)", marginTop: "-15px" }}>
                 {title2}

@@ -25,7 +25,7 @@ function Staff(props) {
         {personal.map((data, index) => {
           const { title, text, text2, img } = data;
           return (
-            <Grid xl={2} className={styles.gridItem}>
+            <Grid key={index} xl={2} className={styles.gridItem}>
               <div className={styles.image}>
                 <img src={img} alt="" />
               </div>

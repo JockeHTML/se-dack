@@ -10,8 +10,8 @@ function ExtraSection(props) {
         {headerData.map((data, index) => {
           const { icon, title, text } = data;
           return (
-            <Grid xl={2} className={styles.gridItem} item>
-              <i class={icon}></i>
+            <Grid key={index} xl={2} className={styles.gridItem} item>
+              <i className={icon}></i>
               <h3>{title}</h3>
               <p>{text}</p>
             </Grid>

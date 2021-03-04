@@ -85,6 +85,10 @@
   .box {
     width: 95%;
     margin: 5px auto;
+    height: 300px;
+  }
+  .priceList {
+    padding: 1rem;
   }
 }
 

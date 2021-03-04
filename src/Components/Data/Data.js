@@ -402,7 +402,7 @@ const leverantörer = [
 const däck = [
   {
     icon: "fas fa-gavel",
-    title: "Vinterdäckslagen    ",
+    title: "Vinterdäcks-lagen    ",
     subTitle: "Vinterdäck krävs",
     text1:
       "Från 1 december – 31 mars om det är vinterväglag. Mönsterdjupet skall vara minst 3 mm.",

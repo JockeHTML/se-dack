@@ -39,7 +39,12 @@
     padding: 2rem 0;
   }
   .map Iframe {
-    width: 100%;
+    width: 95%;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .text h1 {
     font-size: 1.7rem;

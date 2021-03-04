@@ -9,20 +9,18 @@ function Used(props) {
   return (
     <div className={styles.used}>
       <div className={styles.topImage}></div>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Begagnat
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>Däck & Fälg</h2>
-      <p>
-        Kontakta gärna oss så kollar vi upp däck till just din bil, aktuella
-        priser och saldo.{" "}
-      </p>
+      <div className={styles.title}>
+        <h1>Begagnat</h1>
+        <h2>Däck & Fälg</h2>
+        <p>
+          Kontakta gärna oss så kollar vi upp däck till just din bil, aktuella
+          priser och saldo.{" "}
+        </p>
+      </div>
       <Grid
         xl={12}
         md={6}
-        xs={12}
+        xs={11}
         container
         item
         className={styles.gridContainer}

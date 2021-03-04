@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: row;
-  margin: -2.5rem 0 0 0;
+  margin: -2.9rem 0 0 0;
   justify-content: space-between;
   border: 0 1px solid var(--lightgrey);
 }
@@ -79,15 +79,17 @@
   }
   .content {
     width: 100%;
+    background: rgb(241, 241, 241);
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(241, 241, 241);
+    padding: 2px;
   }
   .contact {
     padding: 5px 5px;
   }
   .contact span h4 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0;
   }
   .contact p {

@@ -57,6 +57,16 @@
     font-size: 2.2rem;
     text-align: center;
   }
+  .text p {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .icon {
+    margin: 1rem 0 0 0;
+  }
+  .icon i {
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {

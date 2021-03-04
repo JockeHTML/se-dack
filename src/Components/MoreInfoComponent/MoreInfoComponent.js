@@ -55,7 +55,7 @@ function MoreInfoComponent(props) {
           >
             {title}
           </Typography>
-          <Typography variant="body1" color="textPrimary">
+          <Typography variant="body1">
             {text}
             {extraText}
           </Typography>

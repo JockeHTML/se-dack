@@ -99,15 +99,15 @@ const socialMedia = [
     icon: "fab fa-facebook-f",
   },
   {
-    url: "https://www.facebook.com",
+    url: "https://www.instagram.com",
     icon: "fab fa-instagram",
   },
   {
-    url: "https://www.facebook.com",
+    url: "https://www.twitter.com",
     icon: "fab fa-twitter",
   },
   {
-    url: "https://www.facebook.com",
+    url: "https://www.linkedin.com",
     icon: "fab fa-linkedin-in",
   },
 ];

@@ -8,14 +8,8 @@ function Supplier(props) {
   return (
     <div className={styles.supplier}>
       <div className={styles.topImage}></div>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Våra Leverantörer
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>
-        Däck, Fälg & Rekond
-      </h2>
+      <h1>Våra Leverantörer</h1>
+      <h2>Däck, Fälg & Rekond</h2>
       <Grid
         md={12}
         xs={12}

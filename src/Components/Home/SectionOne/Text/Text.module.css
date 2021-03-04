@@ -37,6 +37,7 @@
 @media (max-width: 768px) {
   .text h1 {
     font-size: 2.2rem;
+    margin-bottom: 5px;
   }
   .text {
     padding: 1rem;

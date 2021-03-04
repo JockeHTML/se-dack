@@ -80,3 +80,17 @@
 .box span:hover i {
   color: var(--white);
 }
+
+@media (max-width: 768px) {
+  .box {
+    width: 95%;
+    margin: 5px auto;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .box {
+    padding: 0;
+    margin: 0;
+  }
+}

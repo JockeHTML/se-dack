@@ -7,16 +7,12 @@ import Button from "../Button/Button";
 function Staff(props) {
   return (
     <div className={styles.staff}>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Vi som jobbar här
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>
-        Kontor, Verkstad & Rekond
-      </h2>
+      <h1>Vi som jobbar här</h1>
+      <h2>Kontor, Verkstad & Rekond</h2>
       <Grid
         justify="center"
+        xs={12}
+        md={12}
         xl={12}
         className={styles.gridContainer}
         container
@@ -25,7 +21,14 @@ function Staff(props) {
         {personal.map((data, index) => {
           const { title, text, text2, img } = data;
           return (
-            <Grid key={index} xl={2} className={styles.gridItem}>
+            <Grid
+              item
+              key={index}
+              md={4}
+              xs={12}
+              xl={2}
+              className={styles.gridItem}
+            >
               <div className={styles.image}>
                 <img src={img} alt="" />
               </div>

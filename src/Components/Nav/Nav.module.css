@@ -5,6 +5,9 @@
   display: flex;
 }
 
+.navButton {
+}
+
 .links {
   margin: auto;
   display: flex;
@@ -41,4 +44,10 @@
 
 .links a:hover {
   border-bottom: 2px solid var(--white);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
 }

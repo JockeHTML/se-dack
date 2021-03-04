@@ -19,11 +19,18 @@ function Used(props) {
         Kontakta gärna oss så kollar vi upp däck till just din bil, aktuella
         priser och saldo.{" "}
       </p>
-      <Grid container item className={styles.gridContainer}>
+      <Grid
+        xl={12}
+        md={6}
+        xs={12}
+        container
+        item
+        className={styles.gridContainer}
+      >
         {begagnat.map((data, index) => {
           const { text, img, title } = data;
           return (
-            <Grid key={index} xl={3} item className={styles.gridItem}>
+            <Grid key={index} xs={12} xl={3} item className={styles.gridItem}>
               <img src={img} alt="" />
               <h2>{title.toUpperCase()}</h2>
               <p>{text}</p>

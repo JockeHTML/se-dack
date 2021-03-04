@@ -18,3 +18,13 @@
   background-color: var(--dark);
   color: var(--white);
 }
+
+.moreInfoComponent h1 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .moreInfoComponent h1 {
+  }
+}

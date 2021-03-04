@@ -11,6 +11,7 @@
   display: flex;
   justify-self: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   background-color: var(--white);
   margin: 1rem !important;
@@ -29,4 +30,11 @@
   color: var(--dark);
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .extraSection {
+    padding: 1rem 0 0 0;
+    margin: 2rem 0;
+  }
 }

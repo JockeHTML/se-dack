@@ -20,3 +20,21 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 2.2rem;
+  }
+  .heading {
+    text-align: center;
+  }
+  .content img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .heading {
+    padding: 0 2rem;
+  }
+}

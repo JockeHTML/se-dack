@@ -5,14 +5,10 @@ import Button from "../Button/Button";
 
 function OpeningHours(props) {
   return (
-    <div className={styles.OpeningHours}>
+    <div className={styles.openingHours}>
       <div className={styles.topImage}></div>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Öppettider
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>Verkstad & Rekond</h2>
+      <h1>Öppettider</h1>
+      <h2>Verkstad & Rekond</h2>
       <div className={styles.content}>
         {öppettider.map((data, index) => {
           const { title, text } = data;

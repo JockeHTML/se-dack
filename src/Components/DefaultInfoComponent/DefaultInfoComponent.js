@@ -9,8 +9,8 @@ function DefaultInfoComponent({ data }) {
   const { setSaveText } = useContext(AppContext);
 
   return (
-    <Grid className={styles.gridContainer} container item>
-      <Grid className={styles.gridItem} item xl={8}>
+    <Grid className={styles.gridContainer} xs={12} container item>
+      <Grid className={styles.gridItem} item xs={12} xl={8}>
         <div className={styles.content}>
           <div className={styles.heading}>
             <h2>{title.toUpperCase()}</h2>

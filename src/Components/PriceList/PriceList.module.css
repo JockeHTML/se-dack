@@ -6,3 +6,20 @@
   background-size: cover;
   background-position: center;
 }
+
+.priceList h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.priceList h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .priceList h1 {
+    font-size: 2.2rem;
+  }
+}

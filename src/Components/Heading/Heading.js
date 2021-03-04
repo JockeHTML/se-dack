@@ -3,10 +3,12 @@ import styles from "./Heading.module.css";
 import logo from "../../images/bg6.jpg";
 import { Link } from "react-router-dom";
 import { headerData } from "../Data/Data";
+import Sidebar from "./Sidebar/Sidebar";
 
 function Heading(props) {
   return (
     <header className={styles.header}>
+      <Sidebar />
       <div className={styles.logo}>
         <Link to="/">
           <img src={logo} alt="logo" />

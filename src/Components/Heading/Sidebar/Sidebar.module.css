@@ -1,0 +1,53 @@
+.sidebarWrapper {
+  position: fixed;
+  padding: 1rem;
+  display: none;
+  height: 25px;
+}
+
+.sidebarWrapper i {
+  cursor: pointer;
+  color: var(--color);
+  font-size: 1.5rem;
+}
+
+.sidebarActive i {
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 1rem;
+  position: fixed;
+}
+
+.sidebarActive {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color);
+  position: fixed;
+}
+
+.sidebarActive a,
+li {
+  font-size: 1.8rem;
+  text-decoration: none;
+  list-style: none;
+  color: var(--white);
+}
+
+.sidebarActive ul {
+  padding: 0;
+}
+
+.sideBarLinks {
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .sidebarWrapper {
+    display: flex;
+  }
+}

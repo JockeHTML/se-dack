@@ -23,3 +23,22 @@
   font-size: 1.9rem;
   padding: 5px;
 }
+
+@media (max-width: 768px) {
+  .text {
+    flex-direction: column;
+    width: 100%;
+  }
+  .icons {
+    padding: 5px;
+  }
+  .heading h1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .text {
+    padding: 0 2rem;
+  }
+}

@@ -454,11 +454,11 @@ const öppettider = [
   },
   {
     title: "Lördag",
-    text: "07:00-16:00",
+    text: "Stängt",
   },
   {
     title: "Söndag",
-    text: "07:00-16:00",
+    text: "Stängt",
   },
   {
     title: "Röda dagar",

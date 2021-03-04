@@ -8,11 +8,18 @@ import Button from "../../../Button/Button";
 function Content(props) {
   return (
     <>
-      <Grid container item className={styles.gridContainer}>
+      <Grid xl={12} md={12} container item className={styles.gridContainer}>
         {sectionThree.map((data, index) => {
           const { title, text } = data;
           return (
-            <Grid key={index} xl={2} item className={styles.gridItem}>
+            <Grid
+              key={index}
+              xs={9}
+              md={4}
+              xl={2}
+              item
+              className={styles.gridItem}
+            >
               <img src="" alt="" />
               <h2>{title.toUpperCase()}</h2>
               <p>{text.slice(0, 100) + "..."}</p>

@@ -37,7 +37,7 @@
 
 .heading h2 {
   color: var(--white);
-  padding: 0 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .heading span h3 {
@@ -58,14 +58,18 @@
 .image img {
   min-height: 300px;
   width: 100%;
+  margin-top: 4px;
   object-position: center;
   object-fit: cover;
-  margin-top: 4px;
 }
 
-.text p,
-.text h2 {
+.text p {
   padding: 0 2rem;
+  color: var(--white);
+}
+
+.text h2 {
+  padding: 2rem 2rem 0 2rem;
   color: var(--white);
 }
 
@@ -75,12 +79,16 @@
   align-items: center;
   height: 100px;
   background-color: rgba(26, 25, 25, 0.5);
-  margin-top: 91px;
+  margin-top: 80px;
 }
 
 .headingBtn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
-  padding: 1rem 2rem;
+  width: 130px;
+  height: 60px;
   font-size: 1.2rem;
   background-color: var(--white);
   text-decoration: none;
@@ -91,4 +99,31 @@
 .headingBtn a:hover {
   background-color: var(--color);
   color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .gridContainer {
+    padding: 0;
+  }
+  .content {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+  .content > div {
+    padding: 0;
+    width: 100%;
+    min-height: 200px;
+  }
+  .content h2 {
+    padding-top: 1rem;
+  }
+  .headingBtn {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .openingHours {
+    margin-bottom: 18.5rem;
+  }
 }

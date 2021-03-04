@@ -7,14 +7,11 @@ function Tires(props) {
   return (
     <div className={styles.tires}>
       <div className={styles.topImage}></div>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Däck Information
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>
-        Sommar & Vinterdäck
-      </h2>
+      <div className={styles.title}>
+        <h1>Däck Information</h1>
+        <h2>Sommar & Vinterdäck</h2>
+      </div>
+
       {däck.map((data, index) => {
         const { title, text1, text2, text3, text4, icon, subTitle } = data;
         return (
@@ -24,7 +21,13 @@ function Tires(props) {
             </div>
             <div className={styles.text}>
               <h1>{title}</h1>
-              <h3 style={{ marginTop: "-25px", color: "var(--color)" }}>
+              <h3
+                style={{
+                  marginLeft: "0",
+                  marginTop: "-25px",
+                  color: "var(--color)",
+                }}
+              >
                 {subTitle}
               </h3>
               <p>{text1}</p>

@@ -25,3 +25,26 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
+.openingHours h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.openingHours h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .openingHours {
+    margin-bottom: 18.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .openingHours h1 {
+    font-size: 2.2rem;
+  }
+}

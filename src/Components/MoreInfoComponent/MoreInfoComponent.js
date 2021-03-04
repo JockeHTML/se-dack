@@ -23,7 +23,7 @@ function MoreInfoComponent(props) {
   } = saveText;
 
   const useStyles = makeStyles({
-    moreInfoComponent: {
+    moreInfoCard: {
       color: "var(--dark)",
       maxWidth: 600,
       margin: "3rem auto",
@@ -41,20 +41,16 @@ function MoreInfoComponent(props) {
   const classes = useStyles();
 
   return (
-    <>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Mer information
-      </h1>
+    <div className={styles.moreInfoComponent}>
+      <h1>Mer information</h1>
       <h2 style={{ textAlign: "center", marginTop: "0" }}>Däck & Rekond</h2>
-      <Card className={classes.moreInfoComponent}>
+      <Card className={classes.moreInfoCard}>
         <CardMedia className={classes.content} image={img} title={title} />
         <CardContent>
           <Typography
             style={{ marginBottom: "10px" }}
             gutterBottom
-            variant="h5"
+            variant="h4"
             component="h2"
           >
             {title}
@@ -65,7 +61,7 @@ function MoreInfoComponent(props) {
           </Typography>
           <Typography
             style={{ paddingTop: "1rem" }}
-            variant="body2"
+            variant="body1"
             color="textSecondary"
             component="p"
           >
@@ -94,7 +90,7 @@ function MoreInfoComponent(props) {
           </CardActions>
         </CardContent>
       </Card>
-    </>
+    </div>
   );
 }
 

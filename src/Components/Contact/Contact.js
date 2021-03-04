@@ -5,14 +5,10 @@ import { kontakt } from "../Data/Data";
 function Contact(props) {
   return (
     <div className={styles.contact}>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Kontakta oss
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>
-        Kontor, Verkstad & Rekond
-      </h2>
+      <div className={styles.title}>
+        <h1>Kontakta oss</h1>
+        <h2>Kontor, Verkstad & Rekond</h2>
+      </div>
       <div className={styles.content}>
         <div className={styles.map}>
           <iframe
@@ -30,8 +26,8 @@ function Contact(props) {
           const { title2, title, address, post, phone, email } = data;
           return (
             <div key={index} className={styles.text}>
-              <h1 style={{ marginBottom: "0", marginTop: "0" }}>{title}</h1>
-              <h1 style={{ color: "var(--color)", marginTop: "-15px" }}>
+              <h1>{title}</h1>
+              <h1 style={{ color: "var(--color)", marginTop: "-10px" }}>
                 {title2}
               </h1>
               <p>{address}</p>
@@ -42,8 +38,6 @@ function Contact(props) {
           );
         })}
       </div>
-
-      <div className={styles.form}></div>
     </div>
   );
 }

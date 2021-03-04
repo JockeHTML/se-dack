@@ -8,21 +8,13 @@ function PriceList(props) {
   return (
     <div className={styles.priceList}>
       <div className={styles.topImage}></div>
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Prislista
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>Däckverkstad</h2>
+      <h1>Prislista</h1>
+      <h2>Däckverkstad</h2>
       {däckPrisLista.map((data, index) => {
         return <DefaultInfoComponent key={index} data={data} />;
       })}
-      <h1
-        style={{ textAlign: "center", fontSize: "3.5rem", marginBottom: "0" }}
-      >
-        Prislista
-      </h1>
-      <h2 style={{ textAlign: "center", marginTop: "0" }}>Tvätt & Rekond</h2>
+      <h1>Prislista</h1>
+      <h2>Tvätt & Rekond</h2>
       {rekondPrisLista.map((data, index) => {
         return <DefaultInfoComponent key={index} data={data} />;
       })}

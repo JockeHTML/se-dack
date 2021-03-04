@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem 4rem;
+  margin: auto;
 }
 
 .footer p {
@@ -44,8 +45,8 @@
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
   border-radius: 50vh;
   background-color: var(--white);
   /*border: 2px solid var(--white);*/
@@ -72,7 +73,7 @@
 
 .social i {
   color: var(--dark);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .links {
@@ -86,4 +87,20 @@
   text-decoration: none;
   color: white;
   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  .footer {
+    height: 300px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .footer {
+    display: flex;
+  }
 }

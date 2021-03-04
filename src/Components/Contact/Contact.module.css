@@ -10,10 +10,58 @@
   padding: 4rem 0;
 }
 
+.text h1 {
+  margin: 0;
+}
+
 .text {
   padding: 0 2rem;
 }
 
 .text p {
   font-size: 1.4rem;
+}
+
+.title h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.title h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .map Iframe {
+    width: 100%;
+  }
+  .text h1 {
+    font-size: 1.7rem;
+    text-align: start;
+    margin: 0;
+  }
+  .text {
+    margin-top: 2rem;
+  }
+  .text p {
+    margin: 10px 0;
+  }
+  .title h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .contact {
+    margin-bottom: 15.5rem;
+  }
+}
+
+@media (max-width: 768px) {
 }

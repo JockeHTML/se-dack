@@ -72,3 +72,28 @@
 .contact i {
   font-size: 1.7rem;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(241, 241, 241);
+  }
+  .contact {
+    padding: 5px 5px;
+  }
+  .contact span h4 {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .contact p {
+    display: none;
+  }
+  .contact i {
+    display: none;
+  }
+}

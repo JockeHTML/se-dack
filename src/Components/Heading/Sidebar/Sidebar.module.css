@@ -26,6 +26,7 @@
   height: 100%;
   background-color: var(--color);
   position: fixed;
+  padding-bottom: 1rem;
 }
 
 .sidebarActive a,
@@ -41,7 +42,7 @@ li {
 }
 
 .sideBarLinks {
-  margin: 8rem auto;
+  margin: 2rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;

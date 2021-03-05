@@ -12,17 +12,14 @@
 
 .homeLink li {
   display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
+  height: 20px;
 }
 
 .restofLinks li {
   border-left: 2px solid var(--grey);
   height: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0;
 }
 
@@ -45,7 +42,7 @@
 }
 
 .links a:hover {
-  border-bottom: 1px solid var(--white);
+  border-bottom: 2px solid var(--white);
 }
 
 @media (max-width: 768px) {

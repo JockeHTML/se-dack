@@ -1,12 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import styles from "./Nav.module.css";
 import { navLinks } from "../Data/Data";
 import { Link } from "react-router-dom";
-import { AppContext } from "../Context/Context";
 
 function Nav(props) {
-  const { sideBar, setSaveText } = useContext(AppContext);
-
   return (
     <div className={styles.nav}>
       <div className={styles.links}>

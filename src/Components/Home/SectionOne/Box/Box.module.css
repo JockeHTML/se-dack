@@ -1,8 +1,8 @@
 .box {
   margin-left: 6rem;
   background-color: var(--white);
-  width: 550px;
-  height: 350px;
+  width: 450px;
+  height: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -31,6 +31,7 @@
 .box2 h3,
 .box1 h3 {
   color: var(--white);
+  font-size: 1.2rem;
 }
 
 .activeBox {
@@ -38,8 +39,13 @@
   color: var(--white);
 }
 
+.activeBox h3 {
+  font-size: 1.2rem;
+}
+
 .priceList {
-  padding: 2rem;
+  text-align: center;
+  padding: 2rem 2rem;
 }
 
 .box span {
@@ -55,7 +61,7 @@
 }
 
 .box a {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 1rem;
   font-weight: bolder;
   color: var(--white);
@@ -85,10 +91,13 @@
   .box {
     width: 95%;
     margin: 5px auto;
-    height: 300px;
+    height: 250px;
   }
   .priceList {
     padding: 1rem;
+  }
+  .box span {
+    margin-top: 2rem;
   }
 }
 

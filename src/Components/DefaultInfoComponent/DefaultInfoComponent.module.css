@@ -110,9 +110,9 @@
     padding: 1rem;
   }
   .content > div {
-    padding: 0;
     width: 100%;
     min-height: 200px;
+    margin-bottom: -4px;
   }
   .content h2 {
     padding-top: 1rem;
@@ -122,6 +122,9 @@
   }
   .text p {
     padding: 0 1rem;
+  }
+  .image img {
+    margin-top: 0;
   }
 }
 

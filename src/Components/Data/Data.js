@@ -85,7 +85,7 @@ const sectionTwo = [
   },
   {
     icon: "fas fa-coins",
-    text: "Köp däck för dina behov och till ett konkurrenskraftiga pris",
+    text: "Köp däck för dina behov och till ett konkurrenskraftigt pris",
   },
   {
     icon: "far fa-handshake",

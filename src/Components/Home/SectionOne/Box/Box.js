@@ -22,12 +22,7 @@ function Box({ boxClick, setBoxClick }) {
 
       {boxClick ? (
         <div className={styles.priceList}>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            sunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Minima est enim accusantium ducimus facere quae, tempora voluptate
-            explicabo.
-          </p>
+          <h3>Bokningsbara tjänster Däck, Verkstad & Rekond</h3>
           <span>
             <i className="fas fa-car"></i>
             <Link onClick={() => window.scrollTo(0, 0)} to="/appointment">
@@ -37,12 +32,9 @@ function Box({ boxClick, setBoxClick }) {
         </div>
       ) : (
         <div className={styles.priceList}>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            sunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Minima est enim accusantium ducimus facere quae, tempora voluptate
-            explicabo.
-          </p>
+          <h3>
+            Våra tjänster för dina behov, till ett konkurrenskraftigt pris
+          </h3>
           <span>
             <i className="fas fa-car"></i>
             <Link onClick={() => window.scrollTo(0, 0)} to="priceList">

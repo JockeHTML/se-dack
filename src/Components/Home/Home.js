@@ -3,6 +3,7 @@ import SectionOne from "./SectionOne/SectionOne";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
 import BigSlider from "./BigSlider/BigSlider";
+import Washing from "../Washing/Washing";
 
 function Home(props) {
   return (

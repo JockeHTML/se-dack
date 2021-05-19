@@ -1,0 +1,52 @@
+.card {
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: auto;
+  padding: 60px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title h4 {
+  color: var(--color);
+}
+
+.card h4 {
+  margin-bottom: 0;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  padding: 0;
+  margin: 0;
+}
+
+.card li {
+  display: flex;
+  margin: 5px 0;
+  align-items: center;
+}
+
+.card i {
+  margin-right: 5px;
+  color: green;
+  font-size: 1.1rem;
+}
+
+.buttons i {
+  color: var(--white);
+}

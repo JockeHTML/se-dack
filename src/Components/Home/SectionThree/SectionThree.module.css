@@ -19,5 +19,15 @@
   color: var(--color);
 }
 
+.title h1 {
+  margin-bottom: 1rem;
+}
+
+.title p {
+  padding-bottom: var(--padding4);
+  width: 50%;
+  margin: auto;
+}
+
 @media (max-width: 768px) {
 }

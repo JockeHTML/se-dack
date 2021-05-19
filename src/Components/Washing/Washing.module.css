@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1177px;
+}
+
+.wash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

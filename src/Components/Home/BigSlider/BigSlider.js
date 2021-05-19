@@ -9,6 +9,7 @@ const BigSlider = () => {
       <div className={classes.image}></div>
       <div className={classes.text}>
         <div className={classes.content}>
+          <h4>SE DÄCK & BILSERVICE</h4>
           <h1>Kontakta oss idag</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut

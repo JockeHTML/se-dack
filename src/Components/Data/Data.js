@@ -519,3 +519,54 @@ export const openingHoursData = [
     text: "Stängt",
   },
 ];
+
+export const washData = [
+  {
+    title: "Handtvätt",
+    price: "300:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+  {
+    title: "VIP-tvätt    ",
+    price: "700:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+  {
+    title: "Motortvätt",
+    price: "200:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+  {
+    title: "Invändig rekond    ",
+    price: "2400:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+  {
+    title: "Lackförsegling    ",
+    price: "3000:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+  {
+    title: "Helrekond",
+    price: "3900:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+];

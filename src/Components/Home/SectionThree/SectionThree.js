@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./SectionThree.module.css";
-import Content from "./Content/Content";
 
 function SectionThree(props) {
   return (
     <div className={styles.sectionThree}>
-      <h1>Populära tjänster</h1>
-
-      <div className={styles.content}>
-        <Content />
+      <div className={styles.title}>
+        <h4>Tvätt och Rekond</h4>
+        <h1>Det som passar dig</h1>
       </div>
+      <div className={styles.content}></div>
     </div>
   );
 }

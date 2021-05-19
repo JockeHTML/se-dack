@@ -1,0 +1,52 @@
+.appointment {
+  padding: var(--padding8) 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
+
+.appointment h1 {
+  margin-bottom: 10px;
+}
+
+.appointment h4 {
+  margin-bottom: 0;
+}
+
+.appointment span {
+  color: var(--green);
+}
+
+.paper {
+  padding: 1rem 1rem;
+}
+
+.paper p {
+  font-weight: 400;
+  line-height: 1.75;
+  font-size: 14px;
+}
+
+.paper li {
+  padding: 5px 0;
+}
+
+.paper ul {
+  border-bottom: 1px solid var(--lightgrey);
+  list-style: none;
+  padding: 0 0 1rem 0;
+  margin: 0;
+}
+
+.paper img {
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+}

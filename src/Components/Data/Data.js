@@ -60,18 +60,25 @@ const sectionThree = [
   {
     title: "Däckbyte",
     text: "Hos oss skiftar du däck tryggt och säkert. Vi bjuder på kaffe och kaka medans du väntar.",
+    src: "./images/lug.png",
   },
   {
     title: "Däckhotell",
     text: "Förvara dina hjul hos oss. Enkelt och bekvämt. Vi förvarar samtliga hjul i vårt nybyggda däckhotell och kan garantera att dina hjul förvaras på ett korrekt sätt.",
+
+    src: "./images/wheel.png",
   },
   {
     title: "Däck & Fälg",
     text: "Vi erbjuder däck & fälg till alla bilar i olika prisklasser. Vi jobbar tillsammans med välkända och pålitliga leverantörer som Bridgestone, Nokian, Specialfälgar, OCL Brorssons & Rautamo.",
+
+    src: "./images/tire.png",
   },
   {
     title: "Tvätt & Rekond",
     text: "Vår tvätt & rekond finns tillgänglig för dig hela året. Kontakta oss gärna om du har några speciella önskemål!",
+
+    src: "./images/wash.png",
   },
 ];
 
@@ -86,11 +93,11 @@ const sectionTwo = [
   },
   {
     icon: "fas fa-coins",
-    text: "Köp däck för dina behov och till ett konkurrenskraftigt pris",
+    text: "Köp däck till ett konkurrenskraftigt pris",
   },
   {
     icon: "far fa-handshake",
-    text: "Köp däck för dina behov för konkurrenskraftiga priser",
+    text: "Hittar däck för dina behov",
   },
 ];
 

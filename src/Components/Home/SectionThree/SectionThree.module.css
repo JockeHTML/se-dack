@@ -3,19 +3,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center !important;
+  padding: var(--padding8) 1rem;
 }
 
-.content h1 {
-  margin-bottom: 1.2rem;
+.title {
+  text-align: center;
 }
 
-.sectionThree h1 {
-  font-size: 3.5rem;
+.title h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--color);
 }
 
 @media (max-width: 768px) {
-  .sectionThree h1 {
-    font-size: 2.2rem;
-  }
 }

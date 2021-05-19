@@ -7,19 +7,27 @@ import Button from "../../../Button/Button";
 function Text(props) {
   return (
     <div className={styles.text}>
-      <img src={car2} alt="" />
-      <div className={styles.icons}>
-        {sectionTwo.map((data, index) => {
-          const { icon, text } = data;
-          return (
-            <span key={index}>
-              <i className={icon}></i> <h3>{text}</h3>
-            </span>
-          );
-        })}
-      </div>
-      <div className={styles.buttons}>
-        <Button />
+      <div className={styles.content}>
+        <div className={styles.image}>
+          <img src={car2} alt="" />
+        </div>
+        <div className={styles.icons}>
+          <div className={styles.heading}>
+            <h3>Därför väljer du</h3>
+            <h3>SE Däckservice</h3>
+          </div>
+          {sectionTwo.map((data, index) => {
+            const { icon, text } = data;
+            return (
+              <span key={index}>
+                <i class="fas fa-check-circle"></i> <h4>{text}</h4>
+              </span>
+            );
+          })}
+          <div className={styles.buttons}>
+            <Button />
+          </div>
+        </div>
       </div>
     </div>
   );

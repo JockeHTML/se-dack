@@ -1,12 +1,42 @@
 .text {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.image img {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heading h3 {
+  font-size: 2.5rem;
+}
+
+.heading h3:nth-child(1) {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.heading h3:nth-child(2) {
+  color: var(--color);
+  margin-bottom: 2rem;
 }
 
 .icons {
   padding-left: 2rem;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -14,14 +44,22 @@
   color: var(--dark);
   display: flex;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0 0 1.5rem 0;
+}
+
+.text span:nth-child(5) {
+  padding: 0;
 }
 
 .icons i {
   color: var(--color);
   margin-right: 1rem;
   font-size: 1.9rem;
-  padding: 5px;
+}
+
+.buttons i {
+  color: white;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 768px) {
@@ -32,7 +70,7 @@
   .icons {
     padding: 5px;
   }
-  .heading h1 {
+  .heading h2 {
     text-align: center;
   }
 }

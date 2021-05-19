@@ -3,11 +3,15 @@
   background-color: var(--color);
   display: flex;
   width: 180px;
-  height: 50px;
+  height: 60px;
+  padding: 18px 39px;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
   margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactBtn a {
@@ -23,6 +27,7 @@
 }
 
 .contactBtn i {
+  font-size: 1.1rem;
   color: white;
 }
 

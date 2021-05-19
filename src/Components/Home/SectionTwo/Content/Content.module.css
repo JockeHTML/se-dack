@@ -1,0 +1,47 @@
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  padding: var(--padding8) 0 0 0;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  width: 400px;
+  border-right: 1px solid var(--lightgrey);
+}
+
+.gridItem p {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.gridContainer h3 {
+  margin: 14px 0;
+}
+
+.gridItem span {
+  margin: 10px 0;
+  color: var(--color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.gridItem a {
+  font-weight: bold;
+  display: flex;
+}
+
+.gridItem i {
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.gridContainer div:nth-child(4) {
+  border: 0;
+}
+
+@media (max-width: 768px) {
+}

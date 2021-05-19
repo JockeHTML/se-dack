@@ -3,22 +3,26 @@
   display: flex;
   justify-self: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--color);
 }
 
 .content {
-  margin: auto;
-}
-
-.heading h1 {
-  font-size: 3.5rem;
-  margin-bottom: 1.2rem;
-}
-
-.content img {
-  width: 500px;
-  height: 350px;
-  object-fit: cover;
-  object-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {

@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar/Sidebar";
 
 function Heading(props) {
   return (
-    <header className={styles.header}>
+    <div className={styles.header}>
       <Sidebar />
       <div className={styles.logo}>
         <Link to="/">
@@ -20,7 +20,7 @@ function Heading(props) {
           return (
             <div key={index} className={styles.contact}>
               <span>
-                <i className={icon}></i>
+                <img src={icon} alt={title} />
                 <h4>{title}</h4>
               </span>
               <p>{text}</p>
@@ -28,7 +28,7 @@ function Heading(props) {
           );
         })}
       </div>
-    </header>
+    </div>
   );
 }
 

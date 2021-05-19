@@ -1,5 +1,5 @@
 .sectionTwo {
-  padding-top: 1rem;
+  padding: var(--padding8) 1rem;
   display: flex;
   justify-self: center;
   align-items: center;

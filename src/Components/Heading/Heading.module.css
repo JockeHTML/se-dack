@@ -1,9 +1,9 @@
 .header {
   display: flex;
   flex-direction: row;
-  margin: -2.9rem 0 0 0;
   justify-content: space-between;
-  border: 0 1px solid var(--lightgrey);
+  height: 100px;
+  align-items: center;
 }
 
 .content {
@@ -23,7 +23,6 @@
 }
 
 .logo img {
-  padding: 10px 5px 0 5px;
   width: 250px;
   height: 100px;
   object-fit: cover;
@@ -54,7 +53,7 @@
   border-right: 1px solid var(--lightgrey);
   flex-direction: column;
   display: flex;
-  padding: 1rem;
+  padding: 0 1rem;
   text-align: center;
 }
 
@@ -71,6 +70,7 @@
 
 .contact i {
   font-size: 1.7rem;
+  color: var(--color);
 }
 
 @media (max-width: 768px) {

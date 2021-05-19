@@ -1,13 +1,12 @@
 .contactBtn {
   cursor: pointer;
-  background-color: var(--color);
+  background-color: transparent;
   display: flex;
   width: 180px;
-  height: 50px;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
-  margin-right: 1rem;
+  border: 1px solid var(--white);
 }
 
 .contactBtn a {
@@ -19,11 +18,6 @@
   letter-spacing: 0;
   line-height: 1em;
   outline: 0;
-  margin: 1rem;
-}
-
-.contactBtn i {
-  color: white;
 }
 
 .contactBtn span:hover {

@@ -14,10 +14,10 @@
   color: var(--dark);
   display: flex;
   align-items: center;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
-.text i {
+.icons i {
   color: var(--color);
   margin-right: 1rem;
   font-size: 1.9rem;

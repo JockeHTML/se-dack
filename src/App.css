@@ -1,66 +1,117 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+  background-color: var(--white);
+  overflow-x: hidden!;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  text-transform: none;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--size4);
+}
 
 :root {
+  --padding2: 2rem;
+  --padding4: 4rem;
+  --padding6: 6rem;
+  --padding8: 8rem;
+  --size1: 0.25rem;
+  --size2: 0.5rem;
+  --size3: 0.75rem;
+  --size4: 1rem;
+  --size5: 1.25rem;
+  --size6: 1.5rem;
+  --size7: 1.75rem;
+  --size8: 2rem;
+  --size10: 2.5rem;
+  --size12: 3rem;
+  --size16: 3.5rem;
+  --size18: 4rem;
+  --size20: 5rem;
+  --size30: 7rem;
+  --size40: 10rem;
+
+  --grey: #343a40;
+  --bg: #e2e3d2;
+  --lightgrey: #f8f9fa;
+  --lightblue: #546b76;
+  --white: #fff;
   --grey: #7f888f;
   --lightgrey: rgb(241, 241, 241);
   --dark: rgb(31, 31, 31);
-  --black: (#19170d);
+  --black: #19170d;
   --white: #fff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   --color: #c92d27;
 }
 
-.App {
-  position: relative;
-  bottom: -22px;
-}
-
-body {
-  background-color: var(--white);
-  font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+p {
   margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-  position: relative;
-  bottom: -10;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--lightblue);
+  font-size: 1.1rem;
+  line-height: 1.73;
+  letter-spacing: 0.5px;
 }
 
 h1 {
-  font-family: "Anton", sans-serif;
-  letter-spacing: 2.7px;
-}
-
-p {
-  font-family: "Encode Sans", sans-serif;
-  font-size: 1rem;
-  color: rgba(0, 0, 0, 0.54);
+  margin: 0 0 var(--padding4) 0;
+  padding: 0;
+  font-size: var(--size16);
+  color: var(--black);
+  line-height: 1.3;
 }
 
 h2 {
-  color: var(--dark);
-  font-size: 1.6rem;
-}
-
-h4 {
-  color: var(--dark);
-  font-size: 1.1rem;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  color: var(--black);
+  font-size: var(--size8);
+  line-height: 2rem;
 }
 
 h3 {
-  color: var(--dark);
-  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: var(--black);
+  font-size: var(--size6);
+  line-height: 1.75rem;
+}
+
+h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: var(--black);
+  font-size: var(--size5);
+  line-height: 1.75rem;
 }
 
 @media (max-width: 768px) {
-  h3 {
-    font-size: 1.2rem;
+  h1 {
+    font-size: 32px;
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 24px;
   }
-  h1 {
-    font-size: 2.2rem;
+  h3 {
+    font-size: 20px;
   }
 }

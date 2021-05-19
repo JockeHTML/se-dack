@@ -2,6 +2,7 @@ import React from "react";
 import car2 from "../../../../images/car2.jpg";
 import { sectionTwo } from "../../../Data/Data";
 import styles from "./Text.module.css";
+import Button from "../../../Button/Button";
 
 function Text(props) {
   return (
@@ -16,6 +17,9 @@ function Text(props) {
             </span>
           );
         })}
+      </div>
+      <div className={styles.buttons}>
+        <Button />
       </div>
     </div>
   );

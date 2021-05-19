@@ -1,32 +1,39 @@
-.footer {
-  background-color: var(--black);
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
+.about p {
   width: 100%;
-  margin: auto;
 }
 
-.footer h1 {
-  color: var(--black);
+.about p {
+  margin: 1rem 0 0 0;
+  font-weight: 400;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    padding: 0 1.5rem;
-  }
+.about {
+  margin: 0 2rem 0 0;
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
-}
-
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .about p {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .about p {
+    width: 100%;
+  }
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .about {
+    margin: 0 2rem 0 2rem;
+  }
 }

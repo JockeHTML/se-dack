@@ -1,0 +1,19 @@
+.text2 h2 {
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.text2 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: var(--color);
+  padding: 0;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+}

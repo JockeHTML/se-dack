@@ -463,12 +463,26 @@ const personal = [
 
 const kontakt = [
   {
-    title: "Kom förbi vår verkstad",
-    title2: "Ring eller maila oss",
-    address: "Ortviksvägen 39    ",
-    post: "85633, Sundsvall     ",
-    email: "info@sedack.se",
-    phone: "060-619135",
+    icon: "fas fa-map-marker-alt",
+    title: "Address",
+    text: "Ortviksvägen 39",
+    text2: "85633 Sundsvall",
+  },
+  {
+    icon: "fas fa-phone",
+    title: "Telefon",
+    text: "060-619135    ",
+  },
+  {
+    icon: "far fa-envelope",
+    title: "E-post",
+    text: "info@sedack.se    ",
+  },
+  {
+    icon: "far fa-clock",
+    title: "Öppettider",
+    text: "Mån - Fre",
+    text2: "07.00 - 16.00",
   },
 ];
 
@@ -522,6 +536,14 @@ export const openingHoursData = [
 
 export const washData = [
   {
+    title: "Motortvätt",
+    price: "200:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+  },
+  {
     title: "Handtvätt",
     price: "300:-",
     one: "Avfettning",
@@ -529,6 +551,7 @@ export const washData = [
     three: "fälg & däck",
     four: "torkning",
   },
+
   {
     title: "VIP-tvätt    ",
     price: "700:-",
@@ -537,14 +560,7 @@ export const washData = [
     three: "fälg & däck",
     four: "torkning",
   },
-  {
-    title: "Motortvätt",
-    price: "200:-",
-    one: "Avfettning",
-    two: "schamponering",
-    three: "fälg & däck",
-    four: "torkning",
-  },
+
   {
     title: "Invändig rekond    ",
     price: "2400:-",

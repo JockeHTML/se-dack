@@ -5,15 +5,20 @@
 }
 
 .openingHours li {
-  border-bottom: 1px solid var(--lightblue);
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
+  display: flex;
+}
+
+.openingHours span {
+  margin-right: 10px;
+  width: 100px;
 }
 
 .openingHours p {
   font-weight: 400;
+  margin: 0;
 }
 
 .openingHours span {
-  justify-content: space-between;
   display: flex;
 }

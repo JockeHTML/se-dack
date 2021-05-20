@@ -1,16 +1,17 @@
 .contact {
   display: flex;
-  padding: var(--padding2) 0;
-  justify-content: center;
+  padding: var(--padding4) 0;
+  justify-content: space-evenly;
   margin: auto;
 }
 
 .contact > div {
-  flex-basis: 250px;
+  flex-basis: 300px;
 }
 
-.contact h3 {
+.contact h2 {
   color: white;
+  margin-bottom: 2rem;
 }
 
 .contact p {

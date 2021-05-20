@@ -9,7 +9,6 @@ const Contact = () => {
     <div className={classes.contact}>
       <About />
       <Links />
-      <Links />
       <OpeningHours />
     </div>
   );

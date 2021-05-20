@@ -1,8 +1,8 @@
 .card {
   width: 350px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   height: auto;
-  padding: 60px 50px;
+  padding: 50px 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -42,7 +42,7 @@
 }
 
 .card i {
-  margin-right: 5px;
+  margin-right: 10px;
   color: green;
   font-size: 1.1rem;
 }

@@ -7,6 +7,14 @@
   font-weight: 400;
 }
 
+.icons {
+  margin-top: 2rem;
+}
+
+.icons img {
+  margin-right: 10px;
+}
+
 .about {
   margin: 0 2rem 0 0;
 }

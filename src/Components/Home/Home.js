@@ -3,7 +3,8 @@ import SectionOne from "./SectionOne/SectionOne";
 import SectionTwo from "./SectionTwo/SectionTwo";
 import SectionThree from "./SectionThree/SectionThree";
 import BigSlider from "./BigSlider/BigSlider";
-import Washing from "../Washing/Washing";
+import SectionFour from "./SectionFour/SectionFour";
+import SmallSlider from "./SmallSlider/SmallSlider";
 
 function Home(props) {
   return (
@@ -12,6 +13,8 @@ function Home(props) {
       <SectionTwo />
       <BigSlider />
       <SectionThree />
+      <SmallSlider />
+      <SectionFour />
     </div>
   );
 }

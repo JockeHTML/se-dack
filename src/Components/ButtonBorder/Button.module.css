@@ -2,11 +2,17 @@
   cursor: pointer;
   background-color: transparent;
   display: flex;
-  width: 180px;
+  width: 200px;
+  height: 60px;
+  padding: 18px 39px;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
-  border: 1px solid var(--white);
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  align-items: center;
+  border-radius: 50px;
 }
 
 .contactBtn a {

@@ -6,7 +6,7 @@ function Button(props) {
   return (
     <div className={styles.contactBtn}>
       <Link onClick={() => window.scrollTo(0, 0)} to="/contact">
-        KONTAKT
+        Kontakt
       </Link>
       <i class="fas fa-angle-right"></i>
     </div>

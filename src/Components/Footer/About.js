@@ -4,12 +4,15 @@ import classes from "./About.module.css";
 const About = () => {
   return (
     <div className={classes.about}>
-      <h3>Hägglunds</h3>
+      <h2>SE Däckservice AB</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        dolores laudantium numquam, architecto illum qui doloremque totam. Quis
-        fugiat soluta quod error illum eaque optio sit vero harum!
+        dolores laudantium numquam, architecto illum qui doloremque!
       </p>
+      <div className={classes.icons}>
+        <img src="./images/instagram.png" alt="instagram" />
+        <img src="./images/facebook.png" alt="facebook" />
+      </div>
     </div>
   );
 };

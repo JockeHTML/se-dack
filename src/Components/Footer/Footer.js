@@ -5,8 +5,9 @@ import Contact from "./Contact";
 const Footer = () => {
   return (
     <footer className={classes.footer}>
-      <div className={classes.content}>
-        <Contact />
+      <Contact />
+      <div className={classes.border}>
+        <h4>© 2021 JOAKIMWEBDEV, ALL RIGHTS RESERVED</h4>
       </div>
     </footer>
   );

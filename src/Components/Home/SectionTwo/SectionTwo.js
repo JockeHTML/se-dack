@@ -7,7 +7,7 @@ function SectionTwo(props) {
   return (
     <div className={styles.sectionTwo}>
       <div className={styles.title}>
-        <h4>SE Däck & Bilservice</h4>
+        <h4>SE DÄCKSERVICE AB</h4>
         <h1>Vi hjälper dig</h1>
       </div>
       <div className={styles.content}>

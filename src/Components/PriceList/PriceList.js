@@ -7,9 +7,13 @@ import { däckPrisLista } from "../Data/Data";
 function PriceList(props) {
   return (
     <div className={styles.priceList}>
-      <div className={styles.topImage}></div>
-      <h1>Prislista</h1>
-      <h2>Däckverkstad</h2>
+      <div className={styles.topImage}>
+        <h1>PRISLISTA</h1>
+      </div>
+      <div className={styles.title}>
+        <h4>SE DÄCKSERVICE AB</h4>
+        <h1>konkurrenskraftiga priser</h1>
+      </div>
       {däckPrisLista.map((data, index) => {
         return <DefaultInfoComponent key={index} data={data} />;
       })}

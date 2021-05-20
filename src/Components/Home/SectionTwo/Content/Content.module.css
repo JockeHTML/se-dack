@@ -1,7 +1,7 @@
 .gridContainer {
   display: flex;
   justify-content: center;
-  padding: var(--padding8) 0 0 0;
+  padding: 0;
 }
 
 .gridItem {

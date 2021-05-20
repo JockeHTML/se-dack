@@ -7,6 +7,7 @@ const Text2 = () => {
       <h2>Vi byter dina hjul</h2>
       <span>Från 295:-</span>
       <br />
+      <br />
       <h2>Boka däckhotell</h2>
       <span>Från 795:-</span>
     </div>

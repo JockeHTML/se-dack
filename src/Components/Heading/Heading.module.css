@@ -68,11 +68,6 @@
   align-items: center;
 }
 
-.contact i {
-  font-size: 1.7rem;
-  color: var(--color);
-}
-
 @media (max-width: 768px) {
   .header {
     flex-direction: column;

@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Card.module.css";
 import Button from "../Button/Button";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Card = ({ title, price, one, two, three, four }) => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className={styles.card}>
+    <div data-aos="fade-up" className={styles.card}>
       <div className={styles.title}>
         <h4>{title}</h4>
         <h1>{price}</h1>

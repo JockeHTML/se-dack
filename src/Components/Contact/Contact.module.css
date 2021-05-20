@@ -5,6 +5,28 @@
   align-items: center;
 }
 
+.title {
+  text-align: center;
+}
+
+.title h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--color);
+}
+
+.title h1 {
+  margin-bottom: 1rem;
+}
+
+.title p {
+  margin: auto;
+  width: 70%;
+}
+
 .content {
   display: flex;
   padding: var(--padding8) 0;
@@ -25,12 +47,6 @@
 }
 
 .text {
-  text-align: center;
-}
-
-.title h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0;
   text-align: center;
 }
 

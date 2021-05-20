@@ -1,15 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Contact.module.css";
 import { kontakt } from "../Data/Data";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Contact(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className={styles.contact}>
+      <div className={styles.title}>
+        <h4>Kontakta oss</h4>
+        <h1>Hör av dig redan idag</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
+          at eius exercitationem amet inventore pariatur asperiores natus
+          laudantium iure.
+        </p>
+      </div>
       <div className={styles.content}>
         {kontakt.map((data, index) => {
           const { title, text, icon, text2 } = data;
           return (
-            <div key={index} className={styles.card}>
+            <div data-aos="fade-up" key={index} className={styles.card}>
               {" "}
               <i class={icon}></i>
               <div className={styles.text}>

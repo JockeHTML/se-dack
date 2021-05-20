@@ -10,23 +10,12 @@
   justify-content: center;
 }
 
+.content {
+  padding-bottom: var(--padding8);
+}
+
 .topImage h1 {
   color: white;
-}
-
-.priceList {
-  padding: 0 0 var(--padding8) 0;
-}
-
-.priceList h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.priceList h2 {
-  text-align: center;
-  margin-top: 0;
 }
 
 .title {
@@ -44,17 +33,11 @@
 }
 
 .title h1 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .title p {
-  padding-bottom: var(--padding4);
+  padding-bottom: var(--padding8);
   width: 50%;
   margin: auto;
-}
-
-@media (max-width: 768px) {
-  .priceList h1 {
-    font-size: 2.2rem;
-  }
 }

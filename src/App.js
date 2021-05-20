@@ -3,7 +3,7 @@ import Heading from "./Components/Heading/Heading";
 import Nav from "./Components/Nav/Nav";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
-import PriceList from "./Components/PriceList/PriceList";
+import MainServices from "./Components/MainServices/MainServices";
 import Appointment from "./Components/Appointment/Appointment";
 import Used from "./Components/Used/Used";
 import Supplier from "./Components/Supplier/Supplier";
@@ -29,10 +29,16 @@ function App() {
             <AllServices />
           </Route>
           <Route path="/dack&falg">
-            <PriceList />
+            <MainServices />
           </Route>
           <Route path="/tvatt&rekond">
-            <PriceList />
+            <MainServices />
+          </Route>
+          <Route path="/dackverkstad">
+            <MainServices />
+          </Route>
+          <Route path="/dackhotell">
+            <MainServices />
           </Route>
           <Route path="/Home">
             <Home />

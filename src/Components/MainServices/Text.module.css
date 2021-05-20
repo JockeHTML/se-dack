@@ -1,0 +1,19 @@
+.text {
+  width: 550px;
+  margin-left: 4rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.text img {
+  margin-right: 2rem;
+}
+
+.text p {
+  font-size: 14px;
+}

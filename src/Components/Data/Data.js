@@ -35,8 +35,12 @@ const navLinks = [
     url: "/tvatt&rekond",
   },
   {
-    page: "Begagnat",
-    url: "/used",
+    page: "Däckverkstad",
+    url: "/dackverkstad",
+  },
+  {
+    page: "Däckhotell",
+    url: "/dackhotell",
   },
   {
     page: "Leverantörer",

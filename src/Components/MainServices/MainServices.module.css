@@ -28,33 +28,16 @@
   color: var(--color);
 }
 
-.title h1 {
-  margin-bottom: 3rem;
-}
-
 .title p {
   padding-bottom: var(--padding4);
   width: 50%;
   margin: auto;
 }
 
-.priceList {
-  padding: 0 0 var(--padding8) 0;
-}
-
-.priceList h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.priceList h2 {
-  text-align: center;
-  margin-top: 0;
-}
-
-@media (max-width: 768px) {
-  .priceList h1 {
-    font-size: 2.2rem;
-  }
+.mainServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: var(--padding8);
 }

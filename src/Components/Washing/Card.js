@@ -32,6 +32,11 @@ const Card = ({ title, price, one, two, three, four }) => {
           <p>{four}</p>
         </li>
       </ul>
+      <span className={styles.time}>
+        <i class="far fa-clock"></i>
+        <p>45 min</p>
+      </span>
+
       <div className={styles.buttons}>
         <Button />
       </div>

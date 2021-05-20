@@ -53,9 +53,23 @@
 }
 
 .buttons {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .card:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  padding-top: 1.4rem;
+}
+
+.time p {
+  color: black;
+}
+
+.time i {
+  color: var(--color);
 }

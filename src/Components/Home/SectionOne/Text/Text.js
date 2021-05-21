@@ -6,7 +6,8 @@ import ButtonBorder from "../../../ButtonBorder/ButtonBorder";
 function Text({ boxClick, setBoxClick }) {
   return (
     <div className={styles.text}>
-      <h1>Välkommen till SE Däckverkstad</h1>
+      <h4>DIN EXPERT INOM DÄCK & FÄLG!</h4>
+      <h1>Lorem ipsum dolor sit amet consectetur </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
         consequuntur velit ducimus ad assumenda nemo molestias tempora quia

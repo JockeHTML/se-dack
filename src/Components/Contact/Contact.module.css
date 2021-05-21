@@ -18,6 +18,10 @@
   color: var(--color);
 }
 
+.card img {
+  margin-bottom: 1rem;
+}
+
 .title h1 {
   margin-bottom: 1rem;
 }

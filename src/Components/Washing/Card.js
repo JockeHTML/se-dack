@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Card = ({ title, price, one, two, three, four }) => {
+const Card = ({ title, price, one, two, three, four, time }) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -34,7 +34,7 @@ const Card = ({ title, price, one, two, three, four }) => {
       </ul>
       <span className={styles.time}>
         <i class="far fa-clock"></i>
-        <p>45 min</p>
+        <p>{time}</p>
       </span>
 
       <div className={styles.buttons}>

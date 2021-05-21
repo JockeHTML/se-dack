@@ -5,15 +5,14 @@ import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import MainServices from "./Components/MainServices/MainServices";
 import Appointment from "./Components/Appointment/Appointment";
-import Used from "./Components/Used/Used";
 import Supplier from "./Components/Supplier/Supplier";
-import Tires from "./Components/Tires/Tires";
 import Staff from "./Components/Staff/Staff";
 import Contact from "./Components/Contact/Contact";
 import MoreInfoComponent from "./Components/MoreInfoComponent/MoreInfoComponent";
 import { AppProvider } from "./Components/Context/Context";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AllServices from "./Components/AllServices/AllServices";
+import TireServices from "./Components/TireServices/TireServices";
 
 function App() {
   return (
@@ -29,7 +28,7 @@ function App() {
             <AllServices />
           </Route>
           <Route path="/dack&falg">
-            <MainServices />
+            <TireServices />
           </Route>
           <Route path="/tvatt&rekond">
             <MainServices />
@@ -43,16 +42,10 @@ function App() {
           <Route path="/Home">
             <Home />
           </Route>
-          <Route path="/Used">
-            <Used />
-          </Route>
+
           <Route path="/Supplier">
             <Supplier />
           </Route>
-          <Route path="/Tires">
-            <Tires />
-          </Route>
-
           <Route path="/Staff">
             <Staff />
           </Route>

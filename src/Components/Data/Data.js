@@ -300,24 +300,6 @@ const rekondPrisLista = [
   },
 ];
 
-const begagnat = [
-  {
-    title: "Kompletta hjul",
-    text: "Vi har begagnade vinterhjul till diverse bilar. Bland annat BMW, Saab, Audi, Passat, Volvo mm.",
-    img: "https://static.wixstatic.com/media/3a04ff_48bd4e2d3558430dab6ca183102470fb~mv2.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3a04ff_48bd4e2d3558430dab6ca183102470fb~mv2.webp",
-  },
-  {
-    title: "Däck",
-    text: "Vi har begagnade däck i olika storlekar från 13 till 20 tum. Allt från vinter till sommardäck",
-    img: "https://static.wixstatic.com/media/3a04ff_f9d112bbecb8434395c54fbba40ebb5f~mv2.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3a04ff_f9d112bbecb8434395c54fbba40ebb5f~mv2.webp",
-  },
-  {
-    title: "Fälgar",
-    text: "Vi har begagnade fälgar finns till diverse bilar. Bland annat Audi, Saab, BMW, VW, Toyota mm.    ",
-    img: "https://static.wixstatic.com/media/3a04ff_365a23e077574abea7a089613494464c~mv2.jpg/v1/fill/w_554,h_300,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/3a04ff_365a23e077574abea7a089613494464c~mv2.webp",
-  },
-];
-
 const leverantörer = [
   {
     title: "Bridgestone",
@@ -368,38 +350,6 @@ const leverantörer = [
     title: "Boab",
     img: "https://images.eniro.com/yapp/9d99a542422248b79da503a6927e7a365111dd9e?name=default",
     url: "http://www.boabhjuldelar.se/",
-  },
-];
-
-const däck = [
-  {
-    icon: "fas fa-gavel",
-    title: "Vinterdäcks-lagen    ",
-    subTitle: "Vinterdäck krävs",
-    text1:
-      "Från 1 december – 31 mars om det är vinterväglag. Mönsterdjupet skall vara minst 3 mm.",
-    text2:
-      "Dubbdäck får användas från 1 oktober – 15 april, men även under annan tid om det är eller befaras bli vinterväglag.",
-  },
-  {
-    icon: "fas fa-ruler-combined",
-    title: "Mönsterdjup    ",
-    subTitle: "När sommardäcken slits",
-    text1:
-      "Under 3 millimeter ökar, vid vått väglag, bromssträckan och risken för vattenplaning betydligt.",
-    text2:
-      "Mät mönsterdjupet med ett femkronorsmynt. Avståndet mellan siffran 5 och kanten på myntet är 3 mm. Sommardäcken är olagliga när de slits under 1,6 mm (när det är krav på vinterdäck gäller minst 3 mm).      ",
-    text3:
-      "Vi rekommenderar att du byter dina sommardäck när du har ett mönsterdjup på 3 mm eller mindre och att du byter dina vinterdäck när du har 5 mm eller mindre.      ",
-  },
-  {
-    icon: "fas fa-exclamation-triangle",
-    title: "Sommardäck på sommaren",
-    subTitle: "Vi rekommenderar",
-    text1:
-      "Att du aldrig ska köra på dubbfria vinterdäck på sommaren, så kallade åretruntdäck. Vinterdäck har mönster och gummiblandning som är anpassade för att fungera när det är kallt, blött och vinterväglag. ",
-    text2:
-      "På sommaren ger dubbfria vinterdäck sämre grepp, längre bromssträcka, kortare livslängd och försämrad stabilitet vid en undanmanöver.",
   },
 ];
 
@@ -467,23 +417,23 @@ const personal = [
 
 const kontakt = [
   {
-    icon: "fas fa-map-marker-alt",
+    icon: "./images/location.png",
     title: "Address",
     text: "Ortviksvägen 39",
     text2: "85633 Sundsvall",
   },
   {
-    icon: "fas fa-phone",
+    icon: "./images/call.png",
     title: "Telefon",
     text: "060-619135    ",
   },
   {
-    icon: "far fa-envelope",
+    icon: "./images/email.png",
     title: "E-post",
     text: "info@sedack.se    ",
   },
   {
-    icon: "far fa-clock",
+    icon: "./images/time.png",
     title: "Öppettider",
     text: "Mån - Fre",
     text2: "07.00 - 16.00",
@@ -498,9 +448,7 @@ export {
   boka,
   däckPrisLista,
   rekondPrisLista,
-  begagnat,
   leverantörer,
-  däck,
   öppettider,
   personal,
   kontakt,
@@ -546,6 +494,7 @@ export const washData = [
     two: "schamponering",
     three: "fälg & däck",
     four: "torkning",
+    time: "25 min",
   },
   {
     title: "Handtvätt",
@@ -554,6 +503,7 @@ export const washData = [
     two: "schamponering",
     three: "fälg & däck",
     four: "torkning",
+    time: "25 min",
   },
 
   {
@@ -563,6 +513,7 @@ export const washData = [
     two: "schamponering",
     three: "fälg & däck",
     four: "torkning",
+    time: "25 min",
   },
 
   {
@@ -572,6 +523,7 @@ export const washData = [
     two: "schamponering",
     three: "fälg & däck",
     four: "torkning",
+    time: "25 min",
   },
   {
     title: "Lackförsegling    ",
@@ -580,6 +532,7 @@ export const washData = [
     two: "schamponering",
     three: "fälg & däck",
     four: "torkning",
+    time: "25 min",
   },
   {
     title: "Helrekond",
@@ -588,5 +541,64 @@ export const washData = [
     two: "schamponering",
     three: "fälg & däck",
     four: "torkning",
+    time: "25 min",
+  },
+];
+
+export const däckData = [
+  {
+    title: "Däckskifte",
+    price: "fr. 295:-",
+    one: "Mönsterdjup",
+    two: "Lufttryck",
+    three: "Rätt åtdragning",
+    four: "Nånting",
+    time: "15 min",
+  },
+  {
+    title: "Montering",
+    price: "fr. 150:-",
+    one: "Små till 24” hjul",
+    two: "Säkert och snabbt",
+    three: "blabla",
+    four: "Nånting",
+    time: "25 min",
+  },
+  {
+    title: "Balansering",
+    price: "fr. 150:-",
+    one: "Rengörning",
+    two: "Balansvikter",
+    three: "Slut inspektion",
+    four: "Nånting",
+    time: "30 min",
+  },
+];
+
+export const däckverkstadsData = [
+  {
+    heading: "VÅR MEST POPULÄRA TJÄNSTER",
+    title: "DÄCKSKIFTE",
+    text: "Medans du väntar skiftar vi dina däck. När du bokat ett däckskiftehos oss bör du ha med dig alla ev. extra bultar och eventuell låsbult. Detta för att vi ska kunna på ett snabbt och effektivt sätt skifta däcken.",
+    title2: "MONTERING",
+    text2:
+      "Med hjälp av nya moderna maskiner monterar vi säkert, snabbt och medhögsta precision alla typer av däck. Vi monterar allt från små däcktill känsliga 24”´s hjul. Med den senaste tekniken undviker vi såkallade monteringsskador som lätt kan uppstå då dagens däck blirallt känsligare.",
+    title3: "BALANSERING",
+    text3:
+      "Med hjälp av moderna maskiner balanserar vi dina hjul så du slipper obalans i hjul, ratt och bil.",
+  },
+];
+
+export const däckOchFälgData = [
+  {
+    heading: "ALLT IFRÅN NYTT TILL BEGAGNAT",
+    title: "DÄCK",
+    text: "Hos oss hittar ni kvalitetsdäck av kända märken som Continental, Gislaved, Nokian, Michelin, Pirelli, Vredestein, Dunlop, Bridgestone, Hankook. Givetvis har vi också budgetdäck tex Sailun, Antares som vi sålt en massa år nu och har bara bra erfarenhet av.",
+    title2: "FÄLG",
+    text2:
+      "Oavsett om du är ute efter ett par klassiska, sportiga eller andra specifika fälgar så kan vi hjälpa dig på vägen till dina nya fälgar. Det är dessutom mycket som ska stämma överens när det kommer till montering av nya fälgar. ",
+    title3: "BEGAGNAT",
+    text3:
+      "Vi har begagnade kompletta hjul, däck och fälgar till diverse bilar. Bland annat BMW, Saab, Audi, Passat, Volvo mm. Ring gärna för aktuella priser och saldo.",
   },
 ];

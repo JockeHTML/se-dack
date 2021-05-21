@@ -8,7 +8,7 @@ const Washing = () => {
     <div className={styles.wash}>
       <div className={styles.content}>
         {washData.map((data, index) => {
-          const { title, price, one, two, three, four } = data;
+          const { title, price, one, two, three, four, time } = data;
           return (
             <Card
               title={title}
@@ -17,6 +17,7 @@ const Washing = () => {
               two={two}
               three={three}
               four={four}
+              time={time}
             />
           );
         })}

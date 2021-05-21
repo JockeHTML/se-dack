@@ -25,7 +25,7 @@ function Contact(props) {
           return (
             <div data-aos="fade-up" key={index} className={styles.card}>
               {" "}
-              <i class={icon}></i>
+              <img src={icon} alt="{title}" />
               <div className={styles.text}>
                 <h2>{title}</h2>
                 <p>{text}</p>

@@ -16,9 +16,23 @@ function MainServices(props) {
         <h1>Vi hjälper dig hela vägen</h1>
       </div>
       {däckverkstadsData.map((data, index) => {
-        const { title, text, heading, title2, text2, title3, text3 } = data;
+        const {
+          img2,
+          img3,
+          img,
+          title,
+          text,
+          heading,
+          title2,
+          text2,
+          title3,
+          text3,
+        } = data;
         return (
           <Content
+            img2={img2}
+            img3={img3}
+            img={img}
             title2={title2}
             text2={text2}
             title3={title3}

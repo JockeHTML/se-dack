@@ -1,0 +1,55 @@
+.text {
+  justify-content: center;
+  display: flex;
+  padding-bottom: var(--padding8);
+}
+
+.title h2,
+.subInfo h2 {
+  margin-bottom: 0;
+}
+
+.title h4,
+.subInfo h4 {
+  margin: 0 0 2rem 0;
+  color: var(--color);
+}
+
+.content {
+  width: 1177px;
+}
+
+.info ul {
+  padding: 0;
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+}
+
+.info i {
+  font-size: 1.2rem;
+  color: green;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+}
+
+.subInfo h4 {
+  color: var(--color);
+}
+
+.subInfo {
+  margin-left: 4rem;
+}
+
+.subInfo h2:nth-child(2) {
+  margin-top: 2rem;
+}
+
+.second {
+  margin-top: 2rem;
+}

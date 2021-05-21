@@ -1,47 +1,33 @@
 import React from "react";
 import styles from "./Staff.module.css";
 import { personal } from "../Data/Data";
-import { Grid } from "@material-ui/core";
-import Button from "../Button/Button";
+import Contact from "../Contact/Contact";
 
 function Staff(props) {
   return (
     <div className={styles.staff}>
-      <h1>Vi som jobbar här</h1>
-      <h2>Kontor, Verkstad & Rekond</h2>
-      <Grid
-        justify="center"
-        xs={12}
-        md={12}
-        xl={12}
-        className={styles.gridContainer}
-        container
-        item
-      >
+      <div className={styles.title}>
+        <h4>SE Däckservice AB</h4>
+        <h1>Vi som hjälper dig</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
+          at eius exercitationem amet inventore pariatur asperiores natus
+          laudantium iure.
+        </p>
+      </div>
+      <div className={styles.gridContainer}>
         {personal.map((data, index) => {
           const { title, text, text2, img } = data;
           return (
-            <Grid
-              item
-              key={index}
-              md={4}
-              xs={12}
-              xl={2}
-              className={styles.gridItem}
-            >
-              <div className={styles.image}>
-                <img src={img} alt="" />
-              </div>
-              <div className={styles.text}>
-                <h2>{title}</h2>
-                <p>{text}</p>
-                <p>{text2}</p>
-              </div>
-            </Grid>
+            <div className={styles.card}>
+              <img src={img} alt="" />
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </div>
           );
         })}
-      </Grid>
-      <Button />
+      </div>
+      <Contact />
     </div>
   );
 }

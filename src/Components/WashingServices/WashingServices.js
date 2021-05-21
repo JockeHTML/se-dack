@@ -1,25 +1,29 @@
 import React from "react";
 import Content from "../MainServices/Content";
-import styles from "./TireServices.module.css";
-import { däckOchFälgData } from "../Data/Data";
-import Contact from "../Contact/Contact";
+import styles from "../TireServices/TireServices.module.css";
+import { tvattOchRekondData } from "../Data/Data";
+import Washing from "../Washing/Washing";
+import Text from "./Text";
 
 function TireServices(props) {
   return (
-    <div className={styles.mainServices}>
+    <div
+      style={{ paddingBottom: "var(--padding8)" }}
+      className={styles.mainServices}
+    >
       <div className={styles.topImage}>
-        <h1>DÄCK & FÄLG</h1>
+        <h1>TVÄTT & REKOND</h1>
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Vi hjälper dig hela vägen</h1>
+        <h1>Få din bil fräsch igen</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias
           tempora natus nostrum explicabo ex dolore repellendus officia minima
           placeat.
         </p>
       </div>
-      {däckOchFälgData.map((data, index) => {
+      {tvattOchRekondData.map((data, index) => {
         const {
           img2,
           img3,
@@ -47,8 +51,18 @@ function TireServices(props) {
           />
         );
       })}
+      <Text />
 
-      <Contact />
+      <div className={styles.title} style={{ paddingTop: "0" }}>
+        <h4>TVÄTT & REKOND</h4>
+        <h1 style={{ marginBottom: "1rem" }}>Boka din tid</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
+          at eius exercitationem amet inventore pariatur asperiores natus
+          laudantium iure.
+        </p>
+      </div>
+      <Washing />
     </div>
   );
 }

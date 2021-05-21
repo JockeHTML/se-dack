@@ -58,17 +58,17 @@ const navLinks = [
 
 const sectionThree = [
   {
-    title: "Däckbyte",
+    title: "Däckverkstad",
     text: "Hos oss skiftar du däck tryggt och säkert. Vi bjuder på kaffe och kaka medans du väntar.",
     src: "./images/lug.png",
-    link: "/dack&falg",
+    link: "/dackverkstad",
   },
   {
     title: "Däckhotell",
     text: "Förvara dina hjul hos oss. Enkelt och bekvämt. Vi förvarar samtliga hjul i vårt nybyggda däckhotell och kan garantera att dina hjul förvaras på ett korrekt sätt.",
 
     src: "./images/wheel.png",
-    link: "/dack&falg",
+    link: "/dackhotell",
   },
   {
     title: "Däck & Fälg",
@@ -391,25 +391,25 @@ const öppettider = [
 const personal = [
   {
     title: "Victor Holmgren",
-    text: "Kontor & Verkstad",
+    text: "KONTOR & VERKSTAD",
     text2: "Ägare",
     img: "https://static.wixstatic.com/media/3a04ff_d0ae09f0837c4f38aeaadfc15a03bbb4~mv2_d_2576_1680_s_2.jpg/v1/fill/w_476,h_330,al_c,q_80,usm_0.66_1.00_0.01/3a04ff_d0ae09f0837c4f38aeaadfc15a03bbb4~mv2_d_2576_1680_s_2.webp",
   },
   {
     title: "Marcus Rydell",
-    text: "Kontor & Verkstad",
+    text: "KONTOR & VERKSTAD",
     text2: "Ägare",
     img: "https://static.wixstatic.com/media/3a04ff_361620eb3473461a8f71843aa1c27286~mv2_d_3000_2000_s_2.jpg/v1/fill/w_476,h_330,al_c,q_80,usm_0.66_1.00_0.01/3a04ff_361620eb3473461a8f71843aa1c27286~mv2_d_3000_2000_s_2.webp",
   },
   {
     title: "Anders Hådén ",
-    text: "Rekonditionerare",
+    text: "REKONDITIONERARE",
     text2: "Anställd",
     img: "https://static.wixstatic.com/media/3a04ff_5efdf651796d468985103d3ca5a79bce~mv2_d_2342_1874_s_2.jpg/v1/fill/w_476,h_330,al_c,q_80,usm_0.66_1.00_0.01/3a04ff_5efdf651796d468985103d3ca5a79bce~mv2_d_2342_1874_s_2.webp",
   },
   {
     title: "Timmy Nordin",
-    text: "Rekonditionerare",
+    text: "REKONDITIONERARE",
     text2: "Anställd",
     img: "https://static.wixstatic.com/media/3a04ff_866539855b204838b34e9390cd23e519~mv2_d_1990_1638_s_2.jpg/v1/fill/w_476,h_330,al_c,q_80,usm_0.66_1.00_0.01/3a04ff_866539855b204838b34e9390cd23e519~mv2_d_1990_1638_s_2.webp",
   },
@@ -577,7 +577,10 @@ export const däckData = [
 
 export const däckverkstadsData = [
   {
-    heading: "VÅR MEST POPULÄRA TJÄNSTER",
+    img: "./images/lift.png",
+    img2: "./images/lugg.png",
+    img3: "./images/balance.png",
+    heading: "SÅ HÄR FUNGERAR DET",
     title: "DÄCKSKIFTE",
     text: "Medans du väntar skiftar vi dina däck. När du bokat ett däckskiftehos oss bör du ha med dig alla ev. extra bultar och eventuell låsbult. Detta för att vi ska kunna på ett snabbt och effektivt sätt skifta däcken.",
     title2: "MONTERING",
@@ -591,6 +594,9 @@ export const däckverkstadsData = [
 
 export const däckOchFälgData = [
   {
+    img: "./images/testare.png",
+    img2: "./images/rim.png",
+    img3: "./images/car.png",
     heading: "ALLT IFRÅN NYTT TILL BEGAGNAT",
     title: "DÄCK",
     text: "Hos oss hittar ni kvalitetsdäck av kända märken som Continental, Gislaved, Nokian, Michelin, Pirelli, Vredestein, Dunlop, Bridgestone, Hankook. Givetvis har vi också budgetdäck tex Sailun, Antares som vi sålt en massa år nu och har bara bra erfarenhet av.",
@@ -600,5 +606,22 @@ export const däckOchFälgData = [
     title3: "BEGAGNAT",
     text3:
       "Vi har begagnade kompletta hjul, däck och fälgar till diverse bilar. Bland annat BMW, Saab, Audi, Passat, Volvo mm. Ring gärna för aktuella priser och saldo.",
+  },
+];
+
+export const tvattOchRekondData = [
+  {
+    img: "./images/sponge.png",
+    img2: "./images/maintenance.png",
+    img3: "./images/clean.png",
+    heading: "SÅ HÄR FUNGERAR DET",
+    title: "UTVÄNDIG HANDTVÄTT",
+    text: "Avfettning, högtrycksspolning, schamponering, handtvätt, fälg & däckrengöring, rengöring av mattor & dörrgångar samt torkning.",
+    title2: "MOTORTVÄTT",
+    text2:
+      "Vid motortvätten avfettas motorutrymmet och motorns delar så de blir fria från fett och olja. Vi undviker att rengöra eller spola vatten direkt på bilens elektronik. ",
+    title3: "VIP-TVÄTT",
+    text3:
+      "Avfettning, högtryckspolning, schamponering, handtvätt, fälg & däck rengöring, torkning, rengöring av gummimattor & dörrgångar, paneler, dörrsidor, dammsugning av interiör & bagageutrymmet samt fönsterputs.    ",
   },
 ];

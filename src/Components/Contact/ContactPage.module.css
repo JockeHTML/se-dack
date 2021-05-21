@@ -1,0 +1,17 @@
+.topImage {
+  height: 400px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../images/tire.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--padding8);
+}
+
+.topImage h1 {
+  margin-bottom: 0;
+  color: white;
+}

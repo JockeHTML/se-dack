@@ -4,6 +4,7 @@ import styles from "../TireServices/TireServices.module.css";
 import { tvattOchRekondData } from "../Data/Data";
 import Washing from "../Washing/Washing";
 import Text from "./Text";
+import SmallSlider from "../Home/SmallSlider/SmallSlider";
 
 function TireServices(props) {
   return (
@@ -18,9 +19,8 @@ function TireServices(props) {
         <h4>SE DÄCKSERVICE AB</h4>
         <h1>Få din bil fräsch igen</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias
-          tempora natus nostrum explicabo ex dolore repellendus officia minima
-          placeat.
+          Vår tvätt & rekond finns tillgänglig för dig hela året. Kontakta oss
+          gärna om du har några speciella önskemål!
         </p>
       </div>
       {tvattOchRekondData.map((data, index) => {
@@ -52,16 +52,16 @@ function TireServices(props) {
         );
       })}
       <Text />
-
-      <div className={styles.title} style={{ paddingTop: "0" }}>
+      <SmallSlider />
+      <div className={styles.title}>
         <h4>TVÄTT & REKOND</h4>
         <h1 style={{ marginBottom: "1rem" }}>Boka din tid</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-          at eius exercitationem amet inventore pariatur asperiores natus
-          laudantium iure.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
+          Explicabo non ullam porro debitis soluta quia numquam ratione laborum.
         </p>
       </div>
+
       <Washing />
     </div>
   );

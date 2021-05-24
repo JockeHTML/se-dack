@@ -47,9 +47,8 @@ function MainServices(props) {
         <h4>DÄCKVERKSTAD</h4>
         <h1 style={{ marginBottom: "1rem" }}>Boka din tjänst</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-          at eius exercitationem amet inventore pariatur asperiores natus
-          laudantium iure.
+          Hos oss skiftar du däck tryggt och säkert. Vi bjuder på kaffe och kaka
+          medans du väntar.
         </p>
       </div>
       <div className={styles.content}>

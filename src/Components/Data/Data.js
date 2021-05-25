@@ -14,11 +14,6 @@ const headerData = [
     title: "Verkstad & Rekond",
     text: "Boka din tid idag",
   },
-  {
-    icon: "./images/cash.png",
-    title: "Räntefri delbetalning",
-    text: "24 månaders delbetalning",
-  },
 ];
 
 const navLinks = [
@@ -623,5 +618,22 @@ export const tvattOchRekondData = [
     title3: "VIP-TVÄTT",
     text3:
       "Avfettning, högtryckspolning, schamponering, handtvätt, fälg & däck rengöring, torkning, rengöring av gummimattor & dörrgångar, paneler, dörrsidor, dammsugning av interiör & bagageutrymmet samt fönsterputs.    ",
+  },
+];
+
+export const dackHotellData = [
+  {
+    img: "./images/wheel2.png",
+    img2: "./images/thermometer.png",
+    img3: "./images/guaranteed.png",
+    heading: "LÅT OSS FÖRVARA DINA DÄCK",
+    title: "PLATS FINNS",
+    text: "Hos oss förvarar du dina däck efter dina behov och önskemål. Utöver däckförvaring kan vi byta däcken och kontrollera deras skick. Om du behöver nya däck kontaktar vi dig i god tid innan det är dags att byta däcken. Däckhotellet kontrollerar lufttrycket, möjlighet för balansering och tvätt av hjulen finns.",
+    title2: "RÄTT FÖRVARING",
+    text2:
+      "När däcken förvaras på rätt sätt håller de längre. Däcken måste skyddas mot direkt solljus och mot starkt neonljus. Däcken måste även skyddas mot fukt och för hög värme. På vårt däckhotell råder optimala förvaringsförhållanden för dina däck. Dessutom sparar du tid och besvär.      ",
+    title3: "FÖRSÄKRADE",
+    text3:
+      "Dina däck är försäkrade och enligt försäkringsbolagens regler så är det din bils försäkring som gäller. Skulle något inträffa med dina däck under tiden vi förvarar dem så ersätter vi din självrisk.      ",
   },
 ];

@@ -1,21 +1,42 @@
 .topImage {
-  height: 550px;
+  height: 400px;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://di-uploads-pod21.dealerinspire.com/bochautomotive/uploads/2020/04/1703.jpg");
+    url("../../images/tire.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.supplier {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.gridContainer {
-  padding: 1rem 0;
+.topImage h1 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.title {
+  text-align: center;
+  padding-top: var(--padding8);
+}
+
+.title h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--color);
+}
+
+.title h1 {
+  margin-bottom: 1rem;
+}
+
+.title p {
+  padding-bottom: var(--padding4);
+  width: 70%;
+  margin: auto;
 }
 
 .image {
@@ -41,19 +62,13 @@
   flex-wrap: wrap;
 }
 
-.supplier h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0;
-  text-align: center;
+.gridContainer {
+  padding-bottom: var(--padding8) !important;
 }
 
-.supplier h2 {
-  text-align: center;
-  margin-top: 0;
-}
-
-@media (max-width: 768px) {
-  .supplier h1 {
-    font-size: 2.2rem;
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

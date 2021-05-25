@@ -3,4 +3,6 @@
   align-items: center;
   padding-bottom: var(--padding8);
   margin: auto;
+  width: 1177px;
+  max-width: 100%;
 }

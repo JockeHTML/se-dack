@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Staff.module.css";
 import { personal } from "../Data/Data";
 import Contact from "../Contact/Contact";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Staff(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className={styles.staff}>
       <div className={styles.title}>
@@ -15,7 +20,7 @@ function Staff(props) {
           laudantium iure.
         </p>
       </div>
-      <div className={styles.gridContainer}>
+      <div data-aos="fade-up" className={styles.gridContainer}>
         {personal.map((data, index) => {
           const { title, text, text2, img } = data;
           return (

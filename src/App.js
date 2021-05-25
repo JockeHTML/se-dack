@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AllServices from "./Components/AllServices/AllServices";
 import TireServices from "./Components/TireServices/TireServices";
 import WashingServices from "./Components/WashingServices/WashingServices";
+import TireHotel from "./Components/TireHotel/TireHotel";
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
             <MainServices />
           </Route>
           <Route path="/dackhotell">
-            <MainServices />
+            <TireHotel />
           </Route>
           <Route path="/Home">
             <Home />

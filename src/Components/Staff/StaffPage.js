@@ -1,6 +1,6 @@
 import React from "react";
 import Staff from "./Staff";
-import styles from "../Contact/ContactPage.module.css";
+import styles from "./StaffPage.module.css";
 
 const StaffPage = () => {
   return (

@@ -2,8 +2,8 @@
   color: var(--white);
   display: flex;
   flex-direction: column;
-  margin-right: 4rem;
   width: 600px;
+  margin-left: 20rem;
 }
 
 .text a {
@@ -19,7 +19,6 @@
 }
 
 .text h4 {
-  margin-bottom: 0;
   color: var(--color);
   font-size: 1rem;
   letter-spacing: 3px;

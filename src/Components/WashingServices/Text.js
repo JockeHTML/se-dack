@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Text.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Text = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className={styles.text}>
-      <div className={styles.content}>
+      <div data-aos="fade-up" className={styles.content}>
         <div className={styles.info}>
           <div className={styles.title}>
             <h2>LACKFÖRSEGLING</h2>

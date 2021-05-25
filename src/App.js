@@ -44,7 +44,6 @@ function App() {
           <Route path="/Home">
             <Home />
           </Route>
-
           <Route path="/Supplier">
             <Supplier />
           </Route>

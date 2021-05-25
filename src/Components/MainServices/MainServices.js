@@ -13,7 +13,7 @@ function MainServices(props) {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Vi hjälper dig hela vägen</h1>
+        <h1>Vi Hjälper Dig Hela Vägen</h1>
       </div>
       {däckverkstadsData.map((data, index) => {
         const {
@@ -45,7 +45,7 @@ function MainServices(props) {
       })}
       <div className={styles.title} style={{ paddingTop: "0" }}>
         <h4>DÄCKVERKSTAD</h4>
-        <h1 style={{ marginBottom: "1rem" }}>Boka din tjänst</h1>
+        <h1>Boka Din Tjänst</h1>
         <p>
           Hos oss skiftar du däck tryggt och säkert. Vi bjuder på kaffe och kaka
           medans du väntar.

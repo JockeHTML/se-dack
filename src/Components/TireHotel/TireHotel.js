@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "../MainServices/Content";
-import styles from "../TireServices/TireServices.module.css";
+import styles from "./TireHotel.module.css";
 import { dackHotellData } from "../Data/Data";
 import Contact from "../Contact/Contact";
 
@@ -12,7 +12,7 @@ function TireHotel(props) {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Boka din plats redan idag</h1>
+        <h1>Boka Din Plats Redan Idag</h1>
         <p>
           Förvara dina hjul hos oss. Enkelt och bekvämt. Vi förvarar samtliga
           hjul i vårt nybyggda däckhotell och kan garantera att dina hjul

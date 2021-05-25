@@ -9,7 +9,6 @@ function SectionOne(props) {
   return (
     <div className={styles.sectionOne}>
       <Text />
-      <Text2 />
     </div>
   );
 }

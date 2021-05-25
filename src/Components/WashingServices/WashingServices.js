@@ -1,6 +1,6 @@
 import React from "react";
 import Content from "../MainServices/Content";
-import styles from "../TireServices/TireServices.module.css";
+import styles from "./WashingServices.module.css";
 import { tvattOchRekondData } from "../Data/Data";
 import Washing from "../Washing/Washing";
 import Text from "./Text";
@@ -17,12 +17,13 @@ function TireServices(props) {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Få din bil fräsch igen</h1>
+        <h1>Få Din Bil Fräsch Igen</h1>
         <p>
           Vår tvätt & rekond finns tillgänglig för dig hela året. Kontakta oss
           gärna om du har några speciella önskemål!
         </p>
       </div>
+
       {tvattOchRekondData.map((data, index) => {
         const {
           img2,
@@ -55,7 +56,7 @@ function TireServices(props) {
       <SmallSlider />
       <div className={styles.title}>
         <h4>TVÄTT & REKOND</h4>
-        <h1 style={{ marginBottom: "1rem" }}>Boka din tid</h1>
+        <h1>Boka Din Tid</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
           Explicabo non ullam porro debitis soluta quia numquam ratione laborum.

@@ -12,7 +12,7 @@ function TireServices(props) {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Vi hjälper dig hela vägen</h1>
+        <h1>Rätt Lösning Till Din Bil</h1>
         <p>
           Vi erbjuder däck & fälg till alla bilar i olika prisklasser. Vi jobbar
           tillsammans med välkända och pålitliga leverantörer som Bridgestone,

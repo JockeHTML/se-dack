@@ -34,6 +34,7 @@ function TireHotel(props) {
         } = data;
         return (
           <Content
+            key={index}
             img2={img2}
             img3={img3}
             img={img}

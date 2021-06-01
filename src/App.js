@@ -4,11 +4,9 @@ import Nav from "./Components/Nav/Nav";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import MainServices from "./Components/MainServices/MainServices";
-import Appointment from "./Components/Appointment/Appointment";
 import Supplier from "./Components/Supplier/Supplier";
 import StaffPage from "./Components/Staff/StaffPage";
 import ContactPage from "./Components/Contact/ContactPage";
-import MoreInfoComponent from "./Components/MoreInfoComponent/MoreInfoComponent";
 import { AppProvider } from "./Components/Context/Context";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AllServices from "./Components/AllServices/AllServices";
@@ -23,9 +21,6 @@ function App() {
         <Heading />
         <Nav />
         <Switch>
-          <Route path="/Appointment">
-            <Appointment />
-          </Route>
           <Route path="/tjanster">
             <AllServices />
           </Route>
@@ -41,21 +36,19 @@ function App() {
           <Route path="/dackhotell">
             <TireHotel />
           </Route>
-          <Route path="/Home">
+          <Route path="/hem">
             <Home />
           </Route>
-          <Route path="/Supplier">
+          <Route path="/leverantorer">
             <Supplier />
           </Route>
-          <Route path="/Staff">
+          <Route path="/personal">
             <StaffPage />
           </Route>
-          <Route path="/Contact">
+          <Route path="/kontakt">
             <ContactPage />
           </Route>
-          <Route path="/MoreInfo">
-            <MoreInfoComponent />
-          </Route>
+
           <Route path="/">
             <Home />
           </Route>

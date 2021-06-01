@@ -21,14 +21,16 @@ function Text(props) {
             <h3>Därför väljer du</h3>
             <h3>SE Däckservice</h3>
           </div>
-          {sectionTwo.map((data, index) => {
-            const { icon, text } = data;
-            return (
-              <span key={index}>
-                <i class="fas fa-check-circle"></i> <h4>{text}</h4>
-              </span>
-            );
-          })}
+          <ul>
+            {sectionTwo.map((data, index) => {
+              const { icon, text } = data;
+              return (
+                <li key={index}>
+                  <i className="fas fa-check-circle"></i> <p>{text}</p>
+                </li>
+              );
+            })}
+          </ul>
           <div className={styles.buttons}>
             <Button />
           </div>

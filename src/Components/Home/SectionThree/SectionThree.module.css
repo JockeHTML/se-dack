@@ -30,4 +30,7 @@
 }
 
 @media (max-width: 768px) {
+  .title p {
+    width: 100%;
+  }
 }

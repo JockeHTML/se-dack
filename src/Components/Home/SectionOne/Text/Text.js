@@ -3,7 +3,7 @@ import styles from "./Text.module.css";
 import Button from "../../../Button/Button";
 import ButtonBorder from "../../../ButtonBorder/ButtonBorder";
 
-function Text({ boxClick, setBoxClick }) {
+function Text() {
   return (
     <div className={styles.text}>
       <h4>SE DÄCKSERVICE AB, DIN LOKALA DÄCKVERKSTAD</h4>

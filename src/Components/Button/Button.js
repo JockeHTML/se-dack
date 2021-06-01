@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 
 function Button(props) {
   return (
-    <div className={styles.contactBtn}>
-      <Link onClick={() => window.scrollTo(0, 0)} to="/contact">
-        Boka
+    <span>
+      <Link
+        className={styles.contactBtn}
+        onClick={() => window.scrollTo(0, 0)}
+        to="/tjanster"
+      >
+        Boka nu
+        <i className="fas fa-angle-right"></i>
       </Link>
-      <i class="fas fa-angle-right"></i>
-    </div>
+    </span>
   );
 }
 

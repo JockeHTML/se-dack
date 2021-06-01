@@ -10,6 +10,7 @@
   padding: 0 4rem;
   width: 400px;
   border-right: 1px solid var(--lightgrey);
+  max-width: 100%;
 }
 
 .gridItem p {
@@ -44,4 +45,18 @@
 }
 
 @media (max-width: 768px) {
+  .gridContainer {
+    flex-direction: column;
+  }
+  .gridItem {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    text-align: center;
+    margin-bottom: var(--padding4);
+  }
+  .gridContainer div:nth-child(4) {
+    margin-bottom: 0;
+  }
 }

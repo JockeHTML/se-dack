@@ -24,7 +24,7 @@ function Staff(props) {
         {personal.map((data, index) => {
           const { title, text, text2, img } = data;
           return (
-            <div className={styles.card}>
+            <div key={index} className={styles.card}>
               <img src={img} alt="" />
               <h3>{title}</h3>
               <p>{text}</p>

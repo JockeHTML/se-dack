@@ -24,3 +24,28 @@
   letter-spacing: 6px;
   color: var(--color);
 }
+
+@media (max-width: 768px) {
+  .smallSlider {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: var(--padding4) 1rem 0 1rem;
+  }
+  .content h2 {
+    margin: 0 0 2rem 0;
+  }
+  .buttons {
+    margin: 1rem 1rem var(--padding4) 1rem;
+  }
+  .image {
+    display: none;
+  }
+}

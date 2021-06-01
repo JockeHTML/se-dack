@@ -30,6 +30,7 @@ function MainServices(props) {
         } = data;
         return (
           <Content
+            key={index}
             img2={img2}
             img3={img3}
             img={img}
@@ -56,6 +57,7 @@ function MainServices(props) {
           const { title, price, one, two, three, four, time } = data;
           return (
             <Card
+              key={index}
               title={title}
               price={price}
               one={one}

@@ -19,8 +19,10 @@ function TireServices(props) {
         <h4>SE DÄCKSERVICE AB</h4>
         <h1>Få Din Bil Fräsch Igen</h1>
         <p>
-          Vår tvätt & rekond finns tillgänglig för dig hela året. Kontakta oss
-          gärna om du har några speciella önskemål!
+          Vår tvätt & rekond finns tillgänglig för dig året om. Vi utför allt
+          ifrån enklare tvättare till hel rekonditionering och
+          lackförseglningar, kontakta oss gärna om du har några speciella
+          önskemål.
         </p>
       </div>
 
@@ -39,6 +41,7 @@ function TireServices(props) {
         } = data;
         return (
           <Content
+            key={index}
             img2={img2}
             img3={img3}
             img={img}

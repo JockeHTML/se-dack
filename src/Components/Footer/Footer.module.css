@@ -14,8 +14,11 @@
 }
 
 .border {
-  background-color: #241e20;
-  width: 100%;
+  text-align: center;
+  border-top: 1px solid white;
+  background-color: transparent;
+  width: 90%;
+  margin: auto;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -30,7 +33,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 }
 

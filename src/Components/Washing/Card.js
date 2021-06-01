@@ -16,24 +16,24 @@ const Card = ({ title, price, one, two, three, four, time }) => {
       </div>
       <ul>
         <li>
-          <i class="fas fa-check-circle"></i>
+          <i className="fas fa-check-circle"></i>
           <p>{one}</p>
         </li>
         <li>
-          <i class="fas fa-check-circle"></i>
+          <i className="fas fa-check-circle"></i>
           <p>{two}</p>
         </li>
         <li>
-          <i class="fas fa-check-circle"></i>
+          <i className="fas fa-check-circle"></i>
           <p>{three}</p>
         </li>
         <li>
-          <i class="fas fa-check-circle"></i>
+          <i className="fas fa-check-circle"></i>
           <p>{four}</p>
         </li>
       </ul>
       <span className={styles.time}>
-        <i class="far fa-clock"></i>
+        <i className="far fa-clock"></i>
         <p>{time}</p>
       </span>
 

@@ -10,3 +10,17 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content :nth-child(6) {
+    margin-bottom: 0;
+  }
+  .content :nth-child(1) {
+    margin-top: 0;
+  }
+}

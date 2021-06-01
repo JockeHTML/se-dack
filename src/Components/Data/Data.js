@@ -18,6 +18,10 @@ const headerData = [
 
 const navLinks = [
   {
+    page: "Hem",
+    url: "/",
+  },
+  {
     page: "Tjänster",
     url: "/tjanster",
   },
@@ -39,15 +43,15 @@ const navLinks = [
   },
   {
     page: "Leverantörer",
-    url: "/supplier",
+    url: "/leverantorer",
   },
   {
     page: "Personal",
-    url: "/staff",
+    url: "/personal",
   },
   {
     page: "Kontakt",
-    url: "/contact",
+    url: "/kontakt",
   },
 ];
 
@@ -74,7 +78,7 @@ const sectionThree = [
   },
   {
     title: "Tvätt & Rekond",
-    text: "Vår tvätt & rekond finns tillgänglig för dig hela året. Kontakta oss gärna om du har några speciella önskemål!",
+    text: "Vår tvätt & rekond finns tillgänglig för dig året om. Vi utför allt ifrån enklare tvättare till hel rekonditionering och lackförseglningar, kontakta oss gärna om du har några speciella önskemål.",
 
     src: "./images/wash.png",
     link: "/tvatt&rekond",
@@ -572,7 +576,7 @@ export const däckData = [
 
 export const däckverkstadsData = [
   {
-    img: "./images/lift.png",
+    img: "./images/wheel2.png",
     img2: "./images/lugg.png",
     img3: "./images/balance.png",
     heading: "SÅ HÄR FUNGERAR DET",

@@ -67,7 +67,7 @@ const Text = () => {
           </div>
           <div className={styles.second}>
             {" "}
-            <h2>INVÄNDIG REKOND</h2>
+            <h2>HEL REKOND</h2>
             <h4>Matrix Black NordicSilox 5D</h4>
             <p>
               Med helrekond utför vi en in- & utvändig rekond. Förutom stegen i

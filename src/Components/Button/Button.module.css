@@ -2,19 +2,13 @@
   cursor: pointer;
   background-color: var(--color);
   display: flex;
-  width: 200px;
   height: 60px;
-  padding: 18px 39px;
+  width: 200px;
   justify-content: center;
   align-items: center;
-  margin-right: 1rem;
-  display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
-}
-
-.contactBtn a {
+  border-radius: 40px;
   font-size: 16px;
   color: var(--white);
   text-decoration: none;
@@ -23,12 +17,11 @@
   letter-spacing: 0;
   line-height: 1em;
   outline: 0;
-  margin: 1rem;
+  margin: 0 5px 1rem 5px;
 }
 
 .contactBtn i {
-  font-size: 1.1rem;
-  color: white;
+  margin-left: 1.5rem;
 }
 
 .contactBtn span:hover {

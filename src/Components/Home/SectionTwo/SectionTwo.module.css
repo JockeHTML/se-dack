@@ -23,22 +23,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 100%;
+  width: 1177px;
 }
 
 @media (max-width: 768px) {
-  .heading h1 {
-    font-size: 2.2rem;
-  }
-  .heading {
-    text-align: center;
-  }
-  .content img {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1366px) {
-  .heading {
-    padding: 0 2rem;
-  }
 }

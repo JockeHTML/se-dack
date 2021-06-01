@@ -11,7 +11,7 @@ const AllServices = () => {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Rätt tjänst för dig</h1>
+        <h1>Rätt Tjänst För Dig</h1>
         <p>
           Endast nöjda kunder är lojala kunder. Vår servicekvalitet är inte bara
           tomma ord, det är en del av vårt företags DNA. Vårt primära mål är att

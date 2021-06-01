@@ -22,7 +22,7 @@ function Content(props) {
             <p>{text.slice(0, 99) + "..."}</p>
             <span>
               <Link onClick={() => window.scrollTo(0, 0)} to={link}>
-                Läs mer <i class="fas fa-angle-right"></i>
+                Läs mer <i className="fas fa-angle-right"></i>
               </Link>
             </span>
           </div>

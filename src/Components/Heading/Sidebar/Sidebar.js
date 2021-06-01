@@ -16,20 +16,20 @@ function Sidebar(props) {
     <div className={sideBar ? styles.sidebarActive : styles.sidebarWrapper}>
       <i onClick={() => setSideBar(!sideBar)} className="fas fa-bars"></i>
       <div className={styles.sideBarLinks}>
-        {sideBar
-          ? navLinks.map((data, index) => {
-              const { page, url } = data;
-              return (
-                <ul key={index}>
-                  <li>
+        <ul>
+          {sideBar
+            ? navLinks.map((data, index) => {
+                const { page, url } = data;
+                return (
+                  <li key={index}>
                     <Link onClick={linkClick} to={url}>
                       {page}
                     </Link>
                   </li>
-                </ul>
-              );
-            })
-          : null}
+                );
+              })
+            : null}
+        </ul>
       </div>
     </div>
   );

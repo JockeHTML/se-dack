@@ -11,6 +11,7 @@ const Washing = () => {
           const { title, price, one, two, three, four, time } = data;
           return (
             <Card
+              key={index}
               title={title}
               price={price}
               one={one}

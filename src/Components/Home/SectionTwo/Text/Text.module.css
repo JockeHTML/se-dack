@@ -4,25 +4,26 @@
   flex-direction: column;
   margin: auto;
   padding-bottom: var(--padding8);
+  max-width: 100%;
 }
 
 .content {
   display: flex;
 }
 
-.image img {
-  max-width: 100%;
+.image {
+  margin-right: 4rem;
 }
 
 .image img {
+  max-width: 100%;
   width: 600px;
-  height: 450px;
   object-fit: cover;
   object-position: center;
 }
 
 .heading h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .heading h3:nth-child(1) {
@@ -36,19 +37,24 @@
 }
 
 .icons {
-  padding-left: 2rem;
   display: flex;
   flex-direction: column;
 }
 
-.text span {
+.text li {
   color: var(--dark);
   display: flex;
   align-items: center;
-  padding: 0 0 1.5rem 0;
+  padding: 0 0 1rem 0;
+  margin: 0;
 }
 
-.text span:nth-child(5) {
+.text ul {
+  padding: 0;
+  margin: 0;
+}
+
+.text li:nth-child(4) {
   padding: 0;
 }
 
@@ -60,7 +66,9 @@
 
 .buttons i {
   color: white;
-  font-size: 1.1rem;
+  margin-right: 0;
+  font-size: inherit;
+  padding-bottom: 0;
 }
 
 .buttons {
@@ -68,20 +76,27 @@
 }
 
 @media (max-width: 768px) {
-  .text {
+  .content {
     flex-direction: column;
+  }
+  .image {
     width: 100%;
   }
-  .icons {
-    padding: 5px;
-  }
-  .heading h2 {
-    text-align: center;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1366px) {
   .text {
-    padding: 0 2rem;
+    padding-bottom: 3rem;
+  }
+  .image img {
+    width: 100%;
+  }
+  .heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .content p {
+    line-height: 1.4;
+  }
+  .buttons {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

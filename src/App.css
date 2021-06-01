@@ -54,8 +54,8 @@ a {
   --white: #fff;
   --grey: #7f888f;
   --lightgrey: rgb(241, 241, 241);
-  --dark: #131011;
-  --black: #000000;
+  --dark: #000000;
+  --black: #131011;
   --white: #fff;
   --color: #e6192e;
   --red: #f899a4;
@@ -107,6 +107,7 @@ h4 {
 @media (max-width: 768px) {
   h1 {
     font-size: 32px;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: 24px;

@@ -1,6 +1,7 @@
 .bigSlider {
   display: flex;
   height: 500px;
+  max-width: 100%;
 }
 
 .image {
@@ -43,13 +44,12 @@
 }
 
 .buttons {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 768px) {
   .bigSlider {
     flex-direction: column;
-    width: 100%;
     height: auto;
   }
   .content {
@@ -67,6 +67,7 @@
   .content h1 {
     text-align: center;
     width: 100%;
+    margin: 0 0 2rem 0;
   }
   .text {
     width: 100%;

@@ -1,23 +1,28 @@
 .sidebarWrapper {
-  position: fixed;
   padding: 1rem;
-  display: none;
   height: 25px;
   z-index: 2;
+  display: none;
 }
 
 .sidebarWrapper i {
+  position: fixed;
   cursor: pointer;
   color: var(--color);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  position: fixed;
 }
 
 .sidebarActive i {
   cursor: pointer;
   color: var(--white);
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.8rem;
   position: fixed;
+  right: 15px;
+  top: 15px;
 }
 
 .sidebarActive {
@@ -26,18 +31,26 @@
   height: 100%;
   background-color: var(--color);
   position: fixed;
-  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebarActive a,
 li {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   text-decoration: none;
   list-style: none;
   color: var(--white);
+  margin: 1rem 0;
 }
 
 .sidebarActive ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 0;
 }
 

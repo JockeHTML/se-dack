@@ -1,5 +1,5 @@
 .nav {
-  background-color: var(--dark);
+  background-color: var(--black);
   width: 100%;
   height: 50px;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .restofLinks li {
-  border-left: 2px solid var(--grey);
+  border-left: 2px solid var(--white);
   display: flex;
 }
 

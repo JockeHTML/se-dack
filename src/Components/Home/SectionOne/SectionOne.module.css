@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
   padding: var(--padding6) 0;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {

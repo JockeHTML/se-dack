@@ -457,23 +457,23 @@ export {
 export const openingHoursData = [
   {
     title: "Måndag",
-    text: "08 - 17",
+    text: "07 - 16",
   },
   {
     title: "Tisdag",
-    text: "08 - 17",
+    text: "07 - 16",
   },
   {
     title: "Onsdag",
-    text: "08 - 17",
+    text: "07 - 16",
   },
   {
     title: "Torsdag",
-    text: "08 - 17",
+    text: "07 - 18",
   },
   {
     title: "Fredag",
-    text: "08 - 17",
+    text: "07 - 16",
   },
   {
     title: "Lördag",
@@ -579,6 +579,7 @@ export const däckverkstadsData = [
     img: "./images/wheel2.png",
     img2: "./images/lugg.png",
     img3: "./images/balance.png",
+    headingImg: "./images/stacked.jpg",
     heading: "SÅ HÄR FUNGERAR DET",
     title: "DÄCKSKIFTE",
     text: "Medans du väntar skiftar vi dina däck. När du bokat ett däckskiftehos oss bör du ha med dig alla ev. extra bultar och eventuell låsbult. Detta för att vi ska kunna på ett snabbt och effektivt sätt skifta däcken.",
@@ -596,6 +597,7 @@ export const däckOchFälgData = [
     img: "./images/testare.png",
     img2: "./images/rim.png",
     img3: "./images/car.png",
+    headingImg: "./images/rims.jpg",
     heading: "ALLT IFRÅN NYTT TILL BEGAGNAT",
     title: "DÄCK",
     text: "Hos oss hittar ni kvalitetsdäck av kända märken som Continental, Gislaved, Nokian, Michelin, Pirelli, Vredestein, Dunlop, Bridgestone, Hankook. Givetvis har vi också budgetdäck tex Sailun, Antares som vi sålt en massa år nu och har bara bra erfarenhet av.",
@@ -613,6 +615,7 @@ export const tvattOchRekondData = [
     img: "./images/sponge.png",
     img2: "./images/maintenance.png",
     img3: "./images/clean.png",
+    headingImg: "./images/wash2.jpg",
     heading: "SÅ HÄR FUNGERAR DET",
     title: "UTVÄNDIG HANDTVÄTT",
     text: "Avfettning, högtrycksspolning, schamponering, handtvätt, fälg & däckrengöring, rengöring av mattor & dörrgångar samt torkning.",
@@ -630,6 +633,7 @@ export const dackHotellData = [
     img: "./images/wheel2.png",
     img2: "./images/thermometer.png",
     img3: "./images/guaranteed.png",
+    headingImg: "./images/tires2.jpg",
     heading: "LÅT OSS FÖRVARA DINA DÄCK",
     title: "PLATS FINNS",
     text: "Hos oss förvarar du dina däck efter dina behov och önskemål. Utöver däckförvaring kan vi byta däcken och kontrollera deras skick. Om du behöver nya däck kontaktar vi dig i god tid innan det är dags att byta däcken. Däckhotellet kontrollerar lufttrycket, möjlighet för balansering och tvätt av hjulen finns.",

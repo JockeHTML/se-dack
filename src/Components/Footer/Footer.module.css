@@ -15,7 +15,7 @@
 
 .border {
   text-align: center;
-  border-top: 1px solid white;
+  border-top: 1px solid #3e3e3e;
   background-color: transparent;
   width: 90%;
   margin: auto;
@@ -25,9 +25,9 @@
   align-items: center;
 }
 
-.border h4 {
+.border p {
   color: white;
-  font-size: 1rem;
+  font-size: 14px;
   margin-bottom: 0;
 }
 

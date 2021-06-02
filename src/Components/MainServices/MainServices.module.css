@@ -1,7 +1,7 @@
 .topImage {
   height: 500px;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../images/hands.jpg");
   background-size: cover;
   background-position: center;
@@ -36,9 +36,13 @@
   color: var(--color);
 }
 
+.title h1 {
+  margin-bottom: 1rem;
+}
+
 .title p {
   padding-bottom: var(--padding4);
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 

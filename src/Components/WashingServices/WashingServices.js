@@ -38,9 +38,11 @@ function TireServices(props) {
           text2,
           title3,
           text3,
+          headingImg,
         } = data;
         return (
           <Content
+            headingImg={headingImg}
             key={index}
             img2={img2}
             img3={img3}

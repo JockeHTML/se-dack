@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={classes.footer}>
       <Contact />
       <div className={classes.border}>
-        <h4>© 2021 SE DÄCKSERVICE AB , ALL RIGHTS RESERVED</h4>
+        <p>© 2021 SE DÄCKSERVICE AB , ALL RIGHTS RESERVED</p>
       </div>
     </footer>
   );

@@ -14,9 +14,15 @@ function MainServices(props) {
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
         <h1>Vi Hjälper Dig Hela Vägen</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          debitis. Soluta corporis ipsam, nemo tenetur possimus quas totam sunt
+          sed.
+        </p>
       </div>
       {däckverkstadsData.map((data, index) => {
         const {
+          headingImg,
           img2,
           img3,
           img,
@@ -30,6 +36,7 @@ function MainServices(props) {
         } = data;
         return (
           <Content
+            headingImg={headingImg}
             key={index}
             img2={img2}
             img3={img3}
@@ -48,8 +55,8 @@ function MainServices(props) {
         <h4>DÄCKVERKSTAD</h4>
         <h1>Boka Din Tjänst</h1>
         <p>
-          Hos oss skiftar du däck tryggt och säkert. Vi bjuder på kaffe och kaka
-          medans du väntar.
+          Hos oss skiftar du dina däck tryggt och säkert. Vi bjuder på kaffe och
+          kaka medans du väntar.
         </p>
       </div>
       <div className={styles.content}>

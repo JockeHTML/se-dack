@@ -2,13 +2,17 @@
   display: flex;
   justify-content: center;
   padding: 0;
+  width: 1177px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .gridItem {
   display: flex;
   flex-direction: column;
-  padding: 0 4rem;
-  width: 400px;
+  padding: 0 2rem;
+  text-align: center;
+  align-items: center;
   border-right: 1px solid var(--lightgrey);
   max-width: 100%;
 }

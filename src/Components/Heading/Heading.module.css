@@ -1,9 +1,10 @@
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   height: auto;
   align-items: center;
+  background-color: black;
+  padding: 1rem 4rem;
 }
 
 .content {
@@ -13,18 +14,20 @@
 .header p {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
-.header h4 {
-  color: black;
+.top p {
+  color: white;
   padding: 0;
   margin: 0;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .logo img {
-  width: 250px;
+  width: 100px;
   height: 100px;
+  border-radius: 100vh;
   object-fit: cover;
   object-position: center;
 }

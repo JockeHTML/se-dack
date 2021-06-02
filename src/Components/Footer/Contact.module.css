@@ -1,7 +1,8 @@
 .contact {
   display: flex;
   padding: var(--padding4) 0;
-  justify-content: space-evenly;
+  width: 1177px;
+  justify-content: center;
   margin: auto;
 }
 

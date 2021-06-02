@@ -5,7 +5,7 @@ import { openingHoursData } from "../Data/Data";
 const OpeningHours = () => {
   return (
     <div className={classes.openingHours}>
-      <h2>Öppettider</h2>
+      <h3>Öppettider</h3>
       <ul>
         {openingHoursData.map((data, index) => {
           const { title, text } = data;

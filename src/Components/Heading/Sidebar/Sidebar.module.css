@@ -38,7 +38,7 @@
 }
 
 .sidebarActive a,
-li {
+.sidebarActive li {
   font-size: 1.4rem;
   text-decoration: none;
   list-style: none;

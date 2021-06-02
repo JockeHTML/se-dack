@@ -12,7 +12,7 @@ function Contact(props) {
     <div className={styles.contact}>
       <div className={styles.title}>
         <h4>Kontakta oss</h4>
-        <h1>Hör Av Dig Till Oss</h1>
+        <h1>Hör av dig till oss</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
           at eius exercitationem amet inventore pariatur asperiores natus

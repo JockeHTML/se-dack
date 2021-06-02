@@ -10,6 +10,16 @@
   text-align: center;
 }
 
+.title h1 {
+  margin-bottom: 1rem;
+}
+
+.title p {
+  padding-bottom: var(--padding4);
+  width: 70%;
+  margin: auto;
+}
+
 .title h4 {
   margin-bottom: 0;
   font-weight: 700;

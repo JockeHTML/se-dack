@@ -16,7 +16,14 @@
 
 .openingHours p {
   font-weight: 400;
-  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
+}
+
+.openingHours h3 {
+  color: white;
 }
 
 .openingHours span {

@@ -7,11 +7,6 @@ function Nav(props) {
   return (
     <div className={styles.nav}>
       <div className={styles.links}>
-        <ul className={styles.homeLink}>
-          <li>
-            <Link to="/home">HEM</Link>
-          </li>
-        </ul>
         <ul className={styles.restofLinks}>
           {navLinks.map((link, index) => {
             const { page, url } = link;

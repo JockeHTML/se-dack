@@ -12,7 +12,7 @@ function TireHotel(props) {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Boka Din Plats Redan Idag</h1>
+        <h1>Boka din plats redan idag</h1>
         <p>
           Förvara dina hjul hos oss. Enkelt och bekvämt. Vi förvarar samtliga
           hjul i vårt nybyggda däckhotell och kan garantera att dina hjul
@@ -31,9 +31,11 @@ function TireHotel(props) {
           text2,
           title3,
           text3,
+          headingImg,
         } = data;
         return (
           <Content
+            headingImg={headingImg}
             key={index}
             img2={img2}
             img3={img3}

@@ -2,14 +2,15 @@
   list-style: none;
   padding: 0;
   margin: 1rem 0 0 0;
-}
-
-.links a {
-  color: var(--black);
+  width: 100%;
 }
 
 .links p {
   font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
 }
 
 .links span {
@@ -17,7 +18,12 @@
   align-items: center;
 }
 
+.links h3 {
+  color: white;
+}
+
 .links i {
+  font-size: 14px;
   color: var(--color);
   margin-right: 10px;
 }

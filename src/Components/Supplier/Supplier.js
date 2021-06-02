@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import styles from "./Supplier.module.css";
 import { Grid } from "@material-ui/core";
 import { leverantörer } from "../Data/Data";
-import Contact from "../Contact/Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -55,7 +54,6 @@ function Supplier(props) {
           })}
         </Grid>
       </div>
-      <Contact />
     </div>
   );
 }

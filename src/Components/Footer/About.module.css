@@ -1,5 +1,36 @@
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logo h1 {
+  color: var(--color);
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin: 0 0 0 5px;
+}
+
+.logo span {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
 .about p {
   width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
 }
 
 .about p {
@@ -13,10 +44,6 @@
 
 .icons img {
   margin-right: 10px;
-}
-
-.about {
-  margin: 0 2rem 0 0;
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {

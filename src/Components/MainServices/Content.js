@@ -14,10 +14,11 @@ const Content = ({
   text2,
   title3,
   text3,
+  headingImg,
 }) => {
   return (
     <div className={styles.content}>
-      <Image />
+      <Image headingImg={headingImg} />
       <Text
         img2={img2}
         img3={img3}

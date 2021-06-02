@@ -1,8 +1,11 @@
 .nav {
-  background-color: var(--black);
   width: 100%;
-  height: 50px;
+  height: auto;
   display: flex;
+  background-color: black;
+  padding: 10px;
+  border-top: 1px solid #3e3e3e;
+  border-bottom: 1px solid #3e3e3e;
 }
 
 .links {
@@ -10,14 +13,12 @@
   display: flex;
 }
 
-.homeLink li {
+.restofLinks li {
   display: flex;
-  border: none;
 }
 
-.restofLinks li {
-  border-left: 2px solid var(--white);
-  display: flex;
+.restofLinks li:nth-child(1) {
+  border: 0;
 }
 
 .links ul {
@@ -30,12 +31,14 @@
 }
 
 .links a {
-  margin: 0 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 2.8125rem;
+  margin: 0 1rem;
   cursor: pointer;
   color: var(--white);
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {

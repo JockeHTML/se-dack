@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Image.module.css";
 
-const Image = () => {
+const Image = ({ headingImg }) => {
   return (
     <div className={styles.image}>
-      <img src="./images/wash2.jpg" alt="" />
+      <img src={headingImg} alt="Bild på tjänst" />
     </div>
   );
 };

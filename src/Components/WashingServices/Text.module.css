@@ -17,6 +17,7 @@
 
 .content {
   width: 1177px;
+  max-width: 100%;
 }
 
 .info ul {
@@ -52,4 +53,13 @@
 
 .second {
   margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  .subInfo {
+    margin-left: 0;
+  }
 }

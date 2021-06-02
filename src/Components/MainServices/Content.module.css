@@ -1,8 +1,14 @@
 .content {
   display: flex;
   align-items: center;
-  padding-bottom: var(--padding8);
+  padding-bottom: var(--padding8) 0;
   margin: auto;
   width: 1177px;
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
 }

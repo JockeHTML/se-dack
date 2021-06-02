@@ -72,7 +72,7 @@
     padding: var(--padding4) 0;
   }
   .card {
-    padding: 0 1rem var(--padding4) 1rem;
+    padding: 0 0 var(--padding4) 0;
   }
   .content div:nth-child(4) {
     padding-bottom: 0;

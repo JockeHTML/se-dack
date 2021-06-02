@@ -1,5 +1,4 @@
 .topImage {
-  height: 500px;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../images/tire.jpg");
@@ -8,10 +7,11 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  padding: 10rem 0;
 }
 
 .content {
-  padding-bottom: var(--padding8);
+  padding: 0 1rem var(--padding8) 1rem;
 }
 
 .topImage h1 {
@@ -41,4 +41,13 @@
   padding-bottom: var(--padding8);
   width: 50%;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .title p {
+    width: 100%;
+  }
+  .title p {
+    padding-bottom: var(--padding4);
+  }
 }

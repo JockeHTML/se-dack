@@ -13,6 +13,10 @@
   text-transform: none;
 }
 
+.links li {
+  margin-bottom: 5px;
+}
+
 .links span {
   display: flex;
   align-items: center;

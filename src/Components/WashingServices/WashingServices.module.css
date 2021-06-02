@@ -17,18 +17,11 @@
 
 .title {
   text-align: center;
-  padding-top: var(--padding8);
+  padding: var(--padding8) 1rem 0 1rem;
 }
 
 .title h1 {
   margin-bottom: 1rem;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 1177px;
 }
 
 .title h4 {
@@ -49,6 +42,15 @@
 .mainServices {
   display: flex;
   flex-direction: column;
+  padding: 0 0 var(--padding8) 0;
+}
 
-  padding-bottom: var(--padding8);
+.content {
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .title p {
+    width: 100%;
+  }
 }

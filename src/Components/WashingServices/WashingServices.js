@@ -8,10 +8,7 @@ import SmallSlider from "../Home/SmallSlider/SmallSlider";
 
 function TireServices(props) {
   return (
-    <div
-      style={{ paddingBottom: "var(--padding8)" }}
-      className={styles.mainServices}
-    >
+    <div className={styles.mainServices}>
       <div className={styles.topImage}>
         <h1>TVÄTT & REKOND</h1>
       </div>
@@ -25,39 +22,41 @@ function TireServices(props) {
           önskemål.
         </p>
       </div>
+      <div className={styles.content}>
+        {tvattOchRekondData.map((data, index) => {
+          const {
+            img2,
+            img3,
+            img,
+            title,
+            text,
+            heading,
+            title2,
+            text2,
+            title3,
+            text3,
+            headingImg,
+          } = data;
+          return (
+            <Content
+              headingImg={headingImg}
+              key={index}
+              img2={img2}
+              img3={img3}
+              img={img}
+              title2={title2}
+              text2={text2}
+              title3={title3}
+              text3={text3}
+              title={title}
+              text={text}
+              heading={heading}
+            />
+          );
+        })}
 
-      {tvattOchRekondData.map((data, index) => {
-        const {
-          img2,
-          img3,
-          img,
-          title,
-          text,
-          heading,
-          title2,
-          text2,
-          title3,
-          text3,
-          headingImg,
-        } = data;
-        return (
-          <Content
-            headingImg={headingImg}
-            key={index}
-            img2={img2}
-            img3={img3}
-            img={img}
-            title2={title2}
-            text2={text2}
-            title3={title3}
-            text3={text3}
-            title={title}
-            text={text}
-            heading={heading}
-          />
-        );
-      })}
-      <Text />
+        <Text />
+      </div>
       <SmallSlider />
       <div className={styles.title}>
         <h4>TVÄTT & REKOND</h4>
@@ -66,9 +65,9 @@ function TireServices(props) {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
           Explicabo non ullam porro debitis soluta quia numquam ratione laborum.
         </p>
-      </div>
 
-      <Washing />
+        <Washing />
+      </div>
     </div>
   );
 }

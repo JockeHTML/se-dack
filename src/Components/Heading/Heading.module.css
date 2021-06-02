@@ -42,14 +42,11 @@
 .logo span {
   margin-left: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .contact,
 .logo {
   display: flex;
-  justify-content: center;
 }
 
 .contact {
@@ -73,6 +70,7 @@
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
+    padding: 0 0 2rem 0;
   }
   .content {
     display: none;

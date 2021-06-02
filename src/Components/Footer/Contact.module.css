@@ -1,13 +1,10 @@
 .contact {
-  display: flex;
   padding: var(--padding4) 0;
   width: 1177px;
   justify-content: center;
   margin: auto;
-}
-
-.contact > div {
-  flex-basis: 300px;
+  display: flex;
+  max-width: 100%;
 }
 
 .contact h2 {
@@ -19,14 +16,19 @@
   color: white;
 }
 
+.links {
+  display: flex;
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .contact {
     flex-direction: column;
     padding: 0 0 var(--padding2) 0;
   }
-  .contact > div {
-    flex-basis: auto;
-    padding: 2rem 0 0 0;
+
+  .links {
+    flex-direction: column;
   }
 }
 

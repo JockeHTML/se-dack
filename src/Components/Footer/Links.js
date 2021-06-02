@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Links = () => {
   return (
     <div className={classes.links}>
-      <h3>Länkar</h3>
+      <h3>LÄNKAR</h3>
       <ul>
         {navLinks.map((data, index) => {
           const { page, url } = data;

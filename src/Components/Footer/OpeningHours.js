@@ -5,18 +5,14 @@ import { openingHoursData } from "../Data/Data";
 const OpeningHours = () => {
   return (
     <div className={classes.openingHours}>
-      <h3>Öppettider</h3>
+      <h3>ÖPPETTIDER</h3>
       <ul>
         {openingHoursData.map((data, index) => {
           const { title, text } = data;
           return (
             <li key={index}>
               <span>
-                <p>{title}:</p>
-              </span>
-              <span>
-                {" "}
-                <p>{text}</p>
+                <p>{title}:</p> <p>{text}</p>
               </span>
             </li>
           );

@@ -51,6 +51,7 @@
 
 .title {
   text-align: center;
+  padding: var(--padding8) 1rem 0 1rem;
 }
 
 .title h4 {
@@ -70,4 +71,22 @@
   padding-bottom: var(--padding4);
   width: 50%;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .title p {
+    width: 100%;
+  }
+  .title {
+    padding: var(--padding4) 1rem 0 1rem;
+  }
+  .card {
+    margin: 0 0 var(--padding4) 0;
+  }
+  .gridContainer div:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .gridContainer {
+    padding-bottom: var(--padding4);
+  }
 }

@@ -1,6 +1,7 @@
 .topImage {
-  height: 500px;
+  height: auto;
   width: 100%;
+  padding: 10rem 0;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../images/hands.jpg");
   background-size: cover;
@@ -20,11 +21,21 @@
   padding-top: var(--padding8);
 }
 
-.content {
+.cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 1177px;
+  max-width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 1177px;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 0 var(--padding8) 0;
 }
 
 .title h4 {
@@ -51,5 +62,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: var(--padding8);
+  padding-bottom: var(--padding8) 1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding-top: 0;
+  }
+  .title p {
+    width: 100%;
+  }
+  .content {
+    padding: var(--padding4) 1rem;
+  }
 }

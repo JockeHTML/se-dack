@@ -38,4 +38,10 @@
 }
 
 @media (max-width: 768px) {
+  .title p {
+    width: 100%;
+  }
+  .sectionTwo {
+    padding: var(--padding4) 1rem;
+  }
 }

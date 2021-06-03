@@ -11,4 +11,7 @@
   .content {
     flex-direction: column;
   }
+  .content h2 {
+    margin-bottom: 0;
+  }
 }

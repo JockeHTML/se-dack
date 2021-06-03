@@ -1,5 +1,6 @@
 .topImage {
-  height: 500px;
+  height: auto;
+  padding: 10rem 0;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../images/staff.jpg");

@@ -33,4 +33,7 @@
   .title p {
     width: 100%;
   }
+  .sectionThree {
+    padding: var(--padding4) 1rem;
+  }
 }

@@ -1,5 +1,5 @@
 .topImage {
-  height: 500px;
+  height: auto;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../images/hotel.jpg");
@@ -8,6 +8,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  padding: 10rem 0;
 }
 
 .topImage h1 {
@@ -15,9 +16,12 @@
   margin-bottom: 0;
 }
 
+.content {
+  padding: var(--padding8) 1rem;
+}
+
 .title {
   text-align: center;
-  padding-top: var(--padding8);
 }
 
 .title h4 {
@@ -37,4 +41,13 @@
   padding-bottom: var(--padding4);
   width: 50%;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .title p {
+    width: 100%;
+  }
+  .content {
+    padding: var(--padding4) 1rem 0 1rem;
+  }
 }

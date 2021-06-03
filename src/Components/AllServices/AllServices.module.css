@@ -50,4 +50,10 @@
   .title p {
     padding-bottom: var(--padding4);
   }
+  .title {
+    padding-top: var(--padding4);
+  }
+  .content {
+    padding: 0 1rem var(--padding4) 1rem;
+  }
 }

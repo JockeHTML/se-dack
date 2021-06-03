@@ -12,9 +12,9 @@ function MainServices(props) {
         <h1>DÄCKVERKSTAD</h1>
       </div>
       <div className={styles.content}>
-        <div className={styles.title}>
+        <div className={styles.title1}>
           <h4>SE DÄCKSERVICE AB</h4>
-          <h1>Vi Hjälper Dig Hela Vägen</h1>
+          <h1>Vi hjälper dig hela vägen</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             debitis. Soluta corporis ipsam, nemo tenetur possimus quas totam
@@ -52,9 +52,9 @@ function MainServices(props) {
             />
           );
         })}
-        <div className={styles.title}>
+        <div className={styles.title2}>
           <h4>DÄCKVERKSTAD</h4>
-          <h1>Boka Din Tjänst</h1>
+          <h1>Boka din tjänst</h1>
           <p>
             Hos oss skiftar du dina däck tryggt och säkert. Vi bjuder på kaffe
             och kaka medans du väntar.

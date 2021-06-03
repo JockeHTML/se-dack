@@ -51,4 +51,7 @@
   .content {
     padding: 0 1rem var(--padding4) 1rem;
   }
+  .title {
+    padding-top: var(--padding4);
+  }
 }

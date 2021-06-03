@@ -634,7 +634,7 @@ export const dackHotellData = [
     img2: "./images/thermometer.png",
     img3: "./images/guaranteed.png",
     headingImg: "./images/tires2.jpg",
-    heading: "LÅT OSS FÖRVARA DINA DÄCK",
+    heading: "FÖRVARA DINA DÄCK HOS SE DÄCK",
     title: "PLATS FINNS",
     text: "Hos oss förvarar du dina däck efter dina behov och önskemål. Utöver däckförvaring kan vi byta däcken och kontrollera deras skick. Om du behöver nya däck kontaktar vi dig i god tid innan det är dags att byta däcken. Däckhotellet kontrollerar lufttrycket, möjlighet för balansering och tvätt av hjulen finns.",
     title2: "RÄTT FÖRVARING",

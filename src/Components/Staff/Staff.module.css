@@ -87,6 +87,6 @@
     margin-bottom: 0;
   }
   .gridContainer {
-    padding-bottom: var(--padding4);
+    padding-bottom: var(--padding8);
   }
 }

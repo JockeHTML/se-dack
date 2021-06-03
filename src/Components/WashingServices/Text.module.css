@@ -62,4 +62,10 @@
   .subInfo {
     margin-left: 0;
   }
+  .first {
+    margin-top: 2rem;
+  }
+  .text {
+    padding-bottom: var(--padding4);
+  }
 }

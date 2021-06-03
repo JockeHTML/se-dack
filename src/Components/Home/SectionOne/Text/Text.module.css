@@ -31,18 +31,21 @@
 
 @media (max-width: 768px) {
   .text h1 {
-    margin: 2rem 0;
+    margin: 0 0 2rem 0;
   }
   .text {
     text-align: center;
-    padding: 0 1rem;
     margin: 0;
+    padding: 0 1rem;
   }
   .buttons {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+  .text h4 {
+    display: none;
   }
 }
 

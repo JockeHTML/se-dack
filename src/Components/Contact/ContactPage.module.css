@@ -16,3 +16,9 @@
   margin-bottom: 0;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .topImage {
+    margin-bottom: var(--padding4);
+  }
+}

@@ -16,9 +16,9 @@
   margin-bottom: 0;
 }
 
-.title {
+.title1,
+.title2 {
   text-align: center;
-  padding-top: var(--padding8);
 }
 
 .cards {
@@ -35,10 +35,11 @@
   width: 1177px;
   flex-direction: column;
   max-width: 100%;
-  padding: 0 0 var(--padding8) 0;
+  padding: var(--padding8) 0;
 }
 
-.title h4 {
+.title1 h4,
+.title2 h4 {
   margin-bottom: 0;
   font-weight: 700;
   font-size: 14px;
@@ -47,11 +48,13 @@
   color: var(--color);
 }
 
-.title h1 {
+.title1 h1,
+.title2 h1 {
   margin-bottom: 1rem;
 }
 
-.title p {
+.title1 p,
+.title2 p {
   padding-bottom: var(--padding4);
   width: 70%;
   margin: auto;
@@ -66,13 +69,14 @@
 }
 
 @media (max-width: 768px) {
-  .title {
-    padding-top: 0;
-  }
-  .title p {
+  .title1 p,
+  .title2 p {
     width: 100%;
   }
   .content {
     padding: var(--padding4) 1rem;
+  }
+  .title2 {
+    padding-top: var(--padding4);
   }
 }

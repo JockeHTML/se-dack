@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <p>
           Vi hjälper dig med allt inom däck, fälg och rekond. Vi på SE Däck ser
-          fram emot att få hjälpa dig som privar person och företag.
+          fram emot att få hjälpa dig både som privat person och företag.
         </p>
       </div>
       <div className={classes.icons}>

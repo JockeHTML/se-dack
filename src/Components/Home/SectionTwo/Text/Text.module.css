@@ -81,6 +81,7 @@
   }
   .image {
     width: 100%;
+    margin: 0;
   }
   .text {
     padding-bottom: 3rem;
@@ -89,8 +90,7 @@
     width: 100%;
   }
   .heading {
-    text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   .content p {
     line-height: 1.4;

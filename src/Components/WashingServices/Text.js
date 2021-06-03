@@ -38,15 +38,15 @@ const Text = () => {
           </p>
           <ul>
             <li>
-              <i class="fas fa-check-circle"></i>
+              <i className="fas fa-check-circle"></i>
               <p>Mycket långvarig effekt – 8 år (eller 24000 mil)</p>
             </li>
             <li>
-              <i class="fas fa-check-circle"></i>
+              <i className="fas fa-check-circle"></i>
               <p>Värmebeständig (700°C)</p>
             </li>
             <li>
-              <i class="fas fa-check-circle"></i>
+              <i className="fas fa-check-circle"></i>
               <p>Extrem vattenavvisning (120° kontaktvinkel)</p>
             </li>
           </ul>

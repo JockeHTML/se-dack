@@ -54,6 +54,6 @@
     padding-top: var(--padding4);
   }
   .content {
-    padding: 0 1rem var(--padding4) 1rem;
+    padding: 0 1rem var(--padding8) 1rem;
   }
 }

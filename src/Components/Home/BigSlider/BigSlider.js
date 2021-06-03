@@ -11,11 +11,7 @@ const BigSlider = () => {
         <div className={classes.content}>
           <h4>SE DÄCKSERVICE AB</h4>
           <h1>Kontakta oss idag</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
-            laudantium repellendus eos fugiat numquam dolorum accusamus delectus
-            magni beatae eius.
-          </p>
+          <p>Behöver du hjälp med Däck, Fälg eller Rekond?</p>
           <div className={classes.buttons}>
             <Button />
           </div>

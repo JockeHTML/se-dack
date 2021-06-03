@@ -8,6 +8,9 @@
 
 .title {
   text-align: center;
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .title h4 {
@@ -25,14 +28,10 @@
 
 .title p {
   padding-bottom: var(--padding4);
-  width: 50%;
   margin: auto;
 }
 
 @media (max-width: 768px) {
-  .title p {
-    width: 100%;
-  }
   .sectionThree {
     padding: var(--padding4) 1rem;
   }

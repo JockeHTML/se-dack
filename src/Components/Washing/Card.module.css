@@ -81,5 +81,6 @@
     width: 300px;
     padding: 40px 20px;
     margin: 1rem 0;
+    height: auto;
   }
 }

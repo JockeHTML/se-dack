@@ -19,6 +19,8 @@
 .title {
   text-align: center;
   padding: 0 1rem;
+  width: 800px;
+  max-width: 100%;
 }
 
 .title h4 {
@@ -36,7 +38,6 @@
 
 .title p {
   padding-bottom: var(--padding4);
-  width: 70%;
   margin: auto;
 }
 
@@ -73,9 +74,6 @@
 }
 
 @media (max-width: 768px) {
-  .title p {
-    width: 100%;
-  }
   .content {
     padding: var(--padding4) 0;
   }

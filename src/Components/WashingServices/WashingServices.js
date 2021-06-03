@@ -65,9 +65,8 @@ function TireServices(props) {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
           Explicabo non ullam porro debitis soluta quia numquam ratione laborum.
         </p>
-
-        <Washing />
       </div>
+      <Washing />
     </div>
   );
 }

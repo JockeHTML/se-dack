@@ -21,6 +21,9 @@
 }
 
 .title {
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
   text-align: center;
   padding-top: var(--padding8);
 }
@@ -40,14 +43,10 @@
 
 .title p {
   padding-bottom: var(--padding4);
-  width: 50%;
   margin: auto;
 }
 
 @media (max-width: 768px) {
-  .title p {
-    width: 100%;
-  }
   .content {
     padding: 0 1rem var(--padding4) 1rem;
   }

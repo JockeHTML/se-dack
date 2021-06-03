@@ -8,6 +8,8 @@
 
 .title {
   text-align: center;
+  width: 800px;
+  max-width: 100%;
 }
 
 .title h1 {
@@ -16,7 +18,6 @@
 
 .title p {
   padding-bottom: var(--padding4);
-  width: 70%;
   margin: auto;
 }
 
@@ -38,9 +39,6 @@
 }
 
 @media (max-width: 768px) {
-  .title p {
-    width: 100%;
-  }
   .sectionTwo {
     padding: var(--padding4) 1rem;
   }

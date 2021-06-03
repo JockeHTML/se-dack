@@ -12,7 +12,7 @@ function MainServices(props) {
         <h1>DÄCKVERKSTAD</h1>
       </div>
       <div className={styles.content}>
-        <div className={styles.title1}>
+        <div className={styles.title}>
           <h4>SE DÄCKSERVICE AB</h4>
           <h1>Vi hjälper dig hela vägen</h1>
           <p>

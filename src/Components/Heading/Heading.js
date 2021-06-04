@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Heading.module.css";
-import logo from "../../images/bg6.png";
+import logo from "../../images/logo.jpg";
 import { Link } from "react-router-dom";
 import { headerData } from "../Data/Data";
 import Sidebar from "./Sidebar/Sidebar";

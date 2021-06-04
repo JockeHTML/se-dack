@@ -5,7 +5,7 @@
     url("../../../images/four.jpg");
   background-size: cover;
   background-position: center;
-  padding: var(--padding6) 0;
+  padding: 8rem 0;
   max-width: 100%;
 }
 
@@ -17,4 +17,19 @@
     height: auto;
     padding: var(--padding4) 0;
   }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .sectionOne {
+    padding: 5rem 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
 }

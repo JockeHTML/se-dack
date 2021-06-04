@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./About.module.css";
 import { Link } from "react-router-dom";
-import logo from "../../images/bg6.png";
+import logo from "../../images/logo.jpg";
 
 const About = () => {
   return (

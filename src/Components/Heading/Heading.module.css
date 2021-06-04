@@ -25,11 +25,9 @@
 }
 
 .logo img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100vh;
   object-fit: cover;
   object-position: center;
+  width: 100px;
 }
 
 .logo h1 {
@@ -39,9 +37,14 @@
   margin: 0 0 0 5px;
 }
 
-.logo span {
-  margin-left: 10px;
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 100vh;
+  background-color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact,
@@ -50,6 +53,7 @@
 }
 
 .contact {
+  justify-content: center;
   flex-direction: column;
   display: flex;
   padding: 0 1rem;

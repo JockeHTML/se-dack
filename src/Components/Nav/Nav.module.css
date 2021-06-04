@@ -41,6 +41,10 @@
   font-weight: 600;
 }
 
+.links a:focus {
+  color: var(--color);
+}
+
 @media (max-width: 768px) {
   .nav {
     display: none;

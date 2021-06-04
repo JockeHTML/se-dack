@@ -29,6 +29,7 @@ function Supplier(props) {
           md={12}
           xs={12}
           lg={7}
+          sm={11}
           container
           item
           className={styles.gridContainer}
@@ -41,6 +42,7 @@ function Supplier(props) {
                 md={4}
                 xs={6}
                 lg={3}
+                sm={4}
                 className={styles.gridItem}
                 item
               >

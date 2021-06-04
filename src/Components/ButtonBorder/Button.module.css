@@ -4,7 +4,7 @@
   display: flex;
   height: 60px;
   width: 200px;
-  margin: 0 5px 0 5px;
+  margin: 0 0 0 10px;
   justify-content: center;
   align-items: center;
   justify-content: center;
@@ -27,4 +27,11 @@
 
 .contactBtn span:hover {
   background-color: var(--dark);
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .contactBtn {
+    margin: 0 0 0 10px;
+    padding: 0;
+  }
 }

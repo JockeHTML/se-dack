@@ -9,9 +9,9 @@ function Text() {
       <h4>DIN LOKALA DÄCKVERKSTAD</h4>
       <h1>Vi hjälper dig med allt inom däck, fälg och rekond.</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        provident quaerat minus corporis saepe non quam nam delectus quidem
-        iste?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+        omnis labore placeat mollitia laborum odit vel nobis corrupti
+        repudiandae tempora, modi aperiam, iusto hic corporis!
       </p>
       <div className={styles.buttons}>
         <Button />

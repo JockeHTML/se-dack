@@ -15,6 +15,7 @@
   align-items: center;
   border-right: 1px solid var(--lightgrey);
   max-width: 100%;
+  width: 300px;
 }
 
 .gridItem p {
@@ -63,4 +64,27 @@
   .gridContainer div:nth-child(4) {
     margin-bottom: 0;
   }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .gridContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gridContainer div:nth-child(4) {
+    margin-bottom: 4rem;
+  }
+  .gridItem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
 }

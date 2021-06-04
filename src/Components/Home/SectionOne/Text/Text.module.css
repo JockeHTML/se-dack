@@ -3,15 +3,16 @@
   display: flex;
   flex-direction: column;
   width: 750px;
-  margin-left: 15rem;
+  margin-left: 20rem;
   max-width: 100%;
 }
 
 .text h1 {
-  margin: 0;
   margin-bottom: 3rem;
   color: white;
   line-height: 1;
+  width: 550px;
+  max-width: 100%;
 }
 
 .text h4 {
@@ -21,7 +22,9 @@
 }
 
 .text p {
+  width: 600px;
   color: white;
+  max-width: 100%;
 }
 
 .buttons {
@@ -32,6 +35,12 @@
 @media (max-width: 768px) {
   .text h1 {
     margin: 0 0 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text p {
+    margin-left: auto;
+    margin-right: auto;
   }
   .text {
     text-align: center;
@@ -50,9 +59,21 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .text {
+    margin: auto;
+  }
+  .buttons {
+    flex-direction: row;
+    margin: auto;
+    margin-top: 3rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .text {
+    margin-left: 5rem;
+    width: 600px;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {

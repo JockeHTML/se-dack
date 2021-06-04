@@ -17,7 +17,7 @@
   letter-spacing: 0;
   line-height: 1em;
   outline: 0;
-  margin: 0 5px 1rem 5px;
+  margin: 0 10px 1rem 0;
 }
 
 .contactBtn i {
@@ -26,4 +26,10 @@
 
 .contactBtn span:hover {
   background-color: var(--dark);
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .contactBtn {
+    margin: 0 10px 0 0;
+  }
 }

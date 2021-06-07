@@ -18,6 +18,9 @@
 
 .content {
   padding: var(--padding8) 1rem;
+  width: 1177px;
+  margin: auto;
+  max-width: 100%;
 }
 
 .title {

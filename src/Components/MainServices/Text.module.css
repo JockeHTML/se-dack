@@ -1,15 +1,16 @@
-.text {
-  width: 100%;
-  margin-left: 4rem;
-}
-
 .card {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 3rem 0;
+  max-width: 100%;
 }
 
+.text {
+  width: 100%;
+  margin-left: 4rem;
+  max-width: 100%;
+}
 .text img {
   margin-right: 2rem;
 }
@@ -39,7 +40,6 @@
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .card {
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
   }

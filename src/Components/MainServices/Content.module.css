@@ -4,6 +4,7 @@
   padding-bottom: var(--padding8) 0;
   margin: auto;
   max-width: 100%;
+  width: 1177px;
 }
 
 @media (max-width: 768px) {

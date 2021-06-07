@@ -6,7 +6,10 @@ const SmallSlider = () => {
   return (
     <div className={styles.smallSlider}>
       <div className={styles.content}>
-        <h4>SE DÄCKSERVICE AB</h4>
+        <span>
+          {" "}
+          <p>SE DÄCKSERVICE AB</p>
+        </span>
         <h2>BOKA DIN TID ELLER RING OSS, 060 - 61 91 35</h2>
       </div>
       <div className={styles.buttons}>

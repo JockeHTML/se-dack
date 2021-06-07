@@ -7,7 +7,10 @@ function SectionTwo(props) {
   return (
     <div className={styles.sectionTwo}>
       <div className={styles.title}>
-        <h4>SE DÄCKSERVICE AB</h4>
+        <div className={styles.subTitle}>
+          {" "}
+          <p>SE DÄCKSERVICE AB</p>
+        </div>
         <h1>Vi hjälper dig</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum

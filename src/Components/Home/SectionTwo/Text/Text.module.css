@@ -24,16 +24,18 @@
   object-position: center;
 }
 
-.heading h3 {
+.subTitle p {
   font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
-.heading h3:nth-child(1) {
-  line-height: 1.1;
+.subTitle p:nth-child(1) {
   margin-bottom: 0;
+  color: black;
 }
 
-.heading h3:nth-child(2) {
+.subTitle p:nth-child(2) {
   color: var(--color);
   margin-bottom: 2rem;
 }

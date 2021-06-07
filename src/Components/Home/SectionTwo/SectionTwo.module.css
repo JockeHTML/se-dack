@@ -21,13 +21,14 @@
   margin: auto;
 }
 
-.title h4 {
+.subTitle p {
   margin-bottom: 0;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 6px;
   color: var(--color);
+  padding-bottom: 0;
 }
 
 .content {

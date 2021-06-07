@@ -11,7 +11,10 @@ function Contact(props) {
   return (
     <div className={styles.contact}>
       <div className={styles.title}>
-        <h4>Kontakta oss</h4>
+        <div className={styles.subTitle}>
+          <p>Kontakta oss</p>
+        </div>
+
         <h1>Hör av dig till oss</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
@@ -45,6 +48,7 @@ function Contact(props) {
           allowFullScreen=""
           aria-hidden="false"
           tabIndex="0"
+          title="karta till se däckservice ab"
         />
       </div>
     </div>

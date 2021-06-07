@@ -18,8 +18,10 @@ function Text(props) {
         </div>
         <div data-aos="fade-up" className={styles.icons}>
           <div className={styles.heading}>
-            <h3>Därför väljer du</h3>
-            <h3>SE Däckservice</h3>
+            <div className={styles.subTitle}>
+              <p>Därför väljer du</p>
+              <p>SE Däckservice</p>
+            </div>
           </div>
           <ul>
             {sectionTwo.map((data, index) => {

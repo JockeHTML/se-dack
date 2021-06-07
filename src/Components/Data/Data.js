@@ -645,3 +645,43 @@ export const dackHotellData = [
       "Dina däck är försäkrade och enligt försäkringsbolagens regler så är det din bils försäkring som gäller. Skulle något inträffa med dina däck under tiden vi förvarar dem så ersätter vi din självrisk.      ",
   },
 ];
+
+export const popularaTjansterData = [
+  {
+    title: "Däckskifte",
+    price: "fr. 295:-",
+    one: "Mönsterdjup",
+    two: "Lufttryck",
+    three: "Rätt åtdragning",
+    four: "Nånting",
+    time: "15 min",
+  },
+  {
+    title: "Montering",
+    price: "fr. 150:-",
+    one: "Små till 24” hjul",
+    two: "Säkert och snabbt",
+    three: "blabla",
+    four: "Nånting",
+    time: "25 min",
+  },
+  {
+    title: "Handtvätt",
+    price: "300:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+    time: "25 min",
+  },
+
+  {
+    title: "VIP-tvätt    ",
+    price: "700:-",
+    one: "Avfettning",
+    two: "schamponering",
+    three: "fälg & däck",
+    four: "torkning",
+    time: "25 min",
+  },
+];

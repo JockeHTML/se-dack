@@ -11,7 +11,10 @@ const Card = ({ title, price, one, two, three, four, time }) => {
   return (
     <div data-aos="fade-up" className={styles.card}>
       <div className={styles.title}>
-        <h4>{title}</h4>
+        <div className={styles.subTitle}>
+          <p>{title}</p>
+        </div>
+
         <h1>{price}</h1>
       </div>
       <ul>

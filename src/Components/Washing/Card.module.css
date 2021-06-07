@@ -20,12 +20,10 @@
   flex-direction: column;
 }
 
-.title h4 {
+.subTitle p {
   color: var(--color);
-}
-
-.card h4 {
-  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .card h1 {

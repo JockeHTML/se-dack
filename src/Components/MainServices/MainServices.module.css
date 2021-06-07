@@ -32,8 +32,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 1177px;
-  max-width: 100%;
 }
 
 .content {
@@ -42,7 +40,7 @@
   width: 1177px;
   flex-direction: column;
   max-width: 100%;
-  padding: var(--padding8) 1rem;
+  padding: var(--padding8) 1rem var(--padding4) 1rem;
 }
 
 .title h4,
@@ -60,10 +58,13 @@
   margin-bottom: 1rem;
 }
 
-.title p,
-.title2 p {
+.title p {
   padding-bottom: var(--padding4);
   margin: auto;
+}
+
+.title2 p {
+  padding-bottom: 0;
 }
 
 .mainServices {
@@ -71,7 +72,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: var(--padding8) 0;
+  padding: 0 0 var(--padding8) 0;
+  width: 100%;
 }
 
 @media (max-width: 768px) {

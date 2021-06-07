@@ -60,23 +60,23 @@ function MainServices(props) {
             och kaka medans du väntar.
           </p>
         </div>
-        <div className={styles.cards}>
-          {däckData.map((data, index) => {
-            const { title, price, one, two, three, four, time } = data;
-            return (
-              <Card
-                key={index}
-                title={title}
-                price={price}
-                one={one}
-                two={two}
-                three={three}
-                four={four}
-                time={time}
-              />
-            );
-          })}
-        </div>
+      </div>
+      <div className={styles.cards}>
+        {däckData.map((data, index) => {
+          const { title, price, one, two, three, four, time } = data;
+          return (
+            <Card
+              key={index}
+              title={title}
+              price={price}
+              one={one}
+              two={two}
+              three={three}
+              four={four}
+              time={time}
+            />
+          );
+        })}
       </div>
     </div>
   );

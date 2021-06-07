@@ -37,6 +37,7 @@
 
 .content {
   display: flex;
+  margin-top: var(--padding4);
 }
 
 .subInfo h4 {

@@ -6,7 +6,10 @@ import ButtonBorder from "../../../ButtonBorder/ButtonBorder";
 function Text() {
   return (
     <div className={styles.text}>
-      <h4>DIN LOKALA DÄCKVERKSTAD</h4>
+      <span>
+        {" "}
+        <h4>DIN LOKALA DÄCKVERKSTAD</h4>
+      </span>
       <h1>Vi hjälper dig med allt inom däck, fälg och rekond.</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore

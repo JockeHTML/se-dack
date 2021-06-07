@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Text.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Text = ({
   img2,
@@ -13,8 +15,11 @@ const Text = ({
   title3,
   text3,
 }) => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className={styles.text}>
+    <div data-aos="fade-up" className={styles.text}>
       <div className={styles.card}>
         <img src={img} alt={title} />
         <span>

@@ -42,7 +42,7 @@
   width: 1177px;
   flex-direction: column;
   max-width: 100%;
-  padding: var(--padding8) 0;
+  padding: var(--padding8) 1rem;
 }
 
 .title h4,
@@ -71,7 +71,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: var(--padding8) 1rem;
+  padding-bottom: var(--padding8) 0;
 }
 
 @media (max-width: 768px) {

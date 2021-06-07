@@ -105,6 +105,17 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .gridContainer {
+    width: 900px;
+  }
+  .card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+  }
+  .gridContainer div:nth-child(4) {
+    margin-bottom: 0rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {

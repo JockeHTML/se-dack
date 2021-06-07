@@ -20,7 +20,6 @@ const Text = ({
   }, []);
   return (
     <div data-aos="fade-up" className={styles.text}>
-      <h2>{heading}</h2>
       <div className={styles.card}>
         <img src={img} alt={title} />
         <span>

@@ -1,15 +1,13 @@
 .logo img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100vh;
   object-fit: cover;
   object-position: center;
+  width: 100px;
 }
 
 .about {
   width: 30%;
-  margin-right: 4rem;
   max-width: 100%;
+  margin-right: 4rem;
 }
 
 .logo h1 {
@@ -19,16 +17,14 @@
   margin: 0 0 0 5px;
 }
 
-.logo span {
-  margin-left: 10px;
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 100vh;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.logo {
-  display: flex;
-  max-width: 200px;
 }
 
 .about p {

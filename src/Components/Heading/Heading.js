@@ -20,10 +20,10 @@ function Heading(props) {
           const { icon, title, text } = data;
           return (
             <div key={index} className={styles.contact}>
-              <span className={styles.top}>
+              <a href="tel:060619135" className={styles.top}>
                 <img src={icon} alt={title} />
                 <p>{title}</p>
-              </span>
+              </a>
               <p>{text}</p>
             </div>
           );

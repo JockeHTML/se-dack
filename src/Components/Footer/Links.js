@@ -12,7 +12,7 @@ const Links = () => {
           const { page, url } = data;
           return (
             <li key={index}>
-              <Link to={url}>
+              <Link onClick={() => window.scrollTo(0, 0)} to={url}>
                 <span>
                   <i className="fas fa-angle-right"></i>
                   <p>{page}</p>

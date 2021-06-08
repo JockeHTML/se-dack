@@ -15,76 +15,67 @@ function TireServices(props) {
   }, []);
 
   return (
-    <>
-      {loading ? (
-        <div className={styles.loader}>
-          <ClipLoader color="#e6192e" loading={loading} size={150} />
-        </div>
-      ) : (
-        <div className={styles.mainServices}>
-          <div className={styles.topImage}>
-            <h1>TVÄTT & REKOND</h1>
-          </div>
-          <div className={styles.title}>
-            <h4>SE DÄCKSERVICE AB</h4>
-            <h1>Få din bil fräsch igen</h1>
-            <p>
-              Vår tvätt & rekond finns tillgänglig för dig året om. Vi utför
-              allt ifrån enklare tvättare till hel rekonditionering och
-              lackförseglningar, kontakta oss gärna om du har några speciella
-              önskemål.
-            </p>
-          </div>
-          <div className={styles.content}>
-            {tvattOchRekondData.map((data, index) => {
-              const {
-                img2,
-                img3,
-                img,
-                title,
-                text,
-                heading,
-                title2,
-                text2,
-                title3,
-                text3,
-                headingImg,
-              } = data;
-              return (
-                <Content
-                  headingImg={headingImg}
-                  key={index}
-                  img2={img2}
-                  img3={img3}
-                  img={img}
-                  title2={title2}
-                  text2={text2}
-                  title3={title3}
-                  text3={text3}
-                  title={title}
-                  text={text}
-                  heading={heading}
-                />
-              );
-            })}
+    <div className={styles.mainServices}>
+      <div className={styles.topImage}>
+        <h1>TVÄTT & REKOND</h1>
+      </div>
+      <div className={styles.title}>
+        <h4>SE DÄCKSERVICE AB</h4>
+        <h1>Få din bil fräsch igen</h1>
+        <p>
+          Vår tvätt & rekond finns tillgänglig för dig året om. Vi utför allt
+          ifrån enklare tvättare till hel rekonditionering och
+          lackförseglningar, kontakta oss gärna om du har några speciella
+          önskemål.
+        </p>
+      </div>
+      <div className={styles.content}>
+        {tvattOchRekondData.map((data, index) => {
+          const {
+            img2,
+            img3,
+            img,
+            title,
+            text,
+            heading,
+            title2,
+            text2,
+            title3,
+            text3,
+            headingImg,
+          } = data;
+          return (
+            <Content
+              headingImg={headingImg}
+              key={index}
+              img2={img2}
+              img3={img3}
+              img={img}
+              title2={title2}
+              text2={text2}
+              title3={title3}
+              text3={text3}
+              title={title}
+              text={text}
+              heading={heading}
+            />
+          );
+        })}
 
-            <Text />
-          </div>
-          <SmallSlider />
-          <div className={styles.title}>
-            <h4>TVÄTT & REKOND</h4>
-            <h1>Boka Din Tid</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
-              Explicabo non ullam porro debitis soluta quia numquam ratione
-              laborum.
-            </p>
-          </div>
+        <Text />
+      </div>
+      <SmallSlider />
+      <div className={styles.title}>
+        <h4>TVÄTT & REKOND</h4>
+        <h1>Boka Din Tid</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
+          Explicabo non ullam porro debitis soluta quia numquam ratione laborum.
+        </p>
+      </div>
 
-          <Washing />
-        </div>
-      )}
-    </>
+      <Washing />
+    </div>
   );
 }
 

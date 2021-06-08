@@ -10,20 +10,12 @@ const ContactPage = () => {
     loadingFunction();
   }, []);
   return (
-    <>
-      {loading ? (
-        <div className={styles.loader}>
-          <ClipLoader color="#e6192e" loading={loading} size={150} />
-        </div>
-      ) : (
-        <div>
-          <div className={styles.topImage}>
-            <h1>KONTAKT</h1>
-          </div>
-          <Contact />
-        </div>
-      )}
-    </>
+    <div>
+      <div className={styles.topImage}>
+        <h1>KONTAKT</h1>
+      </div>
+      <Contact />
+    </div>
   );
 };
 

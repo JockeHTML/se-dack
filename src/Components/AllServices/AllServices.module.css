@@ -7,7 +7,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 8rem 0;
+  padding: 10rem 0;
 }
 
 .content {
@@ -16,11 +16,14 @@
 
 .loader {
   width: 100%;
-  height: 100vh;
   background-color: black;
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
 }
 
 .topImage h1 {

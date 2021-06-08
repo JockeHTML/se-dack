@@ -38,6 +38,7 @@
 .gridItem a {
   font-weight: bold;
   display: flex;
+  font-size: 14px;
 }
 
 .gridItem i {

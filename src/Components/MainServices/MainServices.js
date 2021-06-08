@@ -1,17 +1,11 @@
-import React, { useEffect, useContext } from "react";
+import React from "react";
 import Card from "../Washing/Card";
 import Content from "./Content";
 import styles from "./MainServices.module.css";
 import { däckData } from "../Data/Data";
 import { däckverkstadsData } from "../Data/Data";
-import ClipLoader from "react-spinners/ClipLoader";
-import { AppContext } from "../Context/Context";
 
 const MainServices = () => {
-  const { loading, loadingFunction } = useContext(AppContext);
-  useEffect(() => {
-    loadingFunction();
-  }, []);
   return (
     <div className={styles.mainServices}>
       <div className={styles.topImage}>

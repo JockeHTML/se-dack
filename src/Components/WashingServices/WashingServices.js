@@ -1,19 +1,12 @@
-import React, { useEffect, useContext } from "react";
+import React from "react";
 import Content from "../MainServices/Content";
 import styles from "./WashingServices.module.css";
 import { tvattOchRekondData } from "../Data/Data";
 import Washing from "../Washing/Washing";
 import Text from "./Text";
 import SmallSlider from "../Home/SmallSlider/SmallSlider";
-import ClipLoader from "react-spinners/ClipLoader";
-import { AppContext } from "../Context/Context";
 
 function TireServices(props) {
-  const { loading, setLoading, loadingFunction } = useContext(AppContext);
-  useEffect(() => {
-    loadingFunction();
-  }, []);
-
   return (
     <div className={styles.mainServices}>
       <div className={styles.topImage}>

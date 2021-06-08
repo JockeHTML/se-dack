@@ -1,18 +1,9 @@
-import React, { useEffect, useContext } from "react";
+import React from "react";
 import Contact from "../Contact/Contact";
 import Content from "../Home/SectionTwo/Content/Content";
 import styles from "./AllServices.module.css";
-import ClipLoader from "react-spinners/ClipLoader";
-import { AppContext } from "../Context/Context";
 
 const AllServices = () => {
-  const { loading, loadingFunction } = useContext(AppContext);
-  useEffect(() => {
-    loadingFunction();
-  }, []);
-
-  console.log(document);
-
   return (
     <div className={styles.allServices}>
       <div className={styles.topImage}>

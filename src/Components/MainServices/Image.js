@@ -4,7 +4,7 @@ import styles from "./Image.module.css";
 const Image = ({ headingImg }) => {
   return (
     <div className={styles.image}>
-      <img src={headingImg} alt="Bild på tjänst" />
+      <img loading="lazy" src={headingImg} alt="Bild på tjänst" />
     </div>
   );
 };

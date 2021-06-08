@@ -1,16 +1,10 @@
-import React, { useEffect, useContext } from "react";
+import React from "react";
 import Content from "../MainServices/Content";
 import styles from "./TireServices.module.css";
 import { däckOchFälgData } from "../Data/Data";
 import Contact from "../Contact/Contact";
-import ClipLoader from "react-spinners/ClipLoader";
-import { AppContext } from "../Context/Context";
 
 const TireServices = () => {
-  const { loading, loadingFunction } = useContext(AppContext);
-  useEffect(() => {
-    loadingFunction();
-  }, []);
   return (
     <div className={styles.mainServices}>
       <div className={styles.topImage}>

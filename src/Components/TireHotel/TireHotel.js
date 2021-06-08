@@ -1,16 +1,10 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import Content from "../MainServices/Content";
 import styles from "./TireHotel.module.css";
 import Contact from "../Contact/Contact";
 import { dackHotellData } from "../Data/Data";
-import ClipLoader from "react-spinners/ClipLoader";
-import { AppContext } from "../Context/Context";
 
 const TireHotel = () => {
-  const { loading, loadingFunction } = useContext(AppContext);
-  useEffect(() => {
-    loadingFunction();
-  }, []);
   return (
     <div className={styles.mainServices}>
       <div className={styles.topImage}>

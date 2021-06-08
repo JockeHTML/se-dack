@@ -1,15 +1,9 @@
-import React, { useEffect, useContext } from "react";
+import React from "react";
 import styles from "./Supplier.module.css";
 import { Grid } from "@material-ui/core";
 import { leverantörer } from "../Data/Data";
-import ClipLoader from "react-spinners/ClipLoader";
-import { AppContext } from "../Context/Context";
 
 const Supplier = () => {
-  const { loading, loadingFunction } = useContext(AppContext);
-  useEffect(() => {
-    loadingFunction();
-  }, []);
   return (
     <div className={styles.supplier}>
       <div className={styles.topImage}>

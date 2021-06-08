@@ -13,9 +13,9 @@ function Text() {
       <h1>Allt inom däck, fälg och rekond.</h1>
       <p>
         Välkommen till SE Däckservice. Vi erbjuder däck och fälg i olika
-        prisklasser. Däck och rekond utför vi året om, allt från utvändig
-        handtvätt till helrekond och lackförsegling. Behöver du förvaring för
-        dina däck? Välkommen att kontakta oss redan idag.
+        prisklasser. Rekond utför vi året om, allt från utvändig handtvätt till
+        helrekond och lackförsegling. Behöver du förvaring för dina däck?
+        Välkommen att kontakta oss redan idag.
       </p>
       <div className={styles.buttons}>
         <Button />

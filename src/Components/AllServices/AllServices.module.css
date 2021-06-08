@@ -7,11 +7,20 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 .content {
   padding: 0 1rem var(--padding8) 1rem;
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
 }
 
 .topImage h1 {

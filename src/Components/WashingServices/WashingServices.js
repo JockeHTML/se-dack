@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useContext } from "react";
 import Content from "../MainServices/Content";
 import styles from "./WashingServices.module.css";
 import { tvattOchRekondData } from "../Data/Data";
@@ -6,14 +6,12 @@ import Washing from "../Washing/Washing";
 import Text from "./Text";
 import SmallSlider from "../Home/SmallSlider/SmallSlider";
 import ClipLoader from "react-spinners/ClipLoader";
+import { AppContext } from "../Context/Context";
 
 function TireServices(props) {
-  const [loading, setLoading] = useState(false);
+  const { loading, setLoading, loadingFunction } = useContext(AppContext);
   useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
+    loadingFunction();
   }, []);
 
   return (

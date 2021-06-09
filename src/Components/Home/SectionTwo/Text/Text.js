@@ -21,6 +21,11 @@ function Text(props) {
             <div className={styles.subTitle}>
               <p>Därför väljer du</p>
               <p>SE Däckservice</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
+                quasi maxime ex amet unde minima? Quo nobis tempora aspernatur
+                nemo.
+              </p>
             </div>
           </div>
           <ul>

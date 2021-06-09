@@ -45,6 +45,10 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .sectionTwo {
+    padding-left: var(--padding2);
+    padding-right: var(--padding2);
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -58,7 +62,7 @@
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
   .sectionTwo {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: var(--padding3);
+    padding-right: var(--padding3);
   }
 }

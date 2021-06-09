@@ -19,7 +19,7 @@ function Content(props) {
               <img src={src} alt="" />
             </span>
             <h3>{title.toUpperCase()}</h3>
-            <p>{text.slice(0, 99) + "..."}</p>
+            <p>{text.slice(0, 85) + "..."}</p>
             <span>
               <Link onClick={() => window.scrollTo(0, 0)} to={link}>
                 Till {title}

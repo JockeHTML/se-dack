@@ -422,6 +422,12 @@ const kontakt = [
     text2: "85633 Sundsvall",
   },
   {
+    icon: "./images/time.png",
+    title: "Öppettider",
+    text: "Mån - Fre",
+    text2: "07.00 - 16.00",
+  },
+  {
     icon: "./images/call.png",
     title: "Telefon",
     text: "060-619135    ",
@@ -430,12 +436,6 @@ const kontakt = [
     icon: "./images/email.png",
     title: "E-post",
     text: "info@sedack.se    ",
-  },
-  {
-    icon: "./images/time.png",
-    title: "Öppettider",
-    text: "Mån - Fre",
-    text2: "07.00 - 16.00",
   },
 ];
 

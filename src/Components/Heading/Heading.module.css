@@ -3,8 +3,12 @@
   justify-content: space-between;
   height: auto;
   align-items: center;
-  background-color: black;
-  padding: 1rem 4rem;
+  background-color: white;
+  padding: 0;
+  width: 1300px;
+  margin: auto;
+  padding: 1.7rem 0;
+  max-width: 100%;
 }
 
 .content {
@@ -14,20 +18,12 @@
 .header p {
   margin: 0;
   padding: 0;
-  color: white;
-}
-
-.top p {
-  color: white;
-  padding: 0;
-  margin: 0;
-  font-weight: 600;
+  color: black;
 }
 
 .logo img {
   object-fit: cover;
   object-position: center;
-  width: 100px;
 }
 
 .logo h1 {
@@ -38,50 +34,80 @@
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
-  border-radius: 100vh;
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact,
-.logo {
-  display: flex;
-}
-
 .contact {
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   padding: 0 1rem;
-  text-align: center;
 }
 
-.contact a {
+.top {
+  background: rgba(188, 41, 33, 0.1);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-right: 1rem;
+}
+
+.contact h4 {
+  margin-bottom: 0;
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
-    padding: 0 0 2rem 0;
+    flex-direction: row-reverse;
+    padding: 1rem 1rem;
   }
-  .content div:nth-child(3) {
+  .content {
     display: none;
   }
   .content {
-    flex-direction: column;
+    flex-direction: row;
   }
   .contact {
-    margin-top: 1.5rem;
+    margin: 3rem 10px 1rem 10px;
+    padding: 0;
   }
   .contact p {
     font-size: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .header {
+    flex-direction: row-reverse;
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .content {
+    display: none;
+  }
+  .header {
+    flex-direction: row-reverse;
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .content {
+    display: none;
+  }
+  .header {
+    flex-direction: row-reverse;
+    padding: 2rem 1rem;
   }
 }

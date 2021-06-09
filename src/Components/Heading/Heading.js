@@ -20,11 +20,13 @@ function Heading(props) {
           const { icon, title, text } = data;
           return (
             <div key={index} className={styles.contact}>
-              <a href="tel:060619135" className={styles.top}>
+              <div href="tel:060619135" className={styles.top}>
                 <img src={icon} alt={title} />
-                <p>{title}</p>
-              </a>
-              <p>{text}</p>
+              </div>
+              <span>
+                <h4>{title}</h4>
+                <p>{text}</p>
+              </span>
             </div>
           );
         })}

@@ -14,7 +14,7 @@ function Sidebar(props) {
 
   return (
     <div className={sideBar ? styles.sidebarActive : styles.sidebarWrapper}>
-      <i onClick={() => setSideBar(!sideBar)} className="fas fa-cog"></i>
+      <i onClick={() => setSideBar(!sideBar)} className="fas fa-bars"></i>
 
       <div className={styles.sideBarLinks}>
         <ul>

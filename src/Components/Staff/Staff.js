@@ -13,7 +13,7 @@ function Staff(props) {
     <div className={styles.staff}>
       <div className={styles.title}>
         <h4>SE Däckservice AB</h4>
-        <h1>Vi som hjälper dig</h1>
+        <h1>Vi som jobbar här</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
           at eius exercitationem amet inventore pariatur asperiores natus

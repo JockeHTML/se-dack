@@ -1,0 +1,35 @@
+.contactBtn {
+  cursor: pointer;
+  background-color: var(--color);
+  display: flex;
+  height: 60px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1em;
+  outline: 0;
+  margin: 0 10px 1rem 0;
+}
+
+.contactBtn i {
+  margin-left: 1.5rem;
+}
+
+.contactBtn span:hover {
+  background-color: var(--dark);
+}
+
+@media (max-width: 768px) {
+  .contactBtn {
+    margin-right: 0;
+  }
+}

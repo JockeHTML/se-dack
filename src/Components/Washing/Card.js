@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import styles from "./Card.module.css";
-import Button from "../Button/Button";
+import BokaButton from "../BokaButton/BokaButton";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Card = ({ title, price, one, two, three, four, time }) => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 800 });
   }, []);
   return (
     <div data-aos="fade-up" className={styles.card}>
@@ -41,7 +41,7 @@ const Card = ({ title, price, one, two, three, four, time }) => {
       </span>
 
       <div className={styles.buttons}>
-        <Button />
+        <BokaButton />
       </div>
     </div>
   );

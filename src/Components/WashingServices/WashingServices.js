@@ -60,7 +60,7 @@ function TireServices(props) {
       <SmallSlider />
       <div className={styles.title}>
         <h4>TVÄTT & REKOND</h4>
-        <h1>Boka Din Tid</h1>
+        <h1>Boka din tid</h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, ut?
           Explicabo non ullam porro debitis soluta quia numquam ratione laborum.

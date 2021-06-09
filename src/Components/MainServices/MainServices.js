@@ -16,9 +16,12 @@ const MainServices = () => {
           <h4>SE DÄCKSERVICE AB</h4>
           <h1>Vi hjälper dig hela vägen</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            debitis. Soluta corporis ipsam, nemo tenetur possimus quas totam
-            sunt sed.
+            När det är dags att skifta däck bokar du enkelt en tid här på
+            hemsidan. Vi kollar mönsterdjup, lufttryck och ser till att bultarna
+            blir rätt åtdragna. Som bonus slipper du tunga lyft och kan i lugn
+            och ro ta en kaffe i vår kundmottagning medan vi tar hand om
+            däckbytet. Har du några frågor eller funderingar, tveka inte att
+            kontakta oss.
           </p>
         </div>
         {däckverkstadsData.map((data, index) => {

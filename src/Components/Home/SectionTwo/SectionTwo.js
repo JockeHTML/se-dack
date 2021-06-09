@@ -12,11 +12,6 @@ function SectionTwo(props) {
           <p>SE DÄCKSERVICE AB</p>
         </div>
         <h1>Vi hjälper dig</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum
-          perspiciatis ullam laborum ut tenetur labore aliquid dolore, amet
-          dolores?
-        </p>
       </div>
       <div className={styles.content}>
         <Text />

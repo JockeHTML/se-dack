@@ -13,11 +13,10 @@
 }
 
 .title h1 {
-  margin-bottom: 1rem;
+  margin-bottom: var(--padding4);
 }
 
 .title p {
-  padding-bottom: var(--padding4);
   margin: auto;
 }
 

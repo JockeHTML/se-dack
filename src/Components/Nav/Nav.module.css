@@ -3,14 +3,17 @@
   height: auto;
   display: flex;
   background-color: black;
-  padding: 10px;
-  border-top: 1px solid #3e3e3e;
-  border-bottom: 1px solid #3e3e3e;
 }
 
 .links {
   margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3e3e3e;
+
+  width: 100%;
+  border-bottom: 1px solid #3e3e3e;
 }
 
 .restofLinks li {

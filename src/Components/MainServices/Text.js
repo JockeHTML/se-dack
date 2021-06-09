@@ -16,7 +16,7 @@ const Text = ({
   text3,
 }) => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 800 });
   }, []);
   return (
     <div data-aos="fade-up" className={styles.text}>

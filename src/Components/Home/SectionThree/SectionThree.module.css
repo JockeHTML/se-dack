@@ -14,7 +14,7 @@
 }
 
 .title h1 {
-  margin-bottom: 1rem;
+  margin-bottom: var(--padding4);
 }
 
 .cards {
@@ -24,7 +24,6 @@
 }
 
 .title p {
-  padding-bottom: var(--padding4);
   margin: auto;
 }
 

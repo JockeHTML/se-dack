@@ -11,6 +11,7 @@
 
 .content {
   display: flex;
+  align-items: center;
 }
 
 .image {
@@ -19,7 +20,9 @@
 
 .image img {
   max-width: 100%;
-  width: 600px;
+  width: 450px;
+  height: 450px;
+
   object-fit: cover;
   object-position: center;
 }
@@ -92,12 +95,16 @@
   }
   .image img {
     width: 100%;
+    height: 100%;
   }
   .heading {
     margin-top: 2rem;
   }
   .content p {
     line-height: 1.4;
+  }
+  .subTitle {
+    text-align: center;
   }
   .buttons {
     margin-left: auto;
@@ -109,7 +116,9 @@
   .content {
     flex-direction: row;
   }
-
+  .subTitle {
+    text-align: left;
+  }
   .buttons {
     margin-left: 0;
     margin-right: 0;
@@ -122,7 +131,7 @@
     margin-right: 2rem;
   }
   .image img {
-    height: 100%;
+    height: 450px;
   }
   .heading {
     margin-top: 0;
@@ -145,6 +154,6 @@
     margin-right: 4rem;
   }
   .image img {
-    height: 100%;
+    height: 400px;
   }
 }

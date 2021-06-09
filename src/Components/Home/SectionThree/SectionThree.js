@@ -12,11 +12,6 @@ function SectionThree(props) {
           <p>TJÄNSTER</p>
         </div>
         <h1>Populära tjänster</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-          at eius exercitationem amet inventore pariatur asperiores natus
-          laudantium iure.
-        </p>
       </div>
       <div className={styles.cards}>
         {popularaTjansterData.map((data, index) => {

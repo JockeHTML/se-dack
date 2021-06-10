@@ -684,4 +684,22 @@ export const popularaTjansterData = [
     four: "torkning",
     time: "25 min",
   },
+  {
+    title: "Däckskifte",
+    price: "fr. 295:-",
+    one: "Mönsterdjup",
+    two: "Lufttryck",
+    three: "Rätt åtdragning",
+    four: "Nånting",
+    time: "15 min",
+  },
+  {
+    title: "Däckskifte",
+    price: "fr. 295:-",
+    one: "Mönsterdjup",
+    two: "Lufttryck",
+    three: "Rätt åtdragning",
+    four: "Nånting",
+    time: "15 min",
+  },
 ];

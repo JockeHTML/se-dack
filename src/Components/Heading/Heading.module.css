@@ -107,7 +107,7 @@
     display: none;
   }
   .header {
-    flex-direction: row-reverse;
-    padding: 2rem 1rem;
+    flex-direction: row;
+    padding: 1rem 1rem;
   }
 }

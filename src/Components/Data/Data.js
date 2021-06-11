@@ -92,15 +92,15 @@ const sectionTwo = [
   },
   {
     icon: "fas fa-wrench",
-    text: "Vi är experter på däck, fälg och hjulskifte",
+    text: "Experter på däck, fälg",
   },
   {
     icon: "fas fa-coins",
-    text: "Köp däck till ett konkurrenskraftigt pris",
+    text: "Konkurrenskraftigt pris",
   },
   {
     icon: "far fa-handshake",
-    text: "Hittar däck för dina behov",
+    text: "Däck till dina behov",
   },
 ];
 

@@ -29,7 +29,7 @@ function Text(props) {
           </div>
           <ul>
             {sectionTwo.map((data, index) => {
-              const { icon, text } = data;
+              const { text } = data;
               return (
                 <li key={index}>
                   <i class="fas fa-check"></i>

@@ -11,7 +11,6 @@ function Button(props) {
         to="/kontakt"
       >
         KONTAKT
-        <i className="fas fa-angle-right"></i>
       </Link>
     </span>
   );

@@ -12,27 +12,24 @@ const Card = ({ title, price, one, two, three, four, time }) => {
     <div data-aos="fade-up" className={styles.card}>
       <div className={styles.title}>
         <div className={styles.subTitle}>
-          <p>{title}</p>
+          <h4>{title}</h4>
         </div>
 
         <h1>{price}</h1>
       </div>
       <ul>
         <li>
-          <i className="fas fa-check-circle"></i>
+          <i class="fas fa-check"></i>
           <p>{one}</p>
         </li>
         <li>
-          <i className="fas fa-check-circle"></i>
-          <p>{two}</p>
+          <i class="fas fa-check"></i> <p>{two}</p>
         </li>
         <li>
-          <i className="fas fa-check-circle"></i>
-          <p>{three}</p>
+          <i class="fas fa-check"></i> <p>{three}</p>
         </li>
         <li>
-          <i className="fas fa-check-circle"></i>
-          <p>{four}</p>
+          <i class="fas fa-check"></i> <p>{four}</p>
         </li>
       </ul>
       <span className={styles.time}>

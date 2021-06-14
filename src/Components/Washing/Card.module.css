@@ -8,7 +8,6 @@
   flex-direction: column;
   text-align: center;
   margin: 1rem;
-  border-radius: 10px;
   transition: 400ms ease-out;
   max-width: 100%;
   background: white;
@@ -21,14 +20,23 @@
   flex-direction: column;
 }
 
-.subTitle p {
+.subTitle h4 {
   color: var(--color);
   font-weight: 700;
-  font-size: 1.2rem;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.card p {
+  padding: 3px 0;
+  margin: 0 0 0 0;
+  font-size: 16px;
 }
 
 .card h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 50px;
+  line-height: 1.1;
 }
 
 .card ul {
@@ -45,7 +53,7 @@
 .card i {
   margin-right: 10px;
   color: green;
-  font-size: 1.1rem;
+  font-size: 14px;
 }
 
 .buttons i {

@@ -35,23 +35,14 @@
   object-position: center;
 }
 
-.subTitle p:nth-child(1) {
-  margin-bottom: 0;
-  color: black;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.subTitle p:nth-child(2) {
-  color: var(--color);
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.subTitle p:nth-child(3) {
+.subTitle p {
   margin: 1rem 0 2rem 0;
+}
+
+.subTitle h2 {
+  margin-bottom: 0;
+  line-height: 1.2;
+  width: 400px;
 }
 
 .text li {
@@ -74,7 +65,7 @@
 .icons i {
   color: green;
   margin-right: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .buttons i {

@@ -19,8 +19,7 @@ function Text(props) {
         <div data-aos="fade-up" className={styles.icons}>
           <div className={styles.heading}>
             <div className={styles.subTitle}>
-              <p>Därför väljer du</p>
-              <p>SE Däckservice</p>
+              <h2>We Offer a Complete Diagnostic for Your Car</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
                 quasi maxime ex amet unde minima? Quo nobis tempora aspernatur
@@ -33,7 +32,8 @@ function Text(props) {
               const { icon, text } = data;
               return (
                 <li key={index}>
-                  <i className="fas fa-check-circle"></i> <p>{text}</p>
+                  <i class="fas fa-check"></i>
+                  <p>{text}</p>
                 </li>
               );
             })}

@@ -2,15 +2,14 @@
   cursor: pointer;
   background-color: transparent;
   display: flex;
-  height: 60px;
-  width: 200px;
   margin: 0 0 0 10px;
+  padding: 20px 32px;
+
   justify-content: center;
   align-items: center;
   justify-content: center;
   border: 1px solid white;
   align-items: center;
-  border-radius: 40px;
   font-size: 16px;
   color: var(--white);
   text-decoration: none;
@@ -19,14 +18,16 @@
   letter-spacing: 0;
   line-height: 1em;
   outline: 0;
+  transition: 300ms ease-out;
 }
 
 .contactBtn i {
   margin-left: 1.5rem;
 }
 
-.contactBtn span:hover {
-  background-color: var(--dark);
+.contactBtn:hover {
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 768px) {

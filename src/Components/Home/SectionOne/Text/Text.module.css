@@ -1,18 +1,18 @@
 .text {
-  color: var(--white);
   display: flex;
   flex-direction: column;
-  width: 750px;
   margin-left: 20rem;
   max-width: 100%;
+  width: 750px;
 }
 
 .text h1 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: white;
   line-height: 1;
-  width: 550px;
+  width: 400px;
   max-width: 100%;
+  font-size: 66px;
 }
 
 .text h4 {
@@ -22,9 +22,11 @@
 }
 
 .text p {
-  width: 600px;
   color: white;
+  width: 500px;
   max-width: 100%;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .buttons {

@@ -13,9 +13,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 300px;
-  height: 400px;
-  margin: 0 2rem;
+  max-width: 250px;
+
+  margin: 0 4rem;
 }
 
 .card h3 {
@@ -36,8 +36,9 @@
 }
 
 .card img {
-  max-width: 100%;
-  height: 100%;
+  border-radius: 100vh;
+  width: 200px;
+  height: 200px;
   object-position: center;
   object-fit: cover;
 }

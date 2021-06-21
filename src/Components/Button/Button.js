@@ -10,7 +10,7 @@ function Button(props) {
         onClick={() => window.scrollTo(0, 0)}
         to="/tjanster"
       >
-        TJÄNSTER
+        Tjänster
       </Link>
     </span>
   );

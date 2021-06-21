@@ -9,6 +9,44 @@
   margin: auto;
 }
 
+.buttons {
+  margin: 0 auto var(--padding4) auto;
+}
+
+.active {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  line-height: 1.2;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: -0.24px;
+  font-size: 18px;
+  color: #0f2137;
+  background-color: #ffffff;
+  box-shadow: 0 3px 4px rgb(38 78 118 / 10%);
+}
+
+.button {
+  transition: 350ms ease-out;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  line-height: 1.2;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: -0.24px;
+  font-size: 18px;
+  color: #0f2137;
+  background-color: transparent;
+}
+
+.buttons span {
+  padding: 1.4rem 1rem;
+  background-color: #f7f8fb;
+  border-radius: 5px;
+}
+
 .title {
   text-align: center;
   width: 800px;

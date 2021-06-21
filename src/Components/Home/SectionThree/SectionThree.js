@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./SectionThree.module.css";
 import Card from "../../Washing/Card";
-import { popularaTjansterData } from "../../Data/Data";
+import { däckData } from "../../Data/Data";
+import { washData } from "../../Data/Data";
+
+import ButtonGroup from "./ButtonGroup";
 
 function SectionThree(props) {
+  const [active, setActive] = useState(false);
+
   return (
     <div className={styles.sectionThree}>
       <div className={styles.title}>
@@ -13,23 +18,44 @@ function SectionThree(props) {
         </div>
         <h1>Populära tjänster</h1>
       </div>
-      <div className={styles.cards}>
-        {popularaTjansterData.map((data, index) => {
-          const { title, price, one, two, three, four, time } = data;
-          return (
-            <Card
-              key={index}
-              title={title}
-              price={price}
-              one={one}
-              two={two}
-              three={three}
-              four={four}
-              time={time}
-            />
-          );
-        })}
-      </div>
+      <ButtonGroup active={active} setActive={setActive} />
+      {active ? (
+        <div className={styles.cards}>
+          {washData.map((data, index) => {
+            const { title, price, one, two, three, four, time } = data;
+            return (
+              <Card
+                key={index}
+                title={title}
+                price={price}
+                one={one}
+                two={two}
+                three={three}
+                four={four}
+                time={time}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <div className={styles.cards}>
+          {däckData.map((data, index) => {
+            const { title, price, one, two, three, four, time } = data;
+            return (
+              <Card
+                key={index}
+                title={title}
+                price={price}
+                one={one}
+                two={two}
+                three={three}
+                four={four}
+                time={time}
+              />
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

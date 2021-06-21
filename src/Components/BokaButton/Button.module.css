@@ -2,7 +2,8 @@
   cursor: pointer;
   background-color: var(--color);
   display: flex;
-  padding: 20px 32px;
+  padding: 15px 32px;
+  border-radius: 45px;
   justify-content: center;
   max-width: 150px;
   align-items: center;
@@ -12,7 +13,7 @@
   color: var(--white);
   text-decoration: none;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0;
   line-height: 1em;
   outline: 0;

@@ -24,7 +24,6 @@ const AllServices = () => {
 
         <Content />
       </div>
-      <Contact />{" "}
     </div>
   );
 };

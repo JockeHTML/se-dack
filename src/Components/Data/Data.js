@@ -487,25 +487,6 @@ export const openingHoursData = [
 
 export const washData = [
   {
-    title: "Motortvätt",
-    price: "200:-",
-    one: "Avfettning",
-    two: "schamponering",
-    three: "fälg & däck",
-    four: "torkning",
-    time: "25 min",
-  },
-  {
-    title: "Handtvätt",
-    price: "300:-",
-    one: "Avfettning",
-    two: "schamponering",
-    three: "fälg & däck",
-    four: "torkning",
-    time: "25 min",
-  },
-
-  {
     title: "VIP-tvätt    ",
     price: "700:-",
     one: "Avfettning",

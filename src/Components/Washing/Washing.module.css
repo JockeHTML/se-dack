@@ -1,13 +1,17 @@
 .content {
-  width: 1177px;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 100%;
+  margin: auto;
+  width: 1550px;
 }
 
 .content ul {
   list-style: none;
   display: flex;
+  margin: 0;
+}
+
+.content li {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -15,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
   }
   .content :nth-child(6) {
     margin-bottom: 0;

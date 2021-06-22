@@ -20,17 +20,17 @@ const Card = ({ title, price, one, two, three, four, time }) => {
       <div className={styles.list}>
         <ul>
           <li>
-            <i class="fas fa-check"></i>
+            <i className="fas fa-check"></i>
             <p>{one}</p>
           </li>
           <li>
-            <i class="fas fa-check"></i> <p>{two}</p>
+            <i className="fas fa-check"></i> <p>{two}</p>
           </li>
           <li>
-            <i class="fas fa-check"></i> <p>{three}</p>
+            <i className="fas fa-check"></i> <p>{three}</p>
           </li>
           <li>
-            <i class="fas fa-check"></i> <p>{four}</p>
+            <i className="fas fa-check"></i> <p>{four}</p>
           </li>
         </ul>
         <span className={styles.time}>

@@ -4,13 +4,19 @@
   flex-direction: column;
   justify-content: center;
   padding: var(--padding8) 1rem;
-  width: 1300px;
+  width: 100%;
   max-width: 100%;
   margin: auto;
 }
 
 .buttons {
   margin: 0 auto var(--padding4) auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .active {
@@ -56,12 +62,6 @@
 
 .title h1 {
   margin-bottom: var(--padding4);
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .title p {

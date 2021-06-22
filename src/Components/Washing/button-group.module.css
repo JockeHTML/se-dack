@@ -1,0 +1,6 @@
+.buttonGroup button {
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 40px;
+  cursor: pointer;
+}

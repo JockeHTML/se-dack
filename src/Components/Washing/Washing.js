@@ -3,12 +3,13 @@ import Card from "./Card";
 import styles from "./Washing.module.css";
 import { washData } from "../Data/Data";
 import Carousel from "react-multi-carousel";
+import ButtonGroup from "./button-group";
 
 const Washing = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 6,
       paritialVisibilityGutter: 60,
     },
     tablet: {
@@ -32,7 +33,7 @@ const Washing = () => {
     className: "",
     slidesToSlide: 1,
     items: 3,
-    containerClass: "carousel-container",
+    customButtonGroup: <ButtonGroup />,
     dotListClass: "",
     focusOnSelect: false,
     infinite: false,

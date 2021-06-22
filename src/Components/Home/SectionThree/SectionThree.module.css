@@ -9,14 +9,20 @@
   margin: auto;
 }
 
-.buttons {
-  margin: 0 auto var(--padding4) auto;
+.content ul {
+  list-style: none;
+  padding: 0;
 }
 
-.cards {
+.content {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  width: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+.buttons {
+  margin: 0 auto var(--padding4) auto;
 }
 
 .active {

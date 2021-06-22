@@ -2,12 +2,14 @@
   max-width: 100%;
   margin: auto;
   width: 1550px;
+  display: flex;
 }
 
 .content ul {
   list-style: none;
   display: flex;
   margin: 0;
+  padding: 0;
 }
 
 .content li {

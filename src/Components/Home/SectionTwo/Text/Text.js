@@ -32,7 +32,7 @@ function Text(props) {
               const { text } = data;
               return (
                 <li key={index}>
-                  <i class="fas fa-check"></i>
+                  <i className="fas fa-check"></i>
                   <p>{text}</p>
                 </li>
               );

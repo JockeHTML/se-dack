@@ -4,3 +4,19 @@
   font-size: 40px;
   cursor: pointer;
 }
+
+.testing {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1177px;
+}
+
+.test div:nth-child(1) {
+  background-color: red;
+}
+
+.swiper-container {
+  background-color: red;
+}

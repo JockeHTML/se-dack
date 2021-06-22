@@ -553,6 +553,15 @@ export const däckData = [
     four: "Lorem",
     time: "30 min",
   },
+  {
+    title: "Balansering",
+    price: "fr. 150:-",
+    one: "Rengörning",
+    two: "Balansvikter",
+    three: "Slut inspektion",
+    four: "Lorem",
+    time: "30 min",
+  },
 ];
 
 export const däckverkstadsData = [

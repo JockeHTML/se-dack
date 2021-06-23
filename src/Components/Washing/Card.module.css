@@ -6,11 +6,12 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width: 350px;
   margin: 0 1rem;
   background: white;
   transition: 500ms ease-out;
   border-radius: 15px;
+  margin: 0;
+  max-width: 100%;
 }
 
 .title {
@@ -90,7 +91,6 @@
 
 @media (max-width: 768px) {
   .card {
-    width: 325px;
     padding: 40px 20px;
     height: auto;
   }
@@ -98,7 +98,6 @@
 
 @media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
   .card {
-    width: 300px;
     padding: 40px 20px;
     height: auto;
   }

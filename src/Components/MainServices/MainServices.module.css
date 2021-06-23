@@ -16,6 +16,11 @@
   margin-bottom: 0;
 }
 
+.cardWrapper {
+  max-width: 100%;
+  width: 1550px;
+}
+
 .title,
 .title2 {
   width: 800px;
@@ -72,7 +77,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 var(--padding8) 0;
+  padding: 0 1.5rem var(--padding8) 1.5rem;
   width: 100%;
 }
 

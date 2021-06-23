@@ -1,8 +1,12 @@
 .content {
   max-width: 100%;
   margin: auto;
-  width: 1550px;
   display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  width: 1550px;
+  padding: 0 1.5rem;
 }
 
 .content ul {
@@ -23,6 +27,7 @@
     align-items: center;
     max-width: 100%;
   }
+
   .content :nth-child(6) {
     margin-bottom: 0;
   }

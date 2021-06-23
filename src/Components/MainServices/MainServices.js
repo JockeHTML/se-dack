@@ -2,10 +2,16 @@ import React from "react";
 import Card from "../Washing/Card";
 import Content from "./Content";
 import styles from "./MainServices.module.css";
-import { däckData } from "../Data/Data";
+import { washData } from "../Data/Data";
 import { däckverkstadsData } from "../Data/Data";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination, Scrollbar } from "swiper/core";
+import "swiper/swiper-bundle.css";
+import "./styles.css";
 
 const MainServices = () => {
+  SwiperCore.use([Navigation, Pagination, Scrollbar]);
+
   return (
     <div className={styles.mainServices}>
       <div className={styles.topImage}>
@@ -25,35 +31,7 @@ const MainServices = () => {
           </p>
         </div>
         {däckverkstadsData.map((data, index) => {
-          const {
-            headingImg,
-            img2,
-            img3,
-            img,
-            title,
-            text,
-            heading,
-            title2,
-            text2,
-            title3,
-            text3,
-          } = data;
-          return (
-            <Content
-              headingImg={headingImg}
-              key={index}
-              img2={img2}
-              img3={img3}
-              img={img}
-              title2={title2}
-              text2={text2}
-              title3={title3}
-              text3={text3}
-              title={title}
-              text={text}
-              heading={heading}
-            />
-          );
+          return <Content {...data} />;
         })}
         <div className={styles.title2}>
           <h4>DÄCKVERKSTAD</h4>
@@ -64,22 +42,45 @@ const MainServices = () => {
           </p>
         </div>
       </div>
-      <div className={styles.cards}>
-        {däckData.map((data, index) => {
-          const { title, price, one, two, three, four, time } = data;
-          return (
-            <Card
-              key={index}
-              title={title}
-              price={price}
-              one={one}
-              two={two}
-              three={three}
-              four={four}
-              time={time}
-            />
-          );
-        })}
+      <div className={styles.cardWrapper}>
+        <Swiper
+          pagination={true}
+          breakpoints={{
+            // when window width is >= 640px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            800: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1366: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
+          spaceBetween={20}
+          slidesPerView={1}
+        >
+          {washData.map((data, index) => {
+            return (
+              <SwiperSlide className={styles.cardWrapper}>
+                <Card key={index} {...data} />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       </div>
     </div>
   );

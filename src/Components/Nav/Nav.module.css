@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: center;
   /*border-top: 1px solid #3e3e3e;*/
-  width: 1300px;
 }
 
 .restofLinks li {
@@ -34,9 +33,9 @@
 }
 
 .links a {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
-  padding: 21px 15px;
+  padding: 18px 15px;
   cursor: pointer;
   color: var(--white);
   text-decoration: none;

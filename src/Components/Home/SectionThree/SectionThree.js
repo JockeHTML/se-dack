@@ -25,11 +25,40 @@ function SectionThree(props) {
         </div>
         <ButtonGroup active={active} setActive={setActive} />
         {active ? (
-          <Swiper spaceBetween={20} slidesPerView={4}>
+          <Swiper
+            pagination={true}
+            breakpoints={{
+              // when window width is >= 640px
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              800: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+              },
+              1366: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+              },
+            }}
+            spaceBetween={20}
+            slidesPerView={1}
+          >
             {washData.map((data, index) => {
               return (
-                <SwiperSlide className={styles.cardWrapper}>
-                  <Card key={index} {...data} />
+                <SwiperSlide key={index} className={styles.cardWrapper}>
+                  <Card {...data} />
                 </SwiperSlide>
               );
             })}
@@ -63,12 +92,12 @@ function SectionThree(props) {
               },
             }}
             spaceBetween={20}
-            slidesPerView={4}
+            slidesPerView={1}
           >
             {däckData.map((data, index) => {
               return (
-                <SwiperSlide className={styles.cardWrapper}>
-                  <Card key={index} {...data} />
+                <SwiperSlide key={index} className={styles.cardWrapper}>
+                  <Card {...data} />
                 </SwiperSlide>
               );
             })}

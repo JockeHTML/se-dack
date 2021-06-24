@@ -3,12 +3,21 @@
   width: 100%;
   padding: 10rem 0;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../images/hands.jpg");
+    url("../../images/contact.jpg");
   background-size: cover;
   background-position: center;
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.mainServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 var(--padding8) 0;
+  width: 100%;
 }
 
 .topImage h1 {
@@ -70,15 +79,6 @@
 
 .title2 p {
   padding-bottom: 0;
-}
-
-.mainServices {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1.5rem var(--padding8) 1.5rem;
-  width: 100%;
 }
 
 @media (max-width: 768px) {

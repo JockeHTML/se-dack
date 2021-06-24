@@ -1,7 +1,7 @@
 .topImage {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../images/tire.jpg");
+    url("../../images/hotel.jpg");
   background-size: cover;
   background-position: center;
   align-items: center;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -7,8 +7,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   background-color: var(--white);
   overflow-x: hidden;
@@ -75,6 +74,8 @@ p {
 }
 
 h1 {
+  font-weight: 600;
+
   margin: 0 0 var(--padding4) 0;
   padding: 0;
   font-size: var(--size16);
@@ -83,6 +84,8 @@ h1 {
 }
 
 h2 {
+  font-weight: 500;
+
   margin: 0 0 1rem 0;
   padding: 0;
   color: var(--black);
@@ -91,6 +94,8 @@ h2 {
 }
 
 h3 {
+  font-weight: 500;
+
   margin: 0 0 10px 0;
   padding: 0;
   color: var(--black);
@@ -99,6 +104,8 @@ h3 {
 }
 
 h4 {
+  font-weight: 500;
+
   margin: 0 0 10px 0;
   padding: 0;
   color: var(--black);

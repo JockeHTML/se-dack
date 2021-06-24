@@ -1,16 +1,14 @@
 .sectionOne {
   height: auto;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../../../images/four.jpg");
+  background: url("../../../images/four.jpg");
   background-size: cover;
-  background-position: center;
-  padding: 8rem 0;
+  background-position: right;
+  padding: 6rem 0;
   max-width: 100%;
-  background-size: 100%;
   background-repeat: no-repeat;
-  background-color: black;
   background-size: 80%;
+  background-color: black;
 }
 
 @media (max-width: 768px) {

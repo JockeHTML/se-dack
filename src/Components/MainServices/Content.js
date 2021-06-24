@@ -3,33 +3,21 @@ import Text from "./Text";
 import Image from "./Image";
 import styles from "./Content.module.css";
 
-const Content = ({
-  img2,
-  img3,
-  img,
-  heading,
-  title,
-  text,
-  title2,
-  text2,
-  title3,
-  text3,
-  headingImg,
-}) => {
+const Content = (props) => {
   return (
     <div className={styles.content}>
-      <Image headingImg={headingImg} />
+      <Image headingImg={props.headingImg} />
       <Text
-        img2={img2}
-        img3={img3}
-        img={img}
-        title2={title2}
-        text2={text2}
-        title3={title3}
-        text3={text3}
-        title={title}
-        text={text}
-        heading={heading}
+        img2={props.img2}
+        img3={props.img3}
+        img={props.img}
+        title2={props.title2}
+        text2={props.text2}
+        title3={props.title3}
+        text3={props.text3}
+        title={props.title}
+        text={props.text}
+        heading={props.heading}
       />
     </div>
   );

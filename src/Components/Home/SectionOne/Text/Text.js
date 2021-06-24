@@ -10,7 +10,7 @@ function Text() {
         {" "}
         <h4>DIN LOKALA DÄCKVERKSTAD</h4>
       </span>
-      <h1>Allt inom däck, fälg och rekond.</h1>
+      <h1>Vi är Experter på allt inom Däck, Fälg och Rekond</h1>
       <p>
         Välkommen till SE Däckservice. Vi erbjuder däck och fälg i olika
         prisklasser. Rekond utför vi året om, allt från utvändig handtvätt till

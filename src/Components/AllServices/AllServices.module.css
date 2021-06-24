@@ -1,9 +1,9 @@
 .topImage {
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../images/hotel.jpg");
+    url("../../images/main.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -53,7 +53,10 @@
     padding-top: var(--padding4);
   }
   .content {
-    padding: 0 1rem var(--padding8) 1rem;
+    padding: 0 1.5rem var(--padding8) 1.5rem;
+  }
+  .topImage {
+    padding: 6rem 0;
   }
 }
 

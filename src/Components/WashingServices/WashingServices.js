@@ -14,7 +14,7 @@ function TireServices(props) {
       </div>
       <div className={styles.title}>
         <h4>SE DÄCKSERVICE AB</h4>
-        <h1>Få din bil fräsch igen</h1>
+        <h1>Invänding & Utvändigt</h1>
         <p>
           Vår tvätt & rekond finns tillgänglig för dig året om. Vi utför allt
           ifrån enklare tvättare till hel rekonditionering och

@@ -45,8 +45,8 @@ const Washing = () => {
         >
           {washData.map((data, index) => {
             return (
-              <SwiperSlide>
-                <Card key={index} {...data} />
+              <SwiperSlide key={index}>
+                <Card {...data} />
               </SwiperSlide>
             );
           })}

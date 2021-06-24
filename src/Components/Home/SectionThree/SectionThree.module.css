@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: var(--padding8) 1rem;
+  padding: var(--padding8) 1.5rem;
   width: 100%;
   max-width: 100%;
   margin: auto;
@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
   width: 1550px;
-  padding: 0 1.5rem;
+  padding: 0;
 }
 
 .active {
@@ -86,7 +86,7 @@
 
 @media (max-width: 768px) {
   .sectionThree {
-    padding: var(--padding4) 1rem;
+    padding: var(--padding4) 1.5rem;
   }
 }
 

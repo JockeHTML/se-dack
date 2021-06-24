@@ -20,6 +20,7 @@
 @media (max-width: 768px) {
   .topImage {
     margin-bottom: var(--padding4);
+    padding: 6rem 0;
   }
 }
 

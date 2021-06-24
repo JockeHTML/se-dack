@@ -5,7 +5,7 @@
   align-items: center;
   background-color: white;
   padding: 0;
-  width: 1300px;
+  width: 1177px;
   margin: auto;
   padding: 1.7rem 0;
   max-width: 100%;
@@ -68,20 +68,13 @@
 @media (max-width: 768px) {
   .header {
     flex-direction: row-reverse;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
   }
   .content {
     display: none;
   }
-  .content {
-    flex-direction: row;
-  }
-  .contact {
-    margin: 3rem 10px 1rem 10px;
-    padding: 0;
-  }
-  .contact p {
-    font-size: 15px;
+  .logo img {
+    width: 160px;
   }
 }
 

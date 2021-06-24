@@ -28,6 +28,7 @@
 .cardWrapper {
   max-width: 100%;
   width: 1550px;
+  padding: 0 0.5rem;
 }
 
 .title,
@@ -83,7 +84,10 @@
 
 @media (max-width: 768px) {
   .content {
-    padding: var(--padding4) 1rem;
+    padding: var(--padding4) 1.5rem;
+  }
+  .topImage {
+    padding: 6rem 0;
   }
 }
 

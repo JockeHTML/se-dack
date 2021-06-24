@@ -39,7 +39,6 @@
   cursor: pointer;
   color: var(--white);
   text-decoration: none;
-  font-weight: 600;
   transition: 100ms ease-out;
   margin-right: 5px;
 }

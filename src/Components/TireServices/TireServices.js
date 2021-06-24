@@ -13,7 +13,7 @@ const TireServices = () => {
       <div className={styles.content}>
         <div className={styles.title}>
           <h4>SE DÄCKSERVICE AB</h4>
-          <h1>Rätt lösning till din bil</h1>
+          <h1>Nytt eller Begagnat</h1>
           <p>
             Vi erbjuder däck & fälg till alla bilar i olika prisklasser. Vi
             jobbar tillsammans med välkända och pålitliga leverantörer som
@@ -23,35 +23,7 @@ const TireServices = () => {
           </p>
         </div>
         {däckOchFälgData.map((data, index) => {
-          const {
-            img2,
-            img3,
-            img,
-            title,
-            text,
-            heading,
-            title2,
-            text2,
-            title3,
-            text3,
-            headingImg,
-          } = data;
-          return (
-            <Content
-              headingImg={headingImg}
-              key={index}
-              img2={img2}
-              img3={img3}
-              img={img}
-              title2={title2}
-              text2={text2}
-              title3={title3}
-              text3={text3}
-              title={title}
-              text={text}
-              heading={heading}
-            />
-          );
+          return <Content headingImg={data.headingImg} key={index} {...data} />;
         })}
       </div>
       <Contact />

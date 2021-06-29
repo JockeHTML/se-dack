@@ -31,7 +31,7 @@ const MainServices = () => {
           </p>
         </div>
         {däckverkstadsData.map((data, index) => {
-          return <Content {...data} />;
+          return <Content key={index} {...data} />;
         })}
         <div className={styles.title2}>
           <h4>DÄCKVERKSTAD</h4>
@@ -75,8 +75,8 @@ const MainServices = () => {
         >
           {washData.map((data, index) => {
             return (
-              <SwiperSlide className={styles.cardWrapper}>
-                <Card key={index} {...data} />
+              <SwiperSlide key={index} className={styles.cardWrapper}>
+                <Card {...data} />
               </SwiperSlide>
             );
           })}

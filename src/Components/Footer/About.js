@@ -18,8 +18,14 @@ const About = () => {
         </p>
       </div>
       <div className={classes.icons}>
-        <img src="./images/instagram.png" alt="instagram" />
-        <img src="./images/facebook.png" alt="facebook" />
+        <a target="__blank" href="https://www.instagram.com/sedackserviceab/">
+          {" "}
+          <img src="./images/instagram.png" alt="instagram" />
+        </a>
+        <a target="__blank" href="https://www.facebook.com/sedackserviceab">
+          {" "}
+          <img src="./images/facebook.png" alt="facebook" />
+        </a>
       </div>
     </div>
   );

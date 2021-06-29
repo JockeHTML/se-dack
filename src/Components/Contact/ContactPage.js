@@ -4,7 +4,7 @@ import styles from "./ContactPage.module.css";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className={styles.ContactPage}>
       <div className={styles.topImage}>
         <h1>KONTAKT</h1>
       </div>

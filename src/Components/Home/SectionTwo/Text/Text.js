@@ -19,7 +19,7 @@ function Text(props) {
         <div data-aos="fade-up" className={styles.icons}>
           <div className={styles.heading}>
             <div className={styles.subTitle}>
-              <h2>We Offer a Complete Diagnostic for Your Car</h2>
+              <h2>Vi erbjuder en komplett lösning till din bil</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
                 quasi maxime ex amet unde minima? Quo nobis tempora aspernatur

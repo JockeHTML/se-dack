@@ -13,6 +13,7 @@ import AllServices from "./Components/AllServices/AllServices";
 import TireServices from "./Components/TireServices/TireServices";
 import WashingServices from "./Components/WashingServices/WashingServices";
 import TireHotel from "./Components/TireHotel/TireHotel";
+import Tips from "./Components/Tips/Tips";
 
 function App() {
   return (
@@ -48,7 +49,9 @@ function App() {
           <Route path="/kontakt">
             <ContactPage />
           </Route>
-
+          <Route path="/tips">
+            <Tips />
+          </Route>
           <Route path="/">
             <Home />
           </Route>

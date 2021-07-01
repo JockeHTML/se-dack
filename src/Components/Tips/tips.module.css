@@ -1,17 +1,18 @@
 .topImage {
+  height: auto;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../images/main.jpg");
+    url("../../images/hotel.jpg");
   background-size: cover;
   background-position: center;
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 8rem 0;
+  padding: 10rem 0;
 }
 
 .content {
-  padding: 0 1rem var(--padding8) 1rem;
+  padding: var(--padding8) 1.5rem 0 1.5rem;
 }
 
 .topImage h1 {
@@ -20,11 +21,10 @@
 }
 
 .title {
+  text-align: center;
+  max-width: 100%;
   width: 800px;
   margin: auto;
-  text-align: center;
-  padding-top: var(--padding8);
-  max-width: 100%;
 }
 
 .title h4 {
@@ -41,19 +41,13 @@
 }
 
 .title p {
-  padding-bottom: var(--padding8);
+  padding-bottom: var(--padding4);
   margin: auto;
 }
 
 @media (max-width: 768px) {
-  .title p {
-    padding-bottom: var(--padding4);
-  }
-  .title {
-    padding-top: var(--padding4);
-  }
   .content {
-    padding: 0 1.5rem var(--padding8) 1.5rem;
+    padding: var(--padding4) 1.5rem 0 1.5rem;
   }
   .topImage {
     padding: 6rem 0;
@@ -74,4 +68,8 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .content {
+    padding-left: var(--padding3);
+    padding-right: var(--padding3);
+  }
 }

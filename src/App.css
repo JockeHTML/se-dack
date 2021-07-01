@@ -65,10 +65,9 @@ a {
 p {
   margin: 0;
   line-height: 30px;
-  font-weight: 400;
   font-style: normal;
   color: var(--lightblue);
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.73;
   letter-spacing: 0.5px;
 }

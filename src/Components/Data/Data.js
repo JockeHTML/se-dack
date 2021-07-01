@@ -53,6 +53,10 @@ const navLinks = [
     page: "Kontakt",
     url: "/kontakt",
   },
+  {
+    page: "Tips & Råd",
+    url: "/tips",
+  },
 ];
 
 const sectionThree = [

@@ -412,7 +412,7 @@ const personal = [
   },
   {
     title: "Timmy Nordin",
-    text: "REKONDITIONERARE",
+    text: "VERKSTAD",
     text2: "Anställd",
     img: "https://static.wixstatic.com/media/3a04ff_866539855b204838b34e9390cd23e519~mv2_d_1990_1638_s_2.jpg/v1/fill/w_476,h_330,al_c,q_80,usm_0.66_1.00_0.01/3a04ff_866539855b204838b34e9390cd23e519~mv2_d_1990_1638_s_2.webp",
   },

@@ -54,7 +54,6 @@
   color: var(--white);
   text-decoration: none;
   transition: 100ms ease-out;
-  margin-right: 5px;
 }
 
 .links a:focus {
@@ -78,7 +77,7 @@
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
 }
 
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 800px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
   .links a {
     font-size: 12px;
     margin: 0 14px;
@@ -97,6 +96,6 @@
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
   .links a {
     font-size: 12px;
-    padding: 21px 11px;
+    padding: 21px 10px;
   }
 }

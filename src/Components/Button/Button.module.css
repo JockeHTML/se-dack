@@ -17,24 +17,29 @@
   line-height: 1em;
   outline: 0;
   margin: 0 10px 1rem 0;
-  max-width: 150px;
+  max-height: 50px;
+  width: 150px;
+  transition: 200ms ease-out;
 }
 
 .contactBtn i {
   margin-left: 1.5rem;
 }
 
-.contactBtn span:hover {
-  background-color: var(--dark);
+.contactBtn:hover {
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {
+  .contactBtn {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .contactBtn {
-    margin-right: 1rem;
     margin-bottom: 0;
+    width: 150px;
   }
 }
 

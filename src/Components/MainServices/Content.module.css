@@ -1,5 +1,6 @@
 .content {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   padding-bottom: var(--padding8) 0;
   margin: auto;

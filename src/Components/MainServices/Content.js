@@ -8,6 +8,7 @@ const Content = (props) => {
     <div className={styles.content}>
       <Image headingImg={props.headingImg} />
       <Text
+        subHeading={props.subHeading}
         img2={props.img2}
         img3={props.img3}
         img={props.img}

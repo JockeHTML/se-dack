@@ -570,8 +570,8 @@ export const däckData = [
 
 export const däckverkstadsData = [
   {
-    img: "./images/wheel2.png",
-    img2: "./images/lugg.png",
+    img: "./images/wheel.png",
+    img2: "./images/lug.png",
     img3: "./images/balance.png",
     headingImg: "./images/stacked.jpg",
     heading: "SÅ HÄR FUNGERAR DET",
@@ -601,6 +601,8 @@ export const däckOchFälgData = [
     title3: "BEGAGNAT",
     text3:
       "Vi har begagnade kompletta hjul, däck och fälgar till diverse bilar. Bland annat BMW, Saab, Audi, Passat, Volvo mm. Ring gärna för aktuella priser och saldo.",
+    subHeading:
+      "  Vi erbjuder däck & fälg till alla bilar i olika prisklasser. Vi  jobbar tillsammans med välkända och pålitliga leverantörer som Bridgestone, Nokian, Specialfälgar, OCL Brorssons & Rautamo. Vänligen kontaka oss så tar vi tillsammans fram något som passar just dig och din bil.",
   },
 ];
 
@@ -619,17 +621,19 @@ export const tvattOchRekondData = [
     title3: "VIP-TVÄTT",
     text3:
       "Avfettning, högtryckspolning, schamponering, handtvätt, fälg & däck rengöring, torkning, rengöring av gummimattor & dörrgångar, paneler, dörrsidor, dammsugning av interiör & bagageutrymmet samt fönsterputs.    ",
+    subHeading:
+      "Vår tvätt & rekond finns tillgänglig för dig året om. Vi utför allt ifrån enklare tvättare till hel rekonditionering och lackförseglningar, kontakta oss gärna om du har några speciella önskemål.",
   },
 ];
 
 export const dackHotellData = [
   {
-    img: "./images/wheel2.png",
+    img: "./images/wheel.png",
     img2: "./images/thermometer.png",
     img3: "./images/guaranteed.png",
     headingImg: "./images/tires2.jpg",
     heading: "FÖRVARA DINA DÄCK HOS SE DÄCK",
-    title: "PLATS FINNS",
+    title: "DÄCKHOTELL",
     text: "Hos oss förvarar du dina däck efter dina behov och önskemål. Utöver däckförvaring kan vi byta däcken och kontrollera deras skick. Om du behöver nya däck kontaktar vi dig i god tid innan det är dags att byta däcken. Däckhotellet kontrollerar lufttrycket, möjlighet för balansering och tvätt av hjulen finns.",
     title2: "RÄTT FÖRVARING",
     text2:

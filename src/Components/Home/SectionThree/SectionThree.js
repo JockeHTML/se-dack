@@ -5,12 +5,12 @@ import { däckData } from "../../Data/Data";
 import { washData } from "../../Data/Data";
 import ButtonGroup from "./ButtonGroup";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Scrollbar } from "swiper/core";
+import SwiperCore, { Pagination } from "swiper/core";
 import "swiper/swiper-bundle.css";
 import "./styles.css";
 
 function SectionThree(props) {
-  SwiperCore.use([Navigation, Pagination, Scrollbar]);
+  SwiperCore.use([Pagination]);
   const [active, setActive] = useState(false);
 
   return (
@@ -48,8 +48,8 @@ function SectionThree(props) {
                 spaceBetween: 20,
               },
               1366: {
-                slidesPerView: 4,
-                spaceBetween: 20,
+                slidesPerView: 2,
+                spaceBetween: 40,
               },
             }}
             spaceBetween={20}
@@ -88,7 +88,7 @@ function SectionThree(props) {
               },
               1366: {
                 slidesPerView: 4,
-                spaceBetween: 20,
+                spaceBetween: 30,
               },
             }}
             spaceBetween={20}

@@ -9,6 +9,7 @@
   margin: auto;
   padding: 1.7rem 0;
   max-width: 100%;
+  z-index: 0;
 }
 
 .content {

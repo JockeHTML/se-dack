@@ -14,8 +14,11 @@ function Sidebar(props) {
 
   return (
     <div className={sideBar ? styles.sidebarActive : styles.sidebarWrapper}>
-      <i onClick={() => setSideBar(!sideBar)} className="fas fa-bars"></i>
-
+      {sideBar ? (
+        <i onClick={() => setSideBar(!sideBar)} className="fas fa-times"></i>
+      ) : (
+        <i onClick={() => setSideBar(!sideBar)} className="fas fa-bars"></i>
+      )}
       <div className={styles.sideBarLinks}>
         <ul>
           {sideBar
@@ -31,6 +34,16 @@ function Sidebar(props) {
               })
             : null}
         </ul>
+        <div className={styles.icons}>
+          <a target="__blank" href="https://www.instagram.com/sedackserviceab/">
+            {" "}
+            <img src="./images/instagram.png" alt="instagram" />
+          </a>
+          <a target="__blank" href="https://www.facebook.com/sedackserviceab">
+            {" "}
+            <img src="./images/facebook.png" alt="facebook" />
+          </a>
+        </div>
       </div>
     </div>
   );

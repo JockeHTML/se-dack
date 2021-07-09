@@ -1,6 +1,6 @@
 .card {
   height: auto;
-  border: 1px solid rgba(38, 78, 118, 0.1);
+  border: 1px solid rgba(89, 92, 94, 0.1);
   padding: 50px 40px;
   display: flex;
   align-items: center;
@@ -9,7 +9,6 @@
   margin: 0 1rem;
   background: white;
   transition: 500ms ease-out;
-  border-radius: 15px;
   margin: 0;
   max-width: 100%;
 }
@@ -35,8 +34,8 @@
 .subTitle h4 {
   color: var(--color);
   font-weight: 700;
-  margin-bottom: 0;
-  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
 .card p {

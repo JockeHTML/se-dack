@@ -13,7 +13,7 @@ const TireServices = () => {
       <div className={styles.content}>
         <div className={styles.title}>
           <h4>SE DÄCKSERVICE AB</h4>
-          <h1>Nytt eller Begagnat</h1>
+          <h1>Nytt & Begagnat</h1>
           <p>
             Vi erbjuder däck & fälg till alla bilar i olika prisklasser. Vi
             jobbar tillsammans med välkända och pålitliga leverantörer som

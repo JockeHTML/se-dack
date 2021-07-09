@@ -68,13 +68,6 @@
   font-size: 1rem;
 }
 
-.buttons i {
-  color: white;
-  margin-right: 0;
-  font-size: inherit;
-  padding-bottom: 0;
-}
-
 .buttons {
   margin-top: 3rem;
 }

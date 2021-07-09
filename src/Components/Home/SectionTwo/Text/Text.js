@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import car2 from "../../../../images/car2.jpg";
 import { sectionTwo } from "../../../Data/Data";
 import styles from "./Text.module.css";
-import Button from "../../../Button/Button";
+import BokaButton from "../../../BokaButton/BokaButton";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -39,7 +39,7 @@ function Text(props) {
             })}
           </ul>
           <div className={styles.buttons}>
-            <Button />
+            <BokaButton />
           </div>
         </div>
       </div>

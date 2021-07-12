@@ -19,6 +19,9 @@ const Content = (props) => {
         title={props.title}
         text={props.text}
         heading={props.heading}
+        price1={props.price1}
+        price2={props.price2}
+        price3={props.price3}
       />
     </div>
   );

@@ -37,18 +37,19 @@
   transition: 350ms ease-out;
 }
 
-.sidebarActive li {
+.sidebarActive a {
   padding: 12px 0;
   border-bottom: 1px solid #e3e2ef;
 }
 
 .sidebarActive a,
 .sidebarActive li {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-decoration: none;
   list-style: none;
   color: var(--dark);
+  width: 100%;
 }
 
 .sidebarActive ul {
@@ -67,6 +68,12 @@
 @media (max-width: 768px) {
   .sidebarWrapper {
     display: flex;
+  }
+  .sidebarActive a {
+    padding: 11px 0;
+  }
+  .sideBarLinks {
+    margin: 4rem 2rem 0 2rem;
   }
 }
 

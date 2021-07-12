@@ -20,7 +20,7 @@ const MainServices = () => {
       <div className={styles.content}>
         <div className={styles.title}>
           <h4>SE DÄCKSERVICE AB</h4>
-          <h1>Vi hjälper dig hela vägen</h1>
+          <h1>Hjälp hela vägen</h1>
           <p>
             När det är dags att skifta däck bokar du enkelt en tid här på
             hemsidan. Vi kollar mönsterdjup, lufttryck och ser till att bultarna

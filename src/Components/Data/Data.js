@@ -570,6 +570,9 @@ export const däckData = [
 
 export const däckverkstadsData = [
   {
+    price1: "Boka från 600:-",
+    price2: "Boka från 2000:-",
+    price3: "Boka från 4000:-",
     img: "./images/wheel.png",
     img2: "./images/lug.png",
     img3: "./images/balance.png",
@@ -588,6 +591,9 @@ export const däckverkstadsData = [
 
 export const däckOchFälgData = [
   {
+    price1: "Kontakta oss för mer info",
+    price2: "Kontakta oss för mer info",
+    price3: "Kontakta oss för mer info",
     img: "./images/testare.png",
     img2: "./images/rim.png",
     img3: "./images/car.png",
@@ -608,6 +614,9 @@ export const däckOchFälgData = [
 
 export const tvattOchRekondData = [
   {
+    price1: "Boka från 600:-",
+    price2: "Boka från 2000:-",
+    price3: "Boka från 4000:-",
     img: "./images/sponge.png",
     img2: "./images/maintenance.png",
     img3: "./images/clean.png",
@@ -628,6 +637,9 @@ export const tvattOchRekondData = [
 
 export const dackHotellData = [
   {
+    price1: "Boka från 790:-",
+    price2: "",
+    price3: "",
     img: "./images/wheel.png",
     img2: "./images/thermometer.png",
     img3: "./images/guaranteed.png",

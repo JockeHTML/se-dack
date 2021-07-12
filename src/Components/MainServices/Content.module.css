@@ -11,6 +11,7 @@
 @media (max-width: 768px) {
   .content {
     flex-direction: column;
+    justify-content: center;
   }
   .content h2 {
     margin-bottom: 0;

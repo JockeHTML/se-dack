@@ -89,6 +89,12 @@
   .topImage {
     padding: 6rem 0;
   }
+  .title2 {
+    padding-top: var(--padding4);
+  }
+  .mainServices {
+    padding: 0 0 var(--padding4) 0;
+  }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {

@@ -21,20 +21,16 @@ function Sidebar(props) {
       )}
 
       <div className={styles.sideBarLinks}>
-        <ul>
-          {sideBar
-            ? navLinks.map((data, index) => {
-                const { page, url } = data;
-                return (
-                  <li key={index}>
-                    <Link onClick={linkClick} to={url}>
-                      {page}
-                    </Link>
-                  </li>
-                );
-              })
-            : null}
-        </ul>
+        {sideBar
+          ? navLinks.map((data, index) => {
+              const { page, url } = data;
+              return (
+                <Link key={index} onClick={linkClick} to={url}>
+                  {page}
+                </Link>
+              );
+            })
+          : null}
       </div>
     </div>
   );

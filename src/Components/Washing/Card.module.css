@@ -34,8 +34,7 @@
 .subTitle h4 {
   color: var(--color);
   font-weight: 700;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 .card p {

@@ -81,7 +81,7 @@
     margin: 0;
   }
   .text {
-    padding-bottom: 3rem;
+    padding-bottom: var(--padding4);
   }
   .subTitle h2 {
     width: 100%;

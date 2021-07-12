@@ -53,7 +53,7 @@ const Text = (props) => {
               <p>{props.price3}</p>
             </a>
           </div>
-          <div style={{ marginTop: "3rem" }} className="buttons">
+          <div className={styles.buttons}>
             <BokaButton />
           </div>
         </span>

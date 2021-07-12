@@ -2,7 +2,7 @@
   background-color: var(--dark);
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .footer h1 {

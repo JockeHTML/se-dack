@@ -41,7 +41,6 @@
 }
 
 .title p {
-  padding-bottom: var(--padding4);
   margin: auto;
 }
 
@@ -51,6 +50,9 @@
   }
   .topImage {
     padding: 6rem 0;
+  }
+  .title p {
+    padding-bottom: 0;
   }
 }
 
@@ -62,6 +64,9 @@
 }
 
 @media only screen and (min-width: 800px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .content {
+    padding: 0 1.5rem 0 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {

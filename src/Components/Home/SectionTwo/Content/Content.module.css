@@ -80,10 +80,12 @@
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 800px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
   .gridItem {
     border: none;
-    margin: 0 2rem 4rem 2rem;
+    margin: 0 1rem 4rem 1rem;
+    justify-content: center;
+    align-items: center;
   }
 }
 

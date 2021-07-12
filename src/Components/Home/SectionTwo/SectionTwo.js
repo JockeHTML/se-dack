@@ -13,10 +13,8 @@ function SectionTwo(props) {
         </div>
         <h1>Vi hjälper dig</h1>
       </div>
-      <div className={styles.content}>
-        <Text />
-        <Content />
-      </div>
+      <Text />
+      <Content />
     </div>
   );
 }

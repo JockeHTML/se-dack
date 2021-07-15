@@ -6,11 +6,15 @@
 }
 
 .sidebarWrapper i {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 10px;
   cursor: pointer;
-  color: var(--color);
+  background-color: var(--color);
+  color: var(--white);
   font-size: 1.5rem;
   right: 1.5rem;
-  top: 30px;
+  top: 25px;
   position: fixed;
 }
 
@@ -20,21 +24,24 @@
   font-size: 1.5rem;
   position: fixed;
   right: 1.5rem;
-  top: 30px;
+  top: 25px;
+  padding: 10px;
 }
 
 .sidebarActive {
   box-shadow: 2px 0 8px rgb(0 0 0 / 15%);
-  left: 0;
   z-index: 5;
   width: 100%;
   height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
   bottom: 0;
   background-color: var(--white);
-  position: fixed;
   display: flex;
+  position: fixed;
   flex-direction: column;
-  transition: 350ms ease-out;
+  transition: 250ms ease-out;
 }
 
 .sidebarActive a {

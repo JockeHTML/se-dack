@@ -6,6 +6,7 @@
   background-color: white;
   padding: 0;
   width: 1177px;
+  flex-direction: row;
   margin: auto;
   padding: 1.7rem 0;
   max-width: 100%;
@@ -68,7 +69,6 @@
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: row-reverse;
     padding: 1.5rem 1rem;
   }
   .content {

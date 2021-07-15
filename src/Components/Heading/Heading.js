@@ -8,7 +8,6 @@ import Sidebar from "./Sidebar/Sidebar";
 function Heading(props) {
   return (
     <div className={styles.header}>
-      <Sidebar />
       <div className={styles.logo}>
         <Link to="/">
           <img src={logo} alt="sedäck logo" />
@@ -31,6 +30,7 @@ function Heading(props) {
           );
         })}
       </div>
+      <Sidebar />
     </div>
   );
 }

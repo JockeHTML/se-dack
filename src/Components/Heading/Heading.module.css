@@ -81,7 +81,7 @@
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .header {
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 2rem 1rem;
   }
 }
@@ -91,7 +91,7 @@
     display: none;
   }
   .header {
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 2rem;
   }
 }
